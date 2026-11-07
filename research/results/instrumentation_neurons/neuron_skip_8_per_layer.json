@@ -1,0 +1,48 @@
+[
+  {
+    "id": "instrumentation_control",
+    "suite": "control",
+    "prompt": "Are the numbers 200 and 200 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "first_token": "Belgium",
+    "yes_minus_no": 13.380388259887695,
+    "p_yes": 2.6374309527454898e-06,
+    "p_no": 4.075229736999475e-12,
+    "top6": [
+      {
+        "id": 15575,
+        "token": "▁Belgium",
+        "p": 0.13003547489643097
+      },
+      {
+        "id": 16722,
+        "token": "coloured",
+        "p": 0.12722542881965637
+      },
+      {
+        "id": 23220,
+        "token": "esthesia",
+        "p": 0.1164546012878418
+      },
+      {
+        "id": 5634,
+        "token": "▁Wind",
+        "p": 0.060400526970624924
+      },
+      {
+        "id": 22504,
+        "token": "124",
+        "p": 0.045306380838155746
+      },
+      {
+        "id": 31491,
+        "token": "perhaps",
+        "p": 0.041054751724004745
+      }
+    ],
+    "output_text": "Belgiumâninterestinterestinterestraderaderade",
+    "prediction": "INVALID",
+    "correct": false
+  }
+]

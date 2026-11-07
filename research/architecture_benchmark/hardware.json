@@ -1,0 +1,9 @@
+{
+  "cpu": "AMD Ryzen 7 5825U with Radeon Graphics",
+  "physical_cores": 8,
+  "logical_processors": 16,
+  "experiment_threads": 4,
+  "ram_gib": 16,
+  "gpu": "AMD Radeon integrated graphics; experiments use CPU",
+  "environment": "Shared Windows desktop, not an isolated benchmark server"
+}

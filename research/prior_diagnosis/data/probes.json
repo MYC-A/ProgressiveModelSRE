@@ -1,0 +1,1336 @@
+[
+  {
+    "id": "p19_fail__original",
+    "group": "original",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nSuccess criterion: The HTTP response status matches the expected status.\nFailure criterion: The HTTP response status is different from the expected status.\nText: Production GET /checkout returned HTTP 503. The expected response status is HTTP 200.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p19_fail",
+    "observed": "503",
+    "expected_value": "200"
+  },
+  {
+    "id": "p19_fail__without_criteria",
+    "group": "without_criteria",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nText: Production GET /checkout returned HTTP 503. The expected response status is HTTP 200.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p19_fail",
+    "observed": "503",
+    "expected_value": "200"
+  },
+  {
+    "id": "p19_fail__criteria_after_text",
+    "group": "criteria_after_text",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nText: Production GET /checkout returned HTTP 503. The expected response status is HTTP 200.\nSuccess criterion: The HTTP response status matches the expected status.\nFailure criterion: The HTTP response status is different from the expected status.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p19_fail",
+    "observed": "503",
+    "expected_value": "200"
+  },
+  {
+    "id": "p19_fail__failure_criterion_first",
+    "group": "failure_criterion_first",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nFailure criterion: The HTTP response status is different from the expected status.\nSuccess criterion: The HTTP response status matches the expected status.\nText: Production GET /checkout returned HTTP 503. The expected response status is HTTP 200.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p19_fail",
+    "observed": "503",
+    "expected_value": "200"
+  },
+  {
+    "id": "p19_fail__short_question",
+    "group": "short_question",
+    "prompt": "Production GET /checkout returned HTTP 503. The expected response status is HTTP 200.\nWhat is the current outcome? Answer with one word: success, failure, or unknown.",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p19_fail",
+    "observed": "503",
+    "expected_value": "200"
+  },
+  {
+    "id": "p19_fail__evidence_first",
+    "group": "evidence_first",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nSuccess criterion: The HTTP response status matches the expected status.\nFailure criterion: The HTTP response status is different from the expected status.\nText: The expected response status is HTTP 200. Production GET /checkout returned HTTP 503.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p19_fail",
+    "observed": "503",
+    "expected_value": "200"
+  },
+  {
+    "id": "p19_fail__compact_fields",
+    "group": "compact_fields",
+    "prompt": "Expected HTTP status: 200. Observed HTTP status: 503. If observed equals expected, answer success. Otherwise, answer failure. Answer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p19_fail",
+    "observed": "503",
+    "expected_value": "200"
+  },
+  {
+    "id": "p19_fail__given_comparison",
+    "group": "given_comparison",
+    "prompt": "Expected HTTP status: 200. Observed HTTP status: 503. If observed equals expected, answer success. Otherwise, answer failure. The values are different. Answer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p19_fail",
+    "observed": "503",
+    "expected_value": "200"
+  },
+  {
+    "id": "p19_fail__extract_actual",
+    "group": "extract_actual",
+    "prompt": "Production GET /checkout returned HTTP 503. The expected response status is HTTP 200.\nWhat HTTP status was actually returned? Answer with the number only.",
+    "expected": "503",
+    "kind": "number",
+    "seed": "p19_fail"
+  },
+  {
+    "id": "p19_fail__extract_expected",
+    "group": "extract_expected",
+    "prompt": "Production GET /checkout returned HTTP 503. The expected response status is HTTP 200.\nWhat HTTP status was expected? Answer with the number only.",
+    "expected": "200",
+    "kind": "number",
+    "seed": "p19_fail"
+  },
+  {
+    "id": "p19_fail__rule_yes_no",
+    "group": "rule_yes_no",
+    "prompt": "Production GET /checkout returned HTTP 503. The expected response status is HTTP 200.\nDoes the observed HTTP status match the expected HTTP status? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "seed": "p19_fail"
+  },
+  {
+    "id": "p19_fail__explanation",
+    "group": "explanation",
+    "prompt": "Production GET /checkout returned HTTP 503. The expected response status is HTTP 200.\nApply the stated rule to the observed value. Explain the comparison briefly, then state success or failure.",
+    "expected": "FAIL",
+    "kind": "explanation",
+    "seed": "p19_fail",
+    "max_new_tokens": 64
+  },
+  {
+    "id": "p19_ok__original",
+    "group": "original",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nSuccess criterion: The HTTP response status matches the expected status.\nFailure criterion: The HTTP response status is different from the expected status.\nText: Production GET /checkout returned HTTP 200. The expected response status is HTTP 200.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p19_ok",
+    "observed": "200",
+    "expected_value": "200"
+  },
+  {
+    "id": "p19_ok__without_criteria",
+    "group": "without_criteria",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nText: Production GET /checkout returned HTTP 200. The expected response status is HTTP 200.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p19_ok",
+    "observed": "200",
+    "expected_value": "200"
+  },
+  {
+    "id": "p19_ok__criteria_after_text",
+    "group": "criteria_after_text",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nText: Production GET /checkout returned HTTP 200. The expected response status is HTTP 200.\nSuccess criterion: The HTTP response status matches the expected status.\nFailure criterion: The HTTP response status is different from the expected status.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p19_ok",
+    "observed": "200",
+    "expected_value": "200"
+  },
+  {
+    "id": "p19_ok__failure_criterion_first",
+    "group": "failure_criterion_first",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nFailure criterion: The HTTP response status is different from the expected status.\nSuccess criterion: The HTTP response status matches the expected status.\nText: Production GET /checkout returned HTTP 200. The expected response status is HTTP 200.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p19_ok",
+    "observed": "200",
+    "expected_value": "200"
+  },
+  {
+    "id": "p19_ok__short_question",
+    "group": "short_question",
+    "prompt": "Production GET /checkout returned HTTP 200. The expected response status is HTTP 200.\nWhat is the current outcome? Answer with one word: success, failure, or unknown.",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p19_ok",
+    "observed": "200",
+    "expected_value": "200"
+  },
+  {
+    "id": "p19_ok__evidence_first",
+    "group": "evidence_first",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nSuccess criterion: The HTTP response status matches the expected status.\nFailure criterion: The HTTP response status is different from the expected status.\nText: The expected response status is HTTP 200. Production GET /checkout returned HTTP 200.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p19_ok",
+    "observed": "200",
+    "expected_value": "200"
+  },
+  {
+    "id": "p19_ok__compact_fields",
+    "group": "compact_fields",
+    "prompt": "Expected HTTP status: 200. Observed HTTP status: 200. If observed equals expected, answer success. Otherwise, answer failure. Answer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p19_ok",
+    "observed": "200",
+    "expected_value": "200"
+  },
+  {
+    "id": "p19_ok__given_comparison",
+    "group": "given_comparison",
+    "prompt": "Expected HTTP status: 200. Observed HTTP status: 200. If observed equals expected, answer success. Otherwise, answer failure. The values are equal. Answer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p19_ok",
+    "observed": "200",
+    "expected_value": "200"
+  },
+  {
+    "id": "p19_ok__extract_actual",
+    "group": "extract_actual",
+    "prompt": "Production GET /checkout returned HTTP 200. The expected response status is HTTP 200.\nWhat HTTP status was actually returned? Answer with the number only.",
+    "expected": "200",
+    "kind": "number",
+    "seed": "p19_ok"
+  },
+  {
+    "id": "p19_ok__extract_expected",
+    "group": "extract_expected",
+    "prompt": "Production GET /checkout returned HTTP 200. The expected response status is HTTP 200.\nWhat HTTP status was expected? Answer with the number only.",
+    "expected": "200",
+    "kind": "number",
+    "seed": "p19_ok"
+  },
+  {
+    "id": "p19_ok__rule_yes_no",
+    "group": "rule_yes_no",
+    "prompt": "Production GET /checkout returned HTTP 200. The expected response status is HTTP 200.\nDoes the observed HTTP status match the expected HTTP status? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "seed": "p19_ok"
+  },
+  {
+    "id": "p19_ok__explanation",
+    "group": "explanation",
+    "prompt": "Production GET /checkout returned HTTP 200. The expected response status is HTTP 200.\nApply the stated rule to the observed value. Explain the comparison briefly, then state success or failure.",
+    "expected": "OK",
+    "kind": "explanation",
+    "seed": "p19_ok",
+    "max_new_tokens": 64
+  },
+  {
+    "id": "p20_fail__original",
+    "group": "original",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: command execution\nSuccess criterion: The command exited with a code that indicates success.\nFailure criterion: The command exited with a code that indicates failure.\nText: For this command, exit code 0 means success and every other exit code means failure. The command exited with code 2.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p20_fail",
+    "observed": "2",
+    "expected_value": "0"
+  },
+  {
+    "id": "p20_fail__without_criteria",
+    "group": "without_criteria",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: command execution\nText: For this command, exit code 0 means success and every other exit code means failure. The command exited with code 2.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p20_fail",
+    "observed": "2",
+    "expected_value": "0"
+  },
+  {
+    "id": "p20_fail__criteria_after_text",
+    "group": "criteria_after_text",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: command execution\nText: For this command, exit code 0 means success and every other exit code means failure. The command exited with code 2.\nSuccess criterion: The command exited with a code that indicates success.\nFailure criterion: The command exited with a code that indicates failure.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p20_fail",
+    "observed": "2",
+    "expected_value": "0"
+  },
+  {
+    "id": "p20_fail__failure_criterion_first",
+    "group": "failure_criterion_first",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: command execution\nFailure criterion: The command exited with a code that indicates failure.\nSuccess criterion: The command exited with a code that indicates success.\nText: For this command, exit code 0 means success and every other exit code means failure. The command exited with code 2.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p20_fail",
+    "observed": "2",
+    "expected_value": "0"
+  },
+  {
+    "id": "p20_fail__short_question",
+    "group": "short_question",
+    "prompt": "For this command, exit code 0 means success and every other exit code means failure. The command exited with code 2.\nWhat is the current outcome? Answer with one word: success, failure, or unknown.",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p20_fail",
+    "observed": "2",
+    "expected_value": "0"
+  },
+  {
+    "id": "p20_fail__evidence_first",
+    "group": "evidence_first",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: command execution\nSuccess criterion: The command exited with a code that indicates success.\nFailure criterion: The command exited with a code that indicates failure.\nText: The command exited with code 2. For this command, exit code 0 means success and every other exit code means failure.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p20_fail",
+    "observed": "2",
+    "expected_value": "0"
+  },
+  {
+    "id": "p20_fail__compact_fields",
+    "group": "compact_fields",
+    "prompt": "Successful exit code: 0. Actual exit code: 2. If actual equals successful, answer success. Otherwise, answer failure. Answer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p20_fail",
+    "observed": "2",
+    "expected_value": "0"
+  },
+  {
+    "id": "p20_fail__given_comparison",
+    "group": "given_comparison",
+    "prompt": "Successful exit code: 0. Actual exit code: 2. If actual equals successful, answer success. Otherwise, answer failure. The values are different. Answer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p20_fail",
+    "observed": "2",
+    "expected_value": "0"
+  },
+  {
+    "id": "p20_fail__extract_actual",
+    "group": "extract_actual",
+    "prompt": "For this command, exit code 0 means success and every other exit code means failure. The command exited with code 2.\nWhat exit code did the command actually return? Answer with the number only.",
+    "expected": "2",
+    "kind": "number",
+    "seed": "p20_fail"
+  },
+  {
+    "id": "p20_fail__extract_expected",
+    "group": "extract_expected",
+    "prompt": "For this command, exit code 0 means success and every other exit code means failure. The command exited with code 2.\nWhich exit code means success? Answer with the number only.",
+    "expected": "0",
+    "kind": "number",
+    "seed": "p20_fail"
+  },
+  {
+    "id": "p20_fail__rule_yes_no",
+    "group": "rule_yes_no",
+    "prompt": "For this command, exit code 0 means success and every other exit code means failure. The command exited with code 2.\nDoes the actual exit code indicate success under the stated rule? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "seed": "p20_fail"
+  },
+  {
+    "id": "p20_fail__explanation",
+    "group": "explanation",
+    "prompt": "For this command, exit code 0 means success and every other exit code means failure. The command exited with code 2.\nApply the stated rule to the observed value. Explain the comparison briefly, then state success or failure.",
+    "expected": "FAIL",
+    "kind": "explanation",
+    "seed": "p20_fail",
+    "max_new_tokens": 64
+  },
+  {
+    "id": "p20_ok__original",
+    "group": "original",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: command execution\nSuccess criterion: The command exited with a code that indicates success.\nFailure criterion: The command exited with a code that indicates failure.\nText: For this command, exit code 0 means success and every other exit code means failure. The command exited with code 0.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p20_ok",
+    "observed": "0",
+    "expected_value": "0"
+  },
+  {
+    "id": "p20_ok__without_criteria",
+    "group": "without_criteria",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: command execution\nText: For this command, exit code 0 means success and every other exit code means failure. The command exited with code 0.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p20_ok",
+    "observed": "0",
+    "expected_value": "0"
+  },
+  {
+    "id": "p20_ok__criteria_after_text",
+    "group": "criteria_after_text",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: command execution\nText: For this command, exit code 0 means success and every other exit code means failure. The command exited with code 0.\nSuccess criterion: The command exited with a code that indicates success.\nFailure criterion: The command exited with a code that indicates failure.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p20_ok",
+    "observed": "0",
+    "expected_value": "0"
+  },
+  {
+    "id": "p20_ok__failure_criterion_first",
+    "group": "failure_criterion_first",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: command execution\nFailure criterion: The command exited with a code that indicates failure.\nSuccess criterion: The command exited with a code that indicates success.\nText: For this command, exit code 0 means success and every other exit code means failure. The command exited with code 0.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p20_ok",
+    "observed": "0",
+    "expected_value": "0"
+  },
+  {
+    "id": "p20_ok__short_question",
+    "group": "short_question",
+    "prompt": "For this command, exit code 0 means success and every other exit code means failure. The command exited with code 0.\nWhat is the current outcome? Answer with one word: success, failure, or unknown.",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p20_ok",
+    "observed": "0",
+    "expected_value": "0"
+  },
+  {
+    "id": "p20_ok__evidence_first",
+    "group": "evidence_first",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: command execution\nSuccess criterion: The command exited with a code that indicates success.\nFailure criterion: The command exited with a code that indicates failure.\nText: The command exited with code 0. For this command, exit code 0 means success and every other exit code means failure.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p20_ok",
+    "observed": "0",
+    "expected_value": "0"
+  },
+  {
+    "id": "p20_ok__compact_fields",
+    "group": "compact_fields",
+    "prompt": "Successful exit code: 0. Actual exit code: 0. If actual equals successful, answer success. Otherwise, answer failure. Answer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p20_ok",
+    "observed": "0",
+    "expected_value": "0"
+  },
+  {
+    "id": "p20_ok__given_comparison",
+    "group": "given_comparison",
+    "prompt": "Successful exit code: 0. Actual exit code: 0. If actual equals successful, answer success. Otherwise, answer failure. The values are equal. Answer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p20_ok",
+    "observed": "0",
+    "expected_value": "0"
+  },
+  {
+    "id": "p20_ok__extract_actual",
+    "group": "extract_actual",
+    "prompt": "For this command, exit code 0 means success and every other exit code means failure. The command exited with code 0.\nWhat exit code did the command actually return? Answer with the number only.",
+    "expected": "0",
+    "kind": "number",
+    "seed": "p20_ok"
+  },
+  {
+    "id": "p20_ok__extract_expected",
+    "group": "extract_expected",
+    "prompt": "For this command, exit code 0 means success and every other exit code means failure. The command exited with code 0.\nWhich exit code means success? Answer with the number only.",
+    "expected": "0",
+    "kind": "number",
+    "seed": "p20_ok"
+  },
+  {
+    "id": "p20_ok__rule_yes_no",
+    "group": "rule_yes_no",
+    "prompt": "For this command, exit code 0 means success and every other exit code means failure. The command exited with code 0.\nDoes the actual exit code indicate success under the stated rule? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "seed": "p20_ok"
+  },
+  {
+    "id": "p20_ok__explanation",
+    "group": "explanation",
+    "prompt": "For this command, exit code 0 means success and every other exit code means failure. The command exited with code 0.\nApply the stated rule to the observed value. Explain the comparison briefly, then state success or failure.",
+    "expected": "OK",
+    "kind": "explanation",
+    "seed": "p20_ok",
+    "max_new_tokens": 64
+  },
+  {
+    "id": "p24_fail__original",
+    "group": "original",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: custom task result\nSuccess criterion: The task returned a status that means success.\nFailure criterion: The task returned a status that means failure.\nText: In this application, status 1 means success and status 0 means failure. Task result: status 0.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p24_fail",
+    "observed": "0",
+    "expected_value": "1"
+  },
+  {
+    "id": "p24_fail__without_criteria",
+    "group": "without_criteria",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: custom task result\nText: In this application, status 1 means success and status 0 means failure. Task result: status 0.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p24_fail",
+    "observed": "0",
+    "expected_value": "1"
+  },
+  {
+    "id": "p24_fail__criteria_after_text",
+    "group": "criteria_after_text",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: custom task result\nText: In this application, status 1 means success and status 0 means failure. Task result: status 0.\nSuccess criterion: The task returned a status that means success.\nFailure criterion: The task returned a status that means failure.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p24_fail",
+    "observed": "0",
+    "expected_value": "1"
+  },
+  {
+    "id": "p24_fail__failure_criterion_first",
+    "group": "failure_criterion_first",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: custom task result\nFailure criterion: The task returned a status that means failure.\nSuccess criterion: The task returned a status that means success.\nText: In this application, status 1 means success and status 0 means failure. Task result: status 0.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p24_fail",
+    "observed": "0",
+    "expected_value": "1"
+  },
+  {
+    "id": "p24_fail__short_question",
+    "group": "short_question",
+    "prompt": "In this application, status 1 means success and status 0 means failure. Task result: status 0.\nWhat is the current outcome? Answer with one word: success, failure, or unknown.",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p24_fail",
+    "observed": "0",
+    "expected_value": "1"
+  },
+  {
+    "id": "p24_fail__evidence_first",
+    "group": "evidence_first",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: custom task result\nSuccess criterion: The task returned a status that means success.\nFailure criterion: The task returned a status that means failure.\nText: Task result: status 0. In this application, status 1 means success and status 0 means failure.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p24_fail",
+    "observed": "0",
+    "expected_value": "1"
+  },
+  {
+    "id": "p24_fail__compact_fields",
+    "group": "compact_fields",
+    "prompt": "Successful status: 1. Actual status: 0. If actual equals successful, answer success. Otherwise, answer failure. Answer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p24_fail",
+    "observed": "0",
+    "expected_value": "1"
+  },
+  {
+    "id": "p24_fail__given_comparison",
+    "group": "given_comparison",
+    "prompt": "Successful status: 1. Actual status: 0. If actual equals successful, answer success. Otherwise, answer failure. The values are different. Answer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p24_fail",
+    "observed": "0",
+    "expected_value": "1"
+  },
+  {
+    "id": "p24_fail__extract_actual",
+    "group": "extract_actual",
+    "prompt": "In this application, status 1 means success and status 0 means failure. Task result: status 0.\nWhat status did the task actually return? Answer with the number only.",
+    "expected": "0",
+    "kind": "number",
+    "seed": "p24_fail"
+  },
+  {
+    "id": "p24_fail__extract_expected",
+    "group": "extract_expected",
+    "prompt": "In this application, status 1 means success and status 0 means failure. Task result: status 0.\nWhich status means success in this application? Answer with the number only.",
+    "expected": "1",
+    "kind": "number",
+    "seed": "p24_fail"
+  },
+  {
+    "id": "p24_fail__rule_yes_no",
+    "group": "rule_yes_no",
+    "prompt": "In this application, status 1 means success and status 0 means failure. Task result: status 0.\nDoes the actual status mean success under the stated rule? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "seed": "p24_fail"
+  },
+  {
+    "id": "p24_fail__explanation",
+    "group": "explanation",
+    "prompt": "In this application, status 1 means success and status 0 means failure. Task result: status 0.\nApply the stated rule to the observed value. Explain the comparison briefly, then state success or failure.",
+    "expected": "FAIL",
+    "kind": "explanation",
+    "seed": "p24_fail",
+    "max_new_tokens": 64
+  },
+  {
+    "id": "p24_ok__original",
+    "group": "original",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: custom task result\nSuccess criterion: The task returned a status that means success.\nFailure criterion: The task returned a status that means failure.\nText: In this application, status 1 means success and status 0 means failure. Task result: status 1.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p24_ok",
+    "observed": "1",
+    "expected_value": "1"
+  },
+  {
+    "id": "p24_ok__without_criteria",
+    "group": "without_criteria",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: custom task result\nText: In this application, status 1 means success and status 0 means failure. Task result: status 1.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p24_ok",
+    "observed": "1",
+    "expected_value": "1"
+  },
+  {
+    "id": "p24_ok__criteria_after_text",
+    "group": "criteria_after_text",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: custom task result\nText: In this application, status 1 means success and status 0 means failure. Task result: status 1.\nSuccess criterion: The task returned a status that means success.\nFailure criterion: The task returned a status that means failure.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p24_ok",
+    "observed": "1",
+    "expected_value": "1"
+  },
+  {
+    "id": "p24_ok__failure_criterion_first",
+    "group": "failure_criterion_first",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: custom task result\nFailure criterion: The task returned a status that means failure.\nSuccess criterion: The task returned a status that means success.\nText: In this application, status 1 means success and status 0 means failure. Task result: status 1.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p24_ok",
+    "observed": "1",
+    "expected_value": "1"
+  },
+  {
+    "id": "p24_ok__short_question",
+    "group": "short_question",
+    "prompt": "In this application, status 1 means success and status 0 means failure. Task result: status 1.\nWhat is the current outcome? Answer with one word: success, failure, or unknown.",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p24_ok",
+    "observed": "1",
+    "expected_value": "1"
+  },
+  {
+    "id": "p24_ok__evidence_first",
+    "group": "evidence_first",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: custom task result\nSuccess criterion: The task returned a status that means success.\nFailure criterion: The task returned a status that means failure.\nText: Task result: status 1. In this application, status 1 means success and status 0 means failure.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p24_ok",
+    "observed": "1",
+    "expected_value": "1"
+  },
+  {
+    "id": "p24_ok__compact_fields",
+    "group": "compact_fields",
+    "prompt": "Successful status: 1. Actual status: 1. If actual equals successful, answer success. Otherwise, answer failure. Answer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p24_ok",
+    "observed": "1",
+    "expected_value": "1"
+  },
+  {
+    "id": "p24_ok__given_comparison",
+    "group": "given_comparison",
+    "prompt": "Successful status: 1. Actual status: 1. If actual equals successful, answer success. Otherwise, answer failure. The values are equal. Answer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p24_ok",
+    "observed": "1",
+    "expected_value": "1"
+  },
+  {
+    "id": "p24_ok__extract_actual",
+    "group": "extract_actual",
+    "prompt": "In this application, status 1 means success and status 0 means failure. Task result: status 1.\nWhat status did the task actually return? Answer with the number only.",
+    "expected": "1",
+    "kind": "number",
+    "seed": "p24_ok"
+  },
+  {
+    "id": "p24_ok__extract_expected",
+    "group": "extract_expected",
+    "prompt": "In this application, status 1 means success and status 0 means failure. Task result: status 1.\nWhich status means success in this application? Answer with the number only.",
+    "expected": "1",
+    "kind": "number",
+    "seed": "p24_ok"
+  },
+  {
+    "id": "p24_ok__rule_yes_no",
+    "group": "rule_yes_no",
+    "prompt": "In this application, status 1 means success and status 0 means failure. Task result: status 1.\nDoes the actual status mean success under the stated rule? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "seed": "p24_ok"
+  },
+  {
+    "id": "p24_ok__explanation",
+    "group": "explanation",
+    "prompt": "In this application, status 1 means success and status 0 means failure. Task result: status 1.\nApply the stated rule to the observed value. Explain the comparison briefly, then state success or failure.",
+    "expected": "OK",
+    "kind": "explanation",
+    "seed": "p24_ok",
+    "max_new_tokens": 64
+  },
+  {
+    "id": "sweep_exit_0_0_full",
+    "group": "sweep_full",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: command execution\nSuccess criterion: The command exited with a code that indicates success.\nFailure criterion: The command exited with a code that indicates failure.\nText: For this command, exit code 0 means success and every other exit code means failure. The command exited with code 0.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "family": "exit",
+    "expected_value": 0,
+    "observed": 0
+  },
+  {
+    "id": "sweep_exit_0_0_fields",
+    "group": "sweep_fields",
+    "prompt": "Expected value: 0. Observed value: 0. Matching values mean success. Different values mean failure. Answer success or failure:",
+    "expected": "OK",
+    "kind": "state",
+    "family": "exit",
+    "expected_value": 0,
+    "observed": 0
+  },
+  {
+    "id": "sweep_exit_0_1_full",
+    "group": "sweep_full",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: command execution\nSuccess criterion: The command exited with a code that indicates success.\nFailure criterion: The command exited with a code that indicates failure.\nText: For this command, exit code 0 means success and every other exit code means failure. The command exited with code 1.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "exit",
+    "expected_value": 0,
+    "observed": 1
+  },
+  {
+    "id": "sweep_exit_0_1_fields",
+    "group": "sweep_fields",
+    "prompt": "Expected value: 0. Observed value: 1. Matching values mean success. Different values mean failure. Answer success or failure:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "exit",
+    "expected_value": 0,
+    "observed": 1
+  },
+  {
+    "id": "sweep_exit_0_2_full",
+    "group": "sweep_full",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: command execution\nSuccess criterion: The command exited with a code that indicates success.\nFailure criterion: The command exited with a code that indicates failure.\nText: For this command, exit code 0 means success and every other exit code means failure. The command exited with code 2.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "exit",
+    "expected_value": 0,
+    "observed": 2
+  },
+  {
+    "id": "sweep_exit_0_2_fields",
+    "group": "sweep_fields",
+    "prompt": "Expected value: 0. Observed value: 2. Matching values mean success. Different values mean failure. Answer success or failure:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "exit",
+    "expected_value": 0,
+    "observed": 2
+  },
+  {
+    "id": "sweep_exit_1_0_full",
+    "group": "sweep_full",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: command execution\nSuccess criterion: The command exited with a code that indicates success.\nFailure criterion: The command exited with a code that indicates failure.\nText: For this command, exit code 1 means success and every other exit code means failure. The command exited with code 0.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "exit",
+    "expected_value": 1,
+    "observed": 0
+  },
+  {
+    "id": "sweep_exit_1_0_fields",
+    "group": "sweep_fields",
+    "prompt": "Expected value: 1. Observed value: 0. Matching values mean success. Different values mean failure. Answer success or failure:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "exit",
+    "expected_value": 1,
+    "observed": 0
+  },
+  {
+    "id": "sweep_exit_1_1_full",
+    "group": "sweep_full",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: command execution\nSuccess criterion: The command exited with a code that indicates success.\nFailure criterion: The command exited with a code that indicates failure.\nText: For this command, exit code 1 means success and every other exit code means failure. The command exited with code 1.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "family": "exit",
+    "expected_value": 1,
+    "observed": 1
+  },
+  {
+    "id": "sweep_exit_1_1_fields",
+    "group": "sweep_fields",
+    "prompt": "Expected value: 1. Observed value: 1. Matching values mean success. Different values mean failure. Answer success or failure:",
+    "expected": "OK",
+    "kind": "state",
+    "family": "exit",
+    "expected_value": 1,
+    "observed": 1
+  },
+  {
+    "id": "sweep_exit_1_2_full",
+    "group": "sweep_full",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: command execution\nSuccess criterion: The command exited with a code that indicates success.\nFailure criterion: The command exited with a code that indicates failure.\nText: For this command, exit code 1 means success and every other exit code means failure. The command exited with code 2.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "exit",
+    "expected_value": 1,
+    "observed": 2
+  },
+  {
+    "id": "sweep_exit_1_2_fields",
+    "group": "sweep_fields",
+    "prompt": "Expected value: 1. Observed value: 2. Matching values mean success. Different values mean failure. Answer success or failure:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "exit",
+    "expected_value": 1,
+    "observed": 2
+  },
+  {
+    "id": "sweep_exit_2_0_full",
+    "group": "sweep_full",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: command execution\nSuccess criterion: The command exited with a code that indicates success.\nFailure criterion: The command exited with a code that indicates failure.\nText: For this command, exit code 2 means success and every other exit code means failure. The command exited with code 0.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "exit",
+    "expected_value": 2,
+    "observed": 0
+  },
+  {
+    "id": "sweep_exit_2_0_fields",
+    "group": "sweep_fields",
+    "prompt": "Expected value: 2. Observed value: 0. Matching values mean success. Different values mean failure. Answer success or failure:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "exit",
+    "expected_value": 2,
+    "observed": 0
+  },
+  {
+    "id": "sweep_exit_2_1_full",
+    "group": "sweep_full",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: command execution\nSuccess criterion: The command exited with a code that indicates success.\nFailure criterion: The command exited with a code that indicates failure.\nText: For this command, exit code 2 means success and every other exit code means failure. The command exited with code 1.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "exit",
+    "expected_value": 2,
+    "observed": 1
+  },
+  {
+    "id": "sweep_exit_2_1_fields",
+    "group": "sweep_fields",
+    "prompt": "Expected value: 2. Observed value: 1. Matching values mean success. Different values mean failure. Answer success or failure:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "exit",
+    "expected_value": 2,
+    "observed": 1
+  },
+  {
+    "id": "sweep_exit_2_2_full",
+    "group": "sweep_full",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: command execution\nSuccess criterion: The command exited with a code that indicates success.\nFailure criterion: The command exited with a code that indicates failure.\nText: For this command, exit code 2 means success and every other exit code means failure. The command exited with code 2.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "family": "exit",
+    "expected_value": 2,
+    "observed": 2
+  },
+  {
+    "id": "sweep_exit_2_2_fields",
+    "group": "sweep_fields",
+    "prompt": "Expected value: 2. Observed value: 2. Matching values mean success. Different values mean failure. Answer success or failure:",
+    "expected": "OK",
+    "kind": "state",
+    "family": "exit",
+    "expected_value": 2,
+    "observed": 2
+  },
+  {
+    "id": "sweep_http_200_200_full",
+    "group": "sweep_full",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nSuccess criterion: The HTTP response status matches the expected status.\nFailure criterion: The HTTP response status is different from the expected status.\nText: Production GET /checkout returned HTTP 200. The expected response status is HTTP 200.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "family": "http",
+    "expected_value": 200,
+    "observed": 200
+  },
+  {
+    "id": "sweep_http_200_200_fields",
+    "group": "sweep_fields",
+    "prompt": "Expected value: 200. Observed value: 200. Matching values mean success. Different values mean failure. Answer success or failure:",
+    "expected": "OK",
+    "kind": "state",
+    "family": "http",
+    "expected_value": 200,
+    "observed": 200
+  },
+  {
+    "id": "sweep_http_200_404_full",
+    "group": "sweep_full",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nSuccess criterion: The HTTP response status matches the expected status.\nFailure criterion: The HTTP response status is different from the expected status.\nText: Production GET /checkout returned HTTP 404. The expected response status is HTTP 200.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "http",
+    "expected_value": 200,
+    "observed": 404
+  },
+  {
+    "id": "sweep_http_200_404_fields",
+    "group": "sweep_fields",
+    "prompt": "Expected value: 200. Observed value: 404. Matching values mean success. Different values mean failure. Answer success or failure:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "http",
+    "expected_value": 200,
+    "observed": 404
+  },
+  {
+    "id": "sweep_http_200_503_full",
+    "group": "sweep_full",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nSuccess criterion: The HTTP response status matches the expected status.\nFailure criterion: The HTTP response status is different from the expected status.\nText: Production GET /checkout returned HTTP 503. The expected response status is HTTP 200.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "http",
+    "expected_value": 200,
+    "observed": 503
+  },
+  {
+    "id": "sweep_http_200_503_fields",
+    "group": "sweep_fields",
+    "prompt": "Expected value: 200. Observed value: 503. Matching values mean success. Different values mean failure. Answer success or failure:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "http",
+    "expected_value": 200,
+    "observed": 503
+  },
+  {
+    "id": "sweep_http_404_200_full",
+    "group": "sweep_full",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nSuccess criterion: The HTTP response status matches the expected status.\nFailure criterion: The HTTP response status is different from the expected status.\nText: Production GET /checkout returned HTTP 200. The expected response status is HTTP 404.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "http",
+    "expected_value": 404,
+    "observed": 200
+  },
+  {
+    "id": "sweep_http_404_200_fields",
+    "group": "sweep_fields",
+    "prompt": "Expected value: 404. Observed value: 200. Matching values mean success. Different values mean failure. Answer success or failure:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "http",
+    "expected_value": 404,
+    "observed": 200
+  },
+  {
+    "id": "sweep_http_404_404_full",
+    "group": "sweep_full",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nSuccess criterion: The HTTP response status matches the expected status.\nFailure criterion: The HTTP response status is different from the expected status.\nText: Production GET /checkout returned HTTP 404. The expected response status is HTTP 404.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "family": "http",
+    "expected_value": 404,
+    "observed": 404
+  },
+  {
+    "id": "sweep_http_404_404_fields",
+    "group": "sweep_fields",
+    "prompt": "Expected value: 404. Observed value: 404. Matching values mean success. Different values mean failure. Answer success or failure:",
+    "expected": "OK",
+    "kind": "state",
+    "family": "http",
+    "expected_value": 404,
+    "observed": 404
+  },
+  {
+    "id": "sweep_http_404_503_full",
+    "group": "sweep_full",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nSuccess criterion: The HTTP response status matches the expected status.\nFailure criterion: The HTTP response status is different from the expected status.\nText: Production GET /checkout returned HTTP 503. The expected response status is HTTP 404.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "http",
+    "expected_value": 404,
+    "observed": 503
+  },
+  {
+    "id": "sweep_http_404_503_fields",
+    "group": "sweep_fields",
+    "prompt": "Expected value: 404. Observed value: 503. Matching values mean success. Different values mean failure. Answer success or failure:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "http",
+    "expected_value": 404,
+    "observed": 503
+  },
+  {
+    "id": "sweep_http_503_200_full",
+    "group": "sweep_full",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nSuccess criterion: The HTTP response status matches the expected status.\nFailure criterion: The HTTP response status is different from the expected status.\nText: Production GET /checkout returned HTTP 200. The expected response status is HTTP 503.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "http",
+    "expected_value": 503,
+    "observed": 200
+  },
+  {
+    "id": "sweep_http_503_200_fields",
+    "group": "sweep_fields",
+    "prompt": "Expected value: 503. Observed value: 200. Matching values mean success. Different values mean failure. Answer success or failure:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "http",
+    "expected_value": 503,
+    "observed": 200
+  },
+  {
+    "id": "sweep_http_503_404_full",
+    "group": "sweep_full",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nSuccess criterion: The HTTP response status matches the expected status.\nFailure criterion: The HTTP response status is different from the expected status.\nText: Production GET /checkout returned HTTP 404. The expected response status is HTTP 503.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "http",
+    "expected_value": 503,
+    "observed": 404
+  },
+  {
+    "id": "sweep_http_503_404_fields",
+    "group": "sweep_fields",
+    "prompt": "Expected value: 503. Observed value: 404. Matching values mean success. Different values mean failure. Answer success or failure:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "http",
+    "expected_value": 503,
+    "observed": 404
+  },
+  {
+    "id": "sweep_http_503_503_full",
+    "group": "sweep_full",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nSuccess criterion: The HTTP response status matches the expected status.\nFailure criterion: The HTTP response status is different from the expected status.\nText: Production GET /checkout returned HTTP 503. The expected response status is HTTP 503.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "family": "http",
+    "expected_value": 503,
+    "observed": 503
+  },
+  {
+    "id": "sweep_http_503_503_fields",
+    "group": "sweep_fields",
+    "prompt": "Expected value: 503. Observed value: 503. Matching values mean success. Different values mean failure. Answer success or failure:",
+    "expected": "OK",
+    "kind": "state",
+    "family": "http",
+    "expected_value": 503,
+    "observed": 503
+  },
+  {
+    "id": "sweep_custom_0_0_full",
+    "group": "sweep_full",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: custom task result\nSuccess criterion: The task returned a status that means success.\nFailure criterion: The task returned a status that means failure.\nText: In this application, status 0 means success and status 1 means failure. Task result: status 0.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "family": "custom",
+    "expected_value": 0,
+    "observed": 0
+  },
+  {
+    "id": "sweep_custom_0_0_fields",
+    "group": "sweep_fields",
+    "prompt": "Expected value: 0. Observed value: 0. Matching values mean success. Different values mean failure. Answer success or failure:",
+    "expected": "OK",
+    "kind": "state",
+    "family": "custom",
+    "expected_value": 0,
+    "observed": 0
+  },
+  {
+    "id": "sweep_custom_0_1_full",
+    "group": "sweep_full",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: custom task result\nSuccess criterion: The task returned a status that means success.\nFailure criterion: The task returned a status that means failure.\nText: In this application, status 0 means success and status 1 means failure. Task result: status 1.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "custom",
+    "expected_value": 0,
+    "observed": 1
+  },
+  {
+    "id": "sweep_custom_0_1_fields",
+    "group": "sweep_fields",
+    "prompt": "Expected value: 0. Observed value: 1. Matching values mean success. Different values mean failure. Answer success or failure:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "custom",
+    "expected_value": 0,
+    "observed": 1
+  },
+  {
+    "id": "sweep_custom_1_0_full",
+    "group": "sweep_full",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: custom task result\nSuccess criterion: The task returned a status that means success.\nFailure criterion: The task returned a status that means failure.\nText: In this application, status 1 means success and status 0 means failure. Task result: status 0.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "custom",
+    "expected_value": 1,
+    "observed": 0
+  },
+  {
+    "id": "sweep_custom_1_0_fields",
+    "group": "sweep_fields",
+    "prompt": "Expected value: 1. Observed value: 0. Matching values mean success. Different values mean failure. Answer success or failure:",
+    "expected": "FAIL",
+    "kind": "state",
+    "family": "custom",
+    "expected_value": 1,
+    "observed": 0
+  },
+  {
+    "id": "sweep_custom_1_1_full",
+    "group": "sweep_full",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: custom task result\nSuccess criterion: The task returned a status that means success.\nFailure criterion: The task returned a status that means failure.\nText: In this application, status 1 means success and status 0 means failure. Task result: status 1.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "family": "custom",
+    "expected_value": 1,
+    "observed": 1
+  },
+  {
+    "id": "sweep_custom_1_1_fields",
+    "group": "sweep_fields",
+    "prompt": "Expected value: 1. Observed value: 1. Matching values mean success. Different values mean failure. Answer success or failure:",
+    "expected": "OK",
+    "kind": "state",
+    "family": "custom",
+    "expected_value": 1,
+    "observed": 1
+  },
+  {
+    "id": "equality_0_2",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 0 and 2 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 0,
+    "b": 2
+  },
+  {
+    "id": "mapping_0_2",
+    "group": "pure_mapping",
+    "prompt": "Expected value: 0. Observed value: 2. If the numbers are equal, answer success. If they are different, answer failure. Answer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "a": 0,
+    "b": 2
+  },
+  {
+    "id": "equality_2_0",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 2 and 0 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 2,
+    "b": 0
+  },
+  {
+    "id": "mapping_2_0",
+    "group": "pure_mapping",
+    "prompt": "Expected value: 2. Observed value: 0. If the numbers are equal, answer success. If they are different, answer failure. Answer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "a": 2,
+    "b": 0
+  },
+  {
+    "id": "equality_0_0",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 0 and 0 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 0,
+    "b": 0
+  },
+  {
+    "id": "mapping_0_0",
+    "group": "pure_mapping",
+    "prompt": "Expected value: 0. Observed value: 0. If the numbers are equal, answer success. If they are different, answer failure. Answer:",
+    "expected": "OK",
+    "kind": "state",
+    "a": 0,
+    "b": 0
+  },
+  {
+    "id": "equality_2_2",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 2 and 2 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 2,
+    "b": 2
+  },
+  {
+    "id": "mapping_2_2",
+    "group": "pure_mapping",
+    "prompt": "Expected value: 2. Observed value: 2. If the numbers are equal, answer success. If they are different, answer failure. Answer:",
+    "expected": "OK",
+    "kind": "state",
+    "a": 2,
+    "b": 2
+  },
+  {
+    "id": "equality_200_503",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 200 and 503 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 200,
+    "b": 503
+  },
+  {
+    "id": "mapping_200_503",
+    "group": "pure_mapping",
+    "prompt": "Expected value: 200. Observed value: 503. If the numbers are equal, answer success. If they are different, answer failure. Answer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "a": 200,
+    "b": 503
+  },
+  {
+    "id": "equality_503_200",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 503 and 200 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 503,
+    "b": 200
+  },
+  {
+    "id": "mapping_503_200",
+    "group": "pure_mapping",
+    "prompt": "Expected value: 503. Observed value: 200. If the numbers are equal, answer success. If they are different, answer failure. Answer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "a": 503,
+    "b": 200
+  },
+  {
+    "id": "equality_200_200",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 200 and 200 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 200,
+    "b": 200
+  },
+  {
+    "id": "mapping_200_200",
+    "group": "pure_mapping",
+    "prompt": "Expected value: 200. Observed value: 200. If the numbers are equal, answer success. If they are different, answer failure. Answer:",
+    "expected": "OK",
+    "kind": "state",
+    "a": 200,
+    "b": 200
+  },
+  {
+    "id": "equality_503_503",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 503 and 503 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 503,
+    "b": 503
+  },
+  {
+    "id": "mapping_503_503",
+    "group": "pure_mapping",
+    "prompt": "Expected value: 503. Observed value: 503. If the numbers are equal, answer success. If they are different, answer failure. Answer:",
+    "expected": "OK",
+    "kind": "state",
+    "a": 503,
+    "b": 503
+  },
+  {
+    "id": "equality_7_9",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 7 and 9 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 7,
+    "b": 9
+  },
+  {
+    "id": "mapping_7_9",
+    "group": "pure_mapping",
+    "prompt": "Expected value: 7. Observed value: 9. If the numbers are equal, answer success. If they are different, answer failure. Answer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "a": 7,
+    "b": 9
+  },
+  {
+    "id": "equality_9_7",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 9 and 7 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 9,
+    "b": 7
+  },
+  {
+    "id": "mapping_9_7",
+    "group": "pure_mapping",
+    "prompt": "Expected value: 9. Observed value: 7. If the numbers are equal, answer success. If they are different, answer failure. Answer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "a": 9,
+    "b": 7
+  },
+  {
+    "id": "equality_7_7",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 7 and 7 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 7,
+    "b": 7
+  },
+  {
+    "id": "mapping_7_7",
+    "group": "pure_mapping",
+    "prompt": "Expected value: 7. Observed value: 7. If the numbers are equal, answer success. If they are different, answer failure. Answer:",
+    "expected": "OK",
+    "kind": "state",
+    "a": 7,
+    "b": 7
+  },
+  {
+    "id": "equality_9_9",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 9 and 9 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 9,
+    "b": 9
+  },
+  {
+    "id": "mapping_9_9",
+    "group": "pure_mapping",
+    "prompt": "Expected value: 9. Observed value: 9. If the numbers are equal, answer success. If they are different, answer failure. Answer:",
+    "expected": "OK",
+    "kind": "state",
+    "a": 9,
+    "b": 9
+  }
+]

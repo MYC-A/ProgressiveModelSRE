@@ -1,0 +1,18 @@
+Loading weights:   0%|          | 0/560 [00:00<?, ?it/s]Loading weights: 100%|██████████| 560/560 [00:00<00:00, 11748.28it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie shared.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+PROGRESS counterfactual_rule_yesno 8 / 22 5.8
+PROGRESS counterfactual_rule_yesno 16 / 22 9.3
+PROGRESS counterfactual_rule_yesno 22 / 22 11.0
+PROGRESS single_equality_replication 1 / 12 11.7
+PROGRESS single_equality_replication 2 / 12 12.3
+PROGRESS single_equality_replication 3 / 12 13.0
+PROGRESS single_equality_replication 4 / 12 13.6
+PROGRESS single_equality_replication 5 / 12 14.2
+PROGRESS single_equality_replication 6 / 12 14.8
+PROGRESS single_equality_replication 7 / 12 15.3
+PROGRESS single_equality_replication 8 / 12 16.2
+PROGRESS single_equality_replication 9 / 12 17.3
+PROGRESS single_equality_replication 10 / 12 17.9
+PROGRESS single_equality_replication 11 / 12 18.4
+PROGRESS single_equality_replication 12 / 12 19.2
+DONE {'counterfactual_rule_yesno': {'n': 22, 'correct': 21, 'outputs': {'yes': 9, 'no': 13}}, 'single_equality_replication': {'n': 12, 'correct': 7, 'outputs': {'no': 11, 'yes': 1}}, 'runtime': {'seconds': 19.21912462399996, 'scale_decoder_outputs': False, 'tie_word_embeddings': True, 'shared_and_lm_head_storage_tied': False}}

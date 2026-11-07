@@ -1,0 +1,41 @@
+{
+  "seed": 718,
+  "window": 32,
+  "source": "A:\\ProgressiveModelSRE-cache\\datasets\\BGL.log",
+  "source_lines": 4747963,
+  "source_sha256": "666130b15ef44eb32fd02bd053e6c6e007c37696b5e7e8b9d8e45b729876a5d2",
+  "splits": {
+    "train": {
+      "line_range": [
+        0,
+        2848777
+      ],
+      "windows": 3000,
+      "alerts": 269
+    },
+    "validation": {
+      "line_range": [
+        2848777,
+        3798370
+      ],
+      "windows": 800,
+      "alerts": 78
+    },
+    "test": {
+      "line_range": [
+        3798370,
+        4747963
+      ],
+      "windows": 1000,
+      "alerts": 77
+    }
+  },
+  "labels": "window is anomalous if any original alert label occurs inside",
+  "features": "signed 128-dimensional message token hashing + timestamp gap; labels and severity excluded",
+  "limitations": [
+    "Chronological sampled-window pilot, not full-corpus performance",
+    "Templates may recur across chronological splits; unseen-event counts recorded",
+    "Global log order mixes nodes; no service-causality claim",
+    "BGL has no unknown labels"
+  ]
+}

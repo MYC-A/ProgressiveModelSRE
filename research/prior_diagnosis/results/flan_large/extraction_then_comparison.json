@@ -1,0 +1,56 @@
+[
+  {
+    "seed": "p19_fail",
+    "actual": "503",
+    "expected": "200",
+    "operator": "eq (provided by the diagnostic task definition)",
+    "prediction": "FAIL",
+    "gold": "FAIL",
+    "correct": true
+  },
+  {
+    "seed": "p19_ok",
+    "actual": "200",
+    "expected": "200",
+    "operator": "eq (provided by the diagnostic task definition)",
+    "prediction": "OK",
+    "gold": "OK",
+    "correct": true
+  },
+  {
+    "seed": "p20_fail",
+    "actual": "2",
+    "expected": "0",
+    "operator": "eq (provided by the diagnostic task definition)",
+    "prediction": "FAIL",
+    "gold": "FAIL",
+    "correct": true
+  },
+  {
+    "seed": "p20_ok",
+    "actual": "0",
+    "expected": "0",
+    "operator": "eq (provided by the diagnostic task definition)",
+    "prediction": "OK",
+    "gold": "OK",
+    "correct": true
+  },
+  {
+    "seed": "p24_fail",
+    "actual": "0",
+    "expected": "1",
+    "operator": "eq (provided by the diagnostic task definition)",
+    "prediction": "FAIL",
+    "gold": "FAIL",
+    "correct": true
+  },
+  {
+    "seed": "p24_ok",
+    "actual": "1",
+    "expected": "1",
+    "operator": "eq (provided by the diagnostic task definition)",
+    "prediction": "OK",
+    "gold": "OK",
+    "correct": true
+  }
+]

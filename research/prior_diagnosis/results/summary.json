@@ -1,0 +1,246 @@
+{
+  "flan_large": {
+    "original": {
+      "n": 6,
+      "strict_correct": 6,
+      "semantic_correct": 6,
+      "strict_invalid": 0,
+      "FAIL_expected": 3,
+      "OK_expected": 3
+    },
+    "without_criteria": {
+      "n": 6,
+      "strict_correct": 6,
+      "semantic_correct": 6,
+      "strict_invalid": 0,
+      "FAIL_expected": 3,
+      "OK_expected": 3
+    },
+    "criteria_after_text": {
+      "n": 6,
+      "strict_correct": 5,
+      "semantic_correct": 5,
+      "strict_invalid": 0,
+      "FAIL_expected": 3,
+      "OK_expected": 3
+    },
+    "failure_criterion_first": {
+      "n": 6,
+      "strict_correct": 6,
+      "semantic_correct": 6,
+      "strict_invalid": 0,
+      "FAIL_expected": 3,
+      "OK_expected": 3
+    },
+    "short_question": {
+      "n": 6,
+      "strict_correct": 6,
+      "semantic_correct": 6,
+      "strict_invalid": 0,
+      "FAIL_expected": 3,
+      "OK_expected": 3
+    },
+    "evidence_first": {
+      "n": 6,
+      "strict_correct": 5,
+      "semantic_correct": 5,
+      "strict_invalid": 0,
+      "FAIL_expected": 3,
+      "OK_expected": 3
+    },
+    "compact_fields": {
+      "n": 6,
+      "strict_correct": 5,
+      "semantic_correct": 5,
+      "strict_invalid": 0,
+      "FAIL_expected": 3,
+      "OK_expected": 3
+    },
+    "given_comparison": {
+      "n": 6,
+      "strict_correct": 5,
+      "semantic_correct": 5,
+      "strict_invalid": 0,
+      "FAIL_expected": 3,
+      "OK_expected": 3
+    },
+    "extract_actual": {
+      "n": 6,
+      "strict_correct": 6,
+      "semantic_correct": 6,
+      "strict_invalid": 0,
+      "FAIL_expected": 0,
+      "OK_expected": 0
+    },
+    "extract_expected": {
+      "n": 6,
+      "strict_correct": 6,
+      "semantic_correct": 6,
+      "strict_invalid": 0,
+      "FAIL_expected": 0,
+      "OK_expected": 0
+    },
+    "rule_yes_no": {
+      "n": 6,
+      "strict_correct": 5,
+      "semantic_correct": 5,
+      "strict_invalid": 0,
+      "FAIL_expected": 0,
+      "OK_expected": 0
+    },
+    "sweep_full": {
+      "n": 22,
+      "strict_correct": 20,
+      "semantic_correct": 20,
+      "strict_invalid": 0,
+      "FAIL_expected": 14,
+      "OK_expected": 8
+    },
+    "sweep_fields": {
+      "n": 22,
+      "strict_correct": 8,
+      "semantic_correct": 8,
+      "strict_invalid": 0,
+      "FAIL_expected": 14,
+      "OK_expected": 8
+    },
+    "pure_equality": {
+      "n": 12,
+      "strict_correct": 11,
+      "semantic_correct": 11,
+      "strict_invalid": 0,
+      "FAIL_expected": 0,
+      "OK_expected": 0
+    },
+    "pure_mapping": {
+      "n": 12,
+      "strict_correct": 8,
+      "semantic_correct": 8,
+      "strict_invalid": 0,
+      "FAIL_expected": 6,
+      "OK_expected": 6
+    }
+  },
+  "lamini_flan_large": {
+    "original": {
+      "n": 6,
+      "strict_correct": 3,
+      "semantic_correct": 3,
+      "strict_invalid": 0,
+      "FAIL_expected": 3,
+      "OK_expected": 3
+    },
+    "without_criteria": {
+      "n": 6,
+      "strict_correct": 3,
+      "semantic_correct": 3,
+      "strict_invalid": 0,
+      "FAIL_expected": 3,
+      "OK_expected": 3
+    },
+    "criteria_after_text": {
+      "n": 6,
+      "strict_correct": 3,
+      "semantic_correct": 3,
+      "strict_invalid": 0,
+      "FAIL_expected": 3,
+      "OK_expected": 3
+    },
+    "failure_criterion_first": {
+      "n": 6,
+      "strict_correct": 3,
+      "semantic_correct": 3,
+      "strict_invalid": 0,
+      "FAIL_expected": 3,
+      "OK_expected": 3
+    },
+    "short_question": {
+      "n": 6,
+      "strict_correct": 3,
+      "semantic_correct": 4,
+      "strict_invalid": 3,
+      "FAIL_expected": 3,
+      "OK_expected": 3
+    },
+    "evidence_first": {
+      "n": 6,
+      "strict_correct": 3,
+      "semantic_correct": 3,
+      "strict_invalid": 0,
+      "FAIL_expected": 3,
+      "OK_expected": 3
+    },
+    "compact_fields": {
+      "n": 6,
+      "strict_correct": 4,
+      "semantic_correct": 4,
+      "strict_invalid": 0,
+      "FAIL_expected": 3,
+      "OK_expected": 3
+    },
+    "given_comparison": {
+      "n": 6,
+      "strict_correct": 3,
+      "semantic_correct": 3,
+      "strict_invalid": 2,
+      "FAIL_expected": 3,
+      "OK_expected": 3
+    },
+    "extract_actual": {
+      "n": 6,
+      "strict_correct": 0,
+      "semantic_correct": 6,
+      "strict_invalid": 6,
+      "FAIL_expected": 0,
+      "OK_expected": 0
+    },
+    "extract_expected": {
+      "n": 6,
+      "strict_correct": 0,
+      "semantic_correct": 6,
+      "strict_invalid": 6,
+      "FAIL_expected": 0,
+      "OK_expected": 0
+    },
+    "rule_yes_no": {
+      "n": 6,
+      "strict_correct": 6,
+      "semantic_correct": 6,
+      "strict_invalid": 0,
+      "FAIL_expected": 0,
+      "OK_expected": 0
+    },
+    "sweep_full": {
+      "n": 22,
+      "strict_correct": 11,
+      "semantic_correct": 11,
+      "strict_invalid": 0,
+      "FAIL_expected": 14,
+      "OK_expected": 8
+    },
+    "sweep_fields": {
+      "n": 22,
+      "strict_correct": 9,
+      "semantic_correct": 9,
+      "strict_invalid": 0,
+      "FAIL_expected": 14,
+      "OK_expected": 8
+    },
+    "pure_equality": {
+      "n": 12,
+      "strict_correct": 7,
+      "semantic_correct": 7,
+      "strict_invalid": 0,
+      "FAIL_expected": 0,
+      "OK_expected": 0
+    },
+    "pure_mapping": {
+      "n": 12,
+      "strict_correct": 1,
+      "semantic_correct": 1,
+      "strict_invalid": 7,
+      "FAIL_expected": 6,
+      "OK_expected": 6
+    }
+  }
+}

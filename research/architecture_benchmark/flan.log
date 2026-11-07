@@ -1,0 +1,19 @@
+Loading weights:   0%|          | 0/558 [00:00<?, ?it/s]Loading weights:   2%|2         | 12/558 [00:00<00:04, 112.00it/s]Loading weights:   4%|4         | 24/558 [00:00<00:05, 106.10it/s]Loading weights:   6%|6         | 36/558 [00:00<00:04, 108.37it/s]Loading weights:   8%|8         | 47/558 [00:00<00:05, 101.68it/s]Loading weights:  11%|#         | 61/558 [00:00<00:04, 112.41it/s]Loading weights:  13%|#3        | 73/558 [00:00<00:05, 88.58it/s] Loading weights:  15%|#5        | 84/558 [00:00<00:05, 93.48it/s]Loading weights:  18%|#7        | 99/558 [00:00<00:04, 100.54it/s]Loading weights:  20%|#9        | 110/558 [00:01<00:05, 88.87it/s]Loading weights:  22%|##1       | 120/558 [00:01<00:05, 83.64it/s]Loading weights:  23%|##3       | 131/558 [00:01<00:04, 88.89it/s]Loading weights:  25%|##5       | 141/558 [00:01<00:04, 89.65it/s]Loading weights:  27%|##7       | 151/558 [00:01<00:05, 74.57it/s]Loading weights:  29%|##8       | 160/558 [00:01<00:05, 72.87it/s]Loading weights:  30%|###       | 168/558 [00:01<00:06, 62.74it/s]Loading weights:  31%|###1      | 175/558 [00:02<00:06, 63.57it/s]Loading weights:  33%|###2      | 182/558 [00:02<00:06, 62.59it/s]Loading weights:  35%|###4      | 194/558 [00:02<00:05, 72.06it/s]Loading weights:  36%|###6      | 202/558 [00:02<00:06, 52.62it/s]Loading weights:  37%|###7      | 209/558 [00:02<00:06, 54.60it/s]Loading weights:  39%|###9      | 218/558 [00:02<00:05, 57.43it/s]Loading weights:  40%|####      | 225/558 [00:02<00:05, 58.01it/s]Loading weights:  42%|####2     | 236/558 [00:03<00:04, 65.69it/s]Loading weights:  44%|####3     | 245/558 [00:03<00:04, 70.65it/s]Loading weights:  45%|####5     | 253/558 [00:03<00:04, 67.27it/s]Loading weights:  47%|####6     | 260/558 [00:04<00:13, 22.76it/s]Loading weights: 100%|##########| 558/558 [00:04<00:00, 128.88it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie shared.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+LOADED flan_large 5.14
+GENERATING flan_large test 0 / 432
+GENERATING flan_large test 80 / 432
+GENERATING flan_large test 160 / 432
+GENERATING flan_large test 240 / 432
+GENERATING flan_large test 320 / 432
+GENERATING flan_large test 400 / 432
+SAVED flan_large test {'n': 432, 'correct': 272, 'accuracy': 0.6296296296296297, 'success_n': 144, 'false_alarm': 33, 'failure_n': 144, 'missed_failure': 19, 'unknown_n': 144, 'unknown_correct': 36, 'invalid': 1, 'predictions': {'failure': 225, 'success': 170, 'unknown': 36, 'INVALID': 1}}
+GENERATING flan_large diagnostic 0 / 122
+GENERATING flan_large diagnostic 80 / 122
+SAVED flan_large diagnostic {'n': 122, 'correct': 103, 'accuracy': 0.8442622950819673, 'success_n': 3, 'false_alarm': 0, 'failure_n': 3, 'missed_failure': 0, 'unknown_n': 0, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'failure': 3, 'success': 3, 'no': 65, 'yes': 51}}
+EXTRACTION 0 / 288
+EXTRACTION 64 / 288
+EXTRACTION 128 / 288
+EXTRACTION 192 / 288
+EXTRACTION 256 / 288
+SAVED flan_extract_execute {'n': 432, 'correct': 280, 'accuracy': 0.6481481481481481, 'success_n': 144, 'false_alarm': 2, 'failure_n': 144, 'missed_failure': 52, 'unknown_n': 144, 'unknown_correct': 94, 'invalid': 0, 'predictions': {'unknown': 191, 'failure': 132, 'success': 109}}

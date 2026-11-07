@@ -1,0 +1,2754 @@
+{
+  "lamini_flan_large/trace_200_200": [
+    {
+      "stack": "encoder",
+      "layer": 1,
+      "rms": 12.344915390014648,
+      "max_abs": 276.4140319824219,
+      "finite": true,
+      "numeric_position_cosine": 0.9899818301200867
+    },
+    {
+      "stack": "encoder",
+      "layer": 2,
+      "rms": 18.186708450317383,
+      "max_abs": 367.4988708496094,
+      "finite": true,
+      "numeric_position_cosine": 0.9956533312797546
+    },
+    {
+      "stack": "encoder",
+      "layer": 3,
+      "rms": 22.136056900024414,
+      "max_abs": 404.7017822265625,
+      "finite": true,
+      "numeric_position_cosine": 0.9822816848754883
+    },
+    {
+      "stack": "encoder",
+      "layer": 4,
+      "rms": 25.970016479492188,
+      "max_abs": 436.1746826171875,
+      "finite": true,
+      "numeric_position_cosine": 0.9811634421348572
+    },
+    {
+      "stack": "encoder",
+      "layer": 5,
+      "rms": 30.687387466430664,
+      "max_abs": 507.138427734375,
+      "finite": true,
+      "numeric_position_cosine": 0.9717422127723694
+    },
+    {
+      "stack": "encoder",
+      "layer": 6,
+      "rms": 35.41307067871094,
+      "max_abs": 735.8121948242188,
+      "finite": true,
+      "numeric_position_cosine": 0.9672284126281738
+    },
+    {
+      "stack": "encoder",
+      "layer": 7,
+      "rms": 954.069091796875,
+      "max_abs": 68063.2265625,
+      "finite": true,
+      "numeric_position_cosine": 0.9701464772224426
+    },
+    {
+      "stack": "encoder",
+      "layer": 8,
+      "rms": 6085.18408203125,
+      "max_abs": 388336.375,
+      "finite": true,
+      "numeric_position_cosine": 0.9734747409820557
+    },
+    {
+      "stack": "encoder",
+      "layer": 9,
+      "rms": 6089.53369140625,
+      "max_abs": 388643.59375,
+      "finite": true,
+      "numeric_position_cosine": 0.975950300693512
+    },
+    {
+      "stack": "encoder",
+      "layer": 10,
+      "rms": 6097.03369140625,
+      "max_abs": 389211.84375,
+      "finite": true,
+      "numeric_position_cosine": 0.9775382280349731
+    },
+    {
+      "stack": "encoder",
+      "layer": 11,
+      "rms": 6100.005859375,
+      "max_abs": 389463.03125,
+      "finite": true,
+      "numeric_position_cosine": 0.9806880354881287
+    },
+    {
+      "stack": "encoder",
+      "layer": 12,
+      "rms": 6101.95849609375,
+      "max_abs": 389500.25,
+      "finite": true,
+      "numeric_position_cosine": 0.9815102815628052
+    },
+    {
+      "stack": "encoder",
+      "layer": 13,
+      "rms": 6106.06396484375,
+      "max_abs": 389766.1875,
+      "finite": true,
+      "numeric_position_cosine": 0.9778647422790527
+    },
+    {
+      "stack": "encoder",
+      "layer": 14,
+      "rms": 6112.33203125,
+      "max_abs": 390073.875,
+      "finite": true,
+      "numeric_position_cosine": 0.9702293872833252
+    },
+    {
+      "stack": "encoder",
+      "layer": 15,
+      "rms": 6122.52392578125,
+      "max_abs": 390718.96875,
+      "finite": true,
+      "numeric_position_cosine": 0.9690170884132385
+    },
+    {
+      "stack": "encoder",
+      "layer": 16,
+      "rms": 6126.0458984375,
+      "max_abs": 390963.5625,
+      "finite": true,
+      "numeric_position_cosine": 0.9616917967796326
+    },
+    {
+      "stack": "encoder",
+      "layer": 17,
+      "rms": 6130.52734375,
+      "max_abs": 391156.78125,
+      "finite": true,
+      "numeric_position_cosine": 0.9583908319473267
+    },
+    {
+      "stack": "encoder",
+      "layer": 18,
+      "rms": 6133.93310546875,
+      "max_abs": 391310.96875,
+      "finite": true,
+      "numeric_position_cosine": 0.949745774269104
+    },
+    {
+      "stack": "encoder",
+      "layer": 19,
+      "rms": 6140.07177734375,
+      "max_abs": 391653.28125,
+      "finite": true,
+      "numeric_position_cosine": 0.9499555826187134
+    },
+    {
+      "stack": "encoder",
+      "layer": 20,
+      "rms": 6141.94873046875,
+      "max_abs": 391844.375,
+      "finite": true,
+      "numeric_position_cosine": 0.9442241191864014
+    },
+    {
+      "stack": "encoder",
+      "layer": 21,
+      "rms": 6144.12060546875,
+      "max_abs": 391963.34375,
+      "finite": true,
+      "numeric_position_cosine": 0.9315783977508545
+    },
+    {
+      "stack": "encoder",
+      "layer": 22,
+      "rms": 6147.45166015625,
+      "max_abs": 392152.53125,
+      "finite": true,
+      "numeric_position_cosine": 0.9230748414993286
+    },
+    {
+      "stack": "encoder",
+      "layer": 23,
+      "rms": 6151.916015625,
+      "max_abs": 392475.1875,
+      "finite": true,
+      "numeric_position_cosine": 0.9110121130943298
+    },
+    {
+      "stack": "encoder",
+      "layer": 24,
+      "rms": 6193.2138671875,
+      "max_abs": 393588.6875,
+      "finite": true,
+      "numeric_position_cosine": 0.8865732550621033
+    },
+    {
+      "stack": "decoder",
+      "layer": 1,
+      "rms": 16.726842880249023,
+      "max_abs": 250.98663330078125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 2,
+      "rms": 34.28050231933594,
+      "max_abs": 530.932861328125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 3,
+      "rms": 39.731719970703125,
+      "max_abs": 605.3026123046875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 4,
+      "rms": 62.91633224487305,
+      "max_abs": 1011.4483642578125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 5,
+      "rms": 99.21211242675781,
+      "max_abs": 1585.966796875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 6,
+      "rms": 115.69625854492188,
+      "max_abs": 1808.5072021484375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 7,
+      "rms": 883.5299072265625,
+      "max_abs": 12122.1435546875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 8,
+      "rms": 892.4983520507812,
+      "max_abs": 12306.0107421875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 9,
+      "rms": 898.95703125,
+      "max_abs": 12445.6650390625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 10,
+      "rms": 902.4129028320312,
+      "max_abs": 12515.34765625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 11,
+      "rms": 905.4794921875,
+      "max_abs": 12575.216796875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 12,
+      "rms": 909.675537109375,
+      "max_abs": 12658.2060546875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 13,
+      "rms": 912.033203125,
+      "max_abs": 12699.8818359375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 14,
+      "rms": 919.7426147460938,
+      "max_abs": 12851.48046875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 15,
+      "rms": 926.1505126953125,
+      "max_abs": 12981.826171875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 16,
+      "rms": 934.7747802734375,
+      "max_abs": 13153.5517578125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 17,
+      "rms": 946.6185913085938,
+      "max_abs": 13396.4013671875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 18,
+      "rms": 956.031982421875,
+      "max_abs": 13589.3369140625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 19,
+      "rms": 967.1485595703125,
+      "max_abs": 13817.166015625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 20,
+      "rms": 987.5131225585938,
+      "max_abs": 14274.8388671875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 21,
+      "rms": 997.7188720703125,
+      "max_abs": 14498.89453125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 22,
+      "rms": 966.7562255859375,
+      "max_abs": 14018.3193359375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 23,
+      "rms": 942.6050415039062,
+      "max_abs": 13711.61328125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 24,
+      "rms": 855.1107788085938,
+      "max_abs": 12760.095703125,
+      "finite": true
+    }
+  ],
+  "lamini_flan_large/trace_200_503": [
+    {
+      "stack": "encoder",
+      "layer": 1,
+      "rms": 12.354141235351562,
+      "max_abs": 276.3004150390625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 2,
+      "rms": 18.198923110961914,
+      "max_abs": 367.69378662109375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 3,
+      "rms": 21.97029685974121,
+      "max_abs": 403.4560241699219,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 4,
+      "rms": 25.778894424438477,
+      "max_abs": 433.67822265625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 5,
+      "rms": 30.661935806274414,
+      "max_abs": 504.82049560546875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 6,
+      "rms": 35.52079391479492,
+      "max_abs": 740.7952880859375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 7,
+      "rms": 955.6871948242188,
+      "max_abs": 70573.0859375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 8,
+      "rms": 5912.57861328125,
+      "max_abs": 390857.125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 9,
+      "rms": 5916.77490234375,
+      "max_abs": 391161.875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 10,
+      "rms": 5924.009765625,
+      "max_abs": 391731.40625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 11,
+      "rms": 5926.859375,
+      "max_abs": 391986.34375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 12,
+      "rms": 5928.748046875,
+      "max_abs": 392028.0,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 13,
+      "rms": 5932.7421875,
+      "max_abs": 392299.59375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 14,
+      "rms": 5938.79052734375,
+      "max_abs": 392604.1875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 15,
+      "rms": 5948.603515625,
+      "max_abs": 393249.21875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 16,
+      "rms": 5952.103515625,
+      "max_abs": 393492.3125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 17,
+      "rms": 5956.41796875,
+      "max_abs": 393682.46875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 18,
+      "rms": 5959.705078125,
+      "max_abs": 393833.09375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 19,
+      "rms": 5965.5185546875,
+      "max_abs": 394177.0625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 20,
+      "rms": 5967.25146484375,
+      "max_abs": 394369.34375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 21,
+      "rms": 5969.21923828125,
+      "max_abs": 394494.90625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 22,
+      "rms": 5972.328125,
+      "max_abs": 394690.40625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 23,
+      "rms": 5976.5791015625,
+      "max_abs": 395028.03125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 24,
+      "rms": 6016.6083984375,
+      "max_abs": 396154.21875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 1,
+      "rms": 16.638134002685547,
+      "max_abs": 249.66880798339844,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 2,
+      "rms": 34.15778350830078,
+      "max_abs": 528.9814453125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 3,
+      "rms": 39.52229690551758,
+      "max_abs": 602.25244140625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 4,
+      "rms": 62.542972564697266,
+      "max_abs": 1005.704833984375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 5,
+      "rms": 98.70161437988281,
+      "max_abs": 1577.12353515625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 6,
+      "rms": 115.03001403808594,
+      "max_abs": 1798.4842529296875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 7,
+      "rms": 861.1526489257812,
+      "max_abs": 11818.4375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 8,
+      "rms": 869.9772338867188,
+      "max_abs": 11999.33984375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 9,
+      "rms": 876.310791015625,
+      "max_abs": 12135.73046875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 10,
+      "rms": 879.6209716796875,
+      "max_abs": 12202.0,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 11,
+      "rms": 882.7830200195312,
+      "max_abs": 12263.94921875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 12,
+      "rms": 886.7904052734375,
+      "max_abs": 12342.333984375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 13,
+      "rms": 889.1588745117188,
+      "max_abs": 12383.3271484375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 14,
+      "rms": 896.7222290039062,
+      "max_abs": 12533.205078125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 15,
+      "rms": 902.83984375,
+      "max_abs": 12657.4912109375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 16,
+      "rms": 911.0299682617188,
+      "max_abs": 12820.5283203125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 17,
+      "rms": 922.6254272460938,
+      "max_abs": 13059.814453125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 18,
+      "rms": 932.22509765625,
+      "max_abs": 13256.6337890625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 19,
+      "rms": 943.1373291015625,
+      "max_abs": 13485.466796875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 20,
+      "rms": 962.6380615234375,
+      "max_abs": 13910.1904296875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 21,
+      "rms": 971.1695556640625,
+      "max_abs": 14100.841796875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 22,
+      "rms": 943.6098022460938,
+      "max_abs": 13693.7021484375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 23,
+      "rms": 917.4419555664062,
+      "max_abs": 13367.4150390625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 24,
+      "rms": 818.6597900390625,
+      "max_abs": 12228.818359375,
+      "finite": true
+    }
+  ],
+  "lamini_flan_large/trace_2_0": [
+    {
+      "stack": "encoder",
+      "layer": 1,
+      "rms": 29.10194206237793,
+      "max_abs": 1933.4908447265625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 2,
+      "rms": 46.30917739868164,
+      "max_abs": 3596.5361328125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 3,
+      "rms": 59.8668098449707,
+      "max_abs": 4893.4638671875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 4,
+      "rms": 69.17362213134766,
+      "max_abs": 5651.6064453125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 5,
+      "rms": 1724.53369140625,
+      "max_abs": 137579.203125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 6,
+      "rms": 1731.8038330078125,
+      "max_abs": 138464.171875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 7,
+      "rms": 2834.353759765625,
+      "max_abs": 220508.1875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 8,
+      "rms": 7564.44873046875,
+      "max_abs": 528264.4375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 9,
+      "rms": 7568.55908203125,
+      "max_abs": 528569.0625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 10,
+      "rms": 7575.97412109375,
+      "max_abs": 529151.375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 11,
+      "rms": 7578.85205078125,
+      "max_abs": 529404.8125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 12,
+      "rms": 7580.7626953125,
+      "max_abs": 529456.75,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 13,
+      "rms": 7584.822265625,
+      "max_abs": 529748.125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 14,
+      "rms": 7590.79248046875,
+      "max_abs": 530075.875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 15,
+      "rms": 7601.15478515625,
+      "max_abs": 530758.75,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 16,
+      "rms": 7604.52783203125,
+      "max_abs": 531010.5,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 17,
+      "rms": 7609.1181640625,
+      "max_abs": 531237.0625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 18,
+      "rms": 7612.46826171875,
+      "max_abs": 531415.6875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 19,
+      "rms": 7618.576171875,
+      "max_abs": 531755.125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 20,
+      "rms": 7620.0419921875,
+      "max_abs": 531966.75,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 21,
+      "rms": 7622.38916015625,
+      "max_abs": 532082.125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 22,
+      "rms": 7625.6669921875,
+      "max_abs": 532256.8125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 23,
+      "rms": 7630.56005859375,
+      "max_abs": 532643.875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 24,
+      "rms": 7673.00341796875,
+      "max_abs": 533853.5625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 1,
+      "rms": 16.208391189575195,
+      "max_abs": 243.26828002929688,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 2,
+      "rms": 33.61586380004883,
+      "max_abs": 521.139404296875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 3,
+      "rms": 38.82828140258789,
+      "max_abs": 592.9197998046875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 4,
+      "rms": 60.66328430175781,
+      "max_abs": 976.3074951171875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 5,
+      "rms": 95.06407165527344,
+      "max_abs": 1520.321044921875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 6,
+      "rms": 110.21003723144531,
+      "max_abs": 1726.2392578125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 7,
+      "rms": 778.7561645507812,
+      "max_abs": 10695.029296875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 8,
+      "rms": 787.376220703125,
+      "max_abs": 10872.05078125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 9,
+      "rms": 793.6354370117188,
+      "max_abs": 11006.7646484375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 10,
+      "rms": 796.9840087890625,
+      "max_abs": 11074.009765625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 11,
+      "rms": 800.1777954101562,
+      "max_abs": 11137.001953125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 12,
+      "rms": 804.2667236328125,
+      "max_abs": 11216.8525390625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 13,
+      "rms": 806.74560546875,
+      "max_abs": 11259.322265625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 14,
+      "rms": 814.6016235351562,
+      "max_abs": 11415.5595703125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 15,
+      "rms": 821.4462280273438,
+      "max_abs": 11553.0078125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 16,
+      "rms": 831.7362670898438,
+      "max_abs": 11757.7333984375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 17,
+      "rms": 844.2949829101562,
+      "max_abs": 12008.287109375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 18,
+      "rms": 855.2418823242188,
+      "max_abs": 12226.9326171875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 19,
+      "rms": 870.0533447265625,
+      "max_abs": 12528.1474609375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 20,
+      "rms": 891.798583984375,
+      "max_abs": 12998.478515625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 21,
+      "rms": 908.3330078125,
+      "max_abs": 13331.1318359375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 22,
+      "rms": 891.287353515625,
+      "max_abs": 13122.4794921875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 23,
+      "rms": 873.131591796875,
+      "max_abs": 12908.73828125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 24,
+      "rms": 797.749755859375,
+      "max_abs": 12018.3994140625,
+      "finite": true
+    }
+  ],
+  "lamini_flan_large/trace_2_2": [
+    {
+      "stack": "encoder",
+      "layer": 1,
+      "rms": 12.208782196044922,
+      "max_abs": 275.8240661621094,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 2,
+      "rms": 17.640125274658203,
+      "max_abs": 367.6930847167969,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 3,
+      "rms": 21.435874938964844,
+      "max_abs": 405.34698486328125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 4,
+      "rms": 25.089086532592773,
+      "max_abs": 435.9084777832031,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 5,
+      "rms": 29.692150115966797,
+      "max_abs": 503.7666931152344,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 6,
+      "rms": 34.53602981567383,
+      "max_abs": 744.6727294921875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 7,
+      "rms": 1012.81689453125,
+      "max_abs": 72278.8984375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 8,
+      "rms": 6143.39794921875,
+      "max_abs": 392556.84375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 9,
+      "rms": 6147.76611328125,
+      "max_abs": 392860.3125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 10,
+      "rms": 6155.24658203125,
+      "max_abs": 393426.0625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 11,
+      "rms": 6158.19384765625,
+      "max_abs": 393679.3125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 12,
+      "rms": 6160.13720703125,
+      "max_abs": 393716.78125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 13,
+      "rms": 6164.2529296875,
+      "max_abs": 393982.03125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 14,
+      "rms": 6170.54736328125,
+      "max_abs": 394288.59375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 15,
+      "rms": 6180.794921875,
+      "max_abs": 394936.0,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 16,
+      "rms": 6184.333984375,
+      "max_abs": 395178.71875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 17,
+      "rms": 6188.85009765625,
+      "max_abs": 395374.875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 18,
+      "rms": 6192.2724609375,
+      "max_abs": 395526.84375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 19,
+      "rms": 6198.30517578125,
+      "max_abs": 395864.03125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 20,
+      "rms": 6200.1806640625,
+      "max_abs": 396061.71875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 21,
+      "rms": 6202.33251953125,
+      "max_abs": 396181.75,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 22,
+      "rms": 6205.724609375,
+      "max_abs": 396385.0625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 23,
+      "rms": 6210.17041015625,
+      "max_abs": 396709.40625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 24,
+      "rms": 6251.5322265625,
+      "max_abs": 397814.4375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 1,
+      "rms": 16.30171775817871,
+      "max_abs": 244.9310760498047,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 2,
+      "rms": 33.605533599853516,
+      "max_abs": 520.719482421875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 3,
+      "rms": 38.80249786376953,
+      "max_abs": 592.3173828125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 4,
+      "rms": 60.66073989868164,
+      "max_abs": 975.8521728515625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 5,
+      "rms": 94.94635009765625,
+      "max_abs": 1518.68310546875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 6,
+      "rms": 110.3626708984375,
+      "max_abs": 1727.5184326171875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 7,
+      "rms": 766.8800048828125,
+      "max_abs": 10528.48828125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 8,
+      "rms": 775.6644287109375,
+      "max_abs": 10709.431640625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 9,
+      "rms": 781.8836669921875,
+      "max_abs": 10843.65234375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 10,
+      "rms": 785.170654296875,
+      "max_abs": 10909.55078125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 11,
+      "rms": 788.2369995117188,
+      "max_abs": 10969.3935546875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 12,
+      "rms": 792.2891235351562,
+      "max_abs": 11048.740234375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 13,
+      "rms": 794.6864624023438,
+      "max_abs": 11089.1328125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 14,
+      "rms": 802.7760009765625,
+      "max_abs": 11248.5,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 15,
+      "rms": 809.9054565429688,
+      "max_abs": 11392.1171875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 16,
+      "rms": 819.769287109375,
+      "max_abs": 11587.66015625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 17,
+      "rms": 831.62841796875,
+      "max_abs": 11826.359375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 18,
+      "rms": 842.7960815429688,
+      "max_abs": 12045.443359375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 19,
+      "rms": 856.806884765625,
+      "max_abs": 12331.1640625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 20,
+      "rms": 877.9500732421875,
+      "max_abs": 12800.951171875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 21,
+      "rms": 893.0850219726562,
+      "max_abs": 13113.0537109375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 22,
+      "rms": 873.2857055664062,
+      "max_abs": 12843.044921875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 23,
+      "rms": 857.1167602539062,
+      "max_abs": 12663.2158203125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 24,
+      "rms": 813.4811401367188,
+      "max_abs": 12267.5009765625,
+      "finite": true
+    }
+  ],
+  "flan_large/trace_200_200": [
+    {
+      "stack": "encoder",
+      "layer": 1,
+      "rms": 12.237805366516113,
+      "max_abs": 285.49859619140625,
+      "finite": true,
+      "numeric_position_cosine": 0.979604184627533
+    },
+    {
+      "stack": "encoder",
+      "layer": 2,
+      "rms": 17.12096405029297,
+      "max_abs": 451.4374084472656,
+      "finite": true,
+      "numeric_position_cosine": 0.9908085465431213
+    },
+    {
+      "stack": "encoder",
+      "layer": 3,
+      "rms": 21.13722038269043,
+      "max_abs": 870.1629638671875,
+      "finite": true,
+      "numeric_position_cosine": 0.9762671589851379
+    },
+    {
+      "stack": "encoder",
+      "layer": 4,
+      "rms": 25.861875534057617,
+      "max_abs": 1353.17041015625,
+      "finite": true,
+      "numeric_position_cosine": 0.9674615859985352
+    },
+    {
+      "stack": "encoder",
+      "layer": 5,
+      "rms": 1246.95068359375,
+      "max_abs": 100013.78125,
+      "finite": true,
+      "numeric_position_cosine": 0.9596890807151794
+    },
+    {
+      "stack": "encoder",
+      "layer": 6,
+      "rms": 1251.9569091796875,
+      "max_abs": 100641.953125,
+      "finite": true,
+      "numeric_position_cosine": 0.9513673186302185
+    },
+    {
+      "stack": "encoder",
+      "layer": 7,
+      "rms": 1543.824951171875,
+      "max_abs": 124072.2578125,
+      "finite": true,
+      "numeric_position_cosine": 0.9580203890800476
+    },
+    {
+      "stack": "encoder",
+      "layer": 8,
+      "rms": 4553.7724609375,
+      "max_abs": 323619.96875,
+      "finite": true,
+      "numeric_position_cosine": 0.9599745273590088
+    },
+    {
+      "stack": "encoder",
+      "layer": 9,
+      "rms": 4556.41357421875,
+      "max_abs": 323822.96875,
+      "finite": true,
+      "numeric_position_cosine": 0.9611893892288208
+    },
+    {
+      "stack": "encoder",
+      "layer": 10,
+      "rms": 4560.6103515625,
+      "max_abs": 324140.3125,
+      "finite": true,
+      "numeric_position_cosine": 0.9583244323730469
+    },
+    {
+      "stack": "encoder",
+      "layer": 11,
+      "rms": 4562.763671875,
+      "max_abs": 324300.59375,
+      "finite": true,
+      "numeric_position_cosine": 0.9630568027496338
+    },
+    {
+      "stack": "encoder",
+      "layer": 12,
+      "rms": 4563.77880859375,
+      "max_abs": 324345.84375,
+      "finite": true,
+      "numeric_position_cosine": 0.9607080817222595
+    },
+    {
+      "stack": "encoder",
+      "layer": 13,
+      "rms": 4566.05224609375,
+      "max_abs": 324497.21875,
+      "finite": true,
+      "numeric_position_cosine": 0.9597090482711792
+    },
+    {
+      "stack": "encoder",
+      "layer": 14,
+      "rms": 4569.70751953125,
+      "max_abs": 324699.6875,
+      "finite": true,
+      "numeric_position_cosine": 0.9467728734016418
+    },
+    {
+      "stack": "encoder",
+      "layer": 15,
+      "rms": 4576.09130859375,
+      "max_abs": 325079.84375,
+      "finite": true,
+      "numeric_position_cosine": 0.9447611570358276
+    },
+    {
+      "stack": "encoder",
+      "layer": 16,
+      "rms": 4578.4501953125,
+      "max_abs": 325287.84375,
+      "finite": true,
+      "numeric_position_cosine": 0.91583251953125
+    },
+    {
+      "stack": "encoder",
+      "layer": 17,
+      "rms": 4582.384765625,
+      "max_abs": 325448.875,
+      "finite": true,
+      "numeric_position_cosine": 0.904880702495575
+    },
+    {
+      "stack": "encoder",
+      "layer": 18,
+      "rms": 4585.11865234375,
+      "max_abs": 325625.09375,
+      "finite": true,
+      "numeric_position_cosine": 0.900230348110199
+    },
+    {
+      "stack": "encoder",
+      "layer": 19,
+      "rms": 4590.88916015625,
+      "max_abs": 325994.71875,
+      "finite": true,
+      "numeric_position_cosine": 0.9032297730445862
+    },
+    {
+      "stack": "encoder",
+      "layer": 20,
+      "rms": 4592.24755859375,
+      "max_abs": 326206.40625,
+      "finite": true,
+      "numeric_position_cosine": 0.87907475233078
+    },
+    {
+      "stack": "encoder",
+      "layer": 21,
+      "rms": 4592.697265625,
+      "max_abs": 326329.6875,
+      "finite": true,
+      "numeric_position_cosine": 0.8608661890029907
+    },
+    {
+      "stack": "encoder",
+      "layer": 22,
+      "rms": 4596.62646484375,
+      "max_abs": 326563.9375,
+      "finite": true,
+      "numeric_position_cosine": 0.8445903062820435
+    },
+    {
+      "stack": "encoder",
+      "layer": 23,
+      "rms": 4600.650390625,
+      "max_abs": 327001.125,
+      "finite": true,
+      "numeric_position_cosine": 0.8434804677963257
+    },
+    {
+      "stack": "encoder",
+      "layer": 24,
+      "rms": 4632.61279296875,
+      "max_abs": 328608.46875,
+      "finite": true,
+      "numeric_position_cosine": 0.7991410493850708
+    },
+    {
+      "stack": "decoder",
+      "layer": 1,
+      "rms": 10.054930686950684,
+      "max_abs": 122.96826171875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 2,
+      "rms": 16.056793212890625,
+      "max_abs": 256.1556091308594,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 3,
+      "rms": 18.567604064941406,
+      "max_abs": 302.3258972167969,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 4,
+      "rms": 45.85795593261719,
+      "max_abs": 757.106201171875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 5,
+      "rms": 93.36395263671875,
+      "max_abs": 1537.803955078125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 6,
+      "rms": 112.27530670166016,
+      "max_abs": 1831.877685546875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 7,
+      "rms": 749.6893920898438,
+      "max_abs": 10360.22265625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 8,
+      "rms": 758.1470336914062,
+      "max_abs": 10535.80078125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 9,
+      "rms": 763.9868774414062,
+      "max_abs": 10664.7119140625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 10,
+      "rms": 768.1859130859375,
+      "max_abs": 10750.203125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 11,
+      "rms": 771.3941040039062,
+      "max_abs": 10814.0458984375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 12,
+      "rms": 776.0935668945312,
+      "max_abs": 10906.0234375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 13,
+      "rms": 778.4483642578125,
+      "max_abs": 10946.6025390625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 14,
+      "rms": 787.4605102539062,
+      "max_abs": 11125.30859375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 15,
+      "rms": 794.9331665039062,
+      "max_abs": 11270.87890625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 16,
+      "rms": 808.8927612304688,
+      "max_abs": 11552.974609375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 17,
+      "rms": 822.1494140625,
+      "max_abs": 11813.4111328125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 18,
+      "rms": 843.8143310546875,
+      "max_abs": 12235.7548828125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 19,
+      "rms": 867.4402465820312,
+      "max_abs": 12689.9365234375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 20,
+      "rms": 901.5330810546875,
+      "max_abs": 13360.166015625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 21,
+      "rms": 921.7472534179688,
+      "max_abs": 13725.48828125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 22,
+      "rms": 932.114990234375,
+      "max_abs": 14032.39453125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 23,
+      "rms": 960.4788208007812,
+      "max_abs": 14592.39453125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 24,
+      "rms": 950.7704467773438,
+      "max_abs": 14616.947265625,
+      "finite": true
+    }
+  ],
+  "flan_large/trace_200_503": [
+    {
+      "stack": "encoder",
+      "layer": 1,
+      "rms": 12.217933654785156,
+      "max_abs": 288.9806823730469,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 2,
+      "rms": 16.995546340942383,
+      "max_abs": 442.00653076171875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 3,
+      "rms": 20.7579402923584,
+      "max_abs": 850.0783081054688,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 4,
+      "rms": 25.405385971069336,
+      "max_abs": 1331.694091796875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 5,
+      "rms": 1200.656494140625,
+      "max_abs": 99664.203125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 6,
+      "rms": 1205.4970703125,
+      "max_abs": 100291.078125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 7,
+      "rms": 1487.5743408203125,
+      "max_abs": 123731.796875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 8,
+      "rms": 4396.93701171875,
+      "max_abs": 323379.0625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 9,
+      "rms": 4399.48046875,
+      "max_abs": 323579.28125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 10,
+      "rms": 4403.56201171875,
+      "max_abs": 323897.9375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 11,
+      "rms": 4405.61279296875,
+      "max_abs": 324059.5,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 12,
+      "rms": 4406.57958984375,
+      "max_abs": 324108.15625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 13,
+      "rms": 4408.7587890625,
+      "max_abs": 324262.53125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 14,
+      "rms": 4412.21826171875,
+      "max_abs": 324459.84375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 15,
+      "rms": 4418.2724609375,
+      "max_abs": 324834.4375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 16,
+      "rms": 4420.64599609375,
+      "max_abs": 325043.15625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 17,
+      "rms": 4424.3974609375,
+      "max_abs": 325201.625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 18,
+      "rms": 4426.92919921875,
+      "max_abs": 325372.5,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 19,
+      "rms": 4432.4521484375,
+      "max_abs": 325734.75,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 20,
+      "rms": 4433.75,
+      "max_abs": 325940.375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 21,
+      "rms": 4434.33349609375,
+      "max_abs": 326062.78125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 22,
+      "rms": 4438.0888671875,
+      "max_abs": 326298.15625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 23,
+      "rms": 4442.078125,
+      "max_abs": 326716.84375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 24,
+      "rms": 4473.212890625,
+      "max_abs": 328332.15625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 1,
+      "rms": 10.12761116027832,
+      "max_abs": 123.82774353027344,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 2,
+      "rms": 16.199655532836914,
+      "max_abs": 258.93218994140625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 3,
+      "rms": 18.683605194091797,
+      "max_abs": 305.0822448730469,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 4,
+      "rms": 45.038875579833984,
+      "max_abs": 746.1044921875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 5,
+      "rms": 92.2509536743164,
+      "max_abs": 1523.2047119140625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 6,
+      "rms": 111.10111999511719,
+      "max_abs": 1815.38525390625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 7,
+      "rms": 799.9752807617188,
+      "max_abs": 11070.458984375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 8,
+      "rms": 808.1963500976562,
+      "max_abs": 11239.2568359375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 9,
+      "rms": 814.0304565429688,
+      "max_abs": 11365.7822265625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 10,
+      "rms": 818.3201293945312,
+      "max_abs": 11452.9521484375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 11,
+      "rms": 821.3900146484375,
+      "max_abs": 11513.3193359375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 12,
+      "rms": 825.998779296875,
+      "max_abs": 11602.728515625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 13,
+      "rms": 827.5323486328125,
+      "max_abs": 11625.98046875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 14,
+      "rms": 835.8099975585938,
+      "max_abs": 11789.1923828125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 15,
+      "rms": 842.5501098632812,
+      "max_abs": 11920.2705078125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 16,
+      "rms": 854.6573486328125,
+      "max_abs": 12167.8466796875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 17,
+      "rms": 867.2276611328125,
+      "max_abs": 12429.65234375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 18,
+      "rms": 885.9302978515625,
+      "max_abs": 12809.587890625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 19,
+      "rms": 905.4254150390625,
+      "max_abs": 13188.95703125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 20,
+      "rms": 932.4189453125,
+      "max_abs": 13739.81640625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 21,
+      "rms": 938.126220703125,
+      "max_abs": 13853.8916015625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 22,
+      "rms": 929.2273559570312,
+      "max_abs": 13847.5009765625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 23,
+      "rms": 933.5635375976562,
+      "max_abs": 14055.9248046875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 24,
+      "rms": 842.821533203125,
+      "max_abs": 12947.568359375,
+      "finite": true
+    }
+  ],
+  "flan_large/trace_2_0": [
+    {
+      "stack": "encoder",
+      "layer": 1,
+      "rms": 39.98612594604492,
+      "max_abs": 2957.6787109375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 2,
+      "rms": 59.943603515625,
+      "max_abs": 4985.44921875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 3,
+      "rms": 74.04981994628906,
+      "max_abs": 6384.576171875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 4,
+      "rms": 83.07245635986328,
+      "max_abs": 7132.228515625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 5,
+      "rms": 2742.98046875,
+      "max_abs": 194256.0625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 6,
+      "rms": 2749.808349609375,
+      "max_abs": 194869.21875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 7,
+      "rms": 3112.300048828125,
+      "max_abs": 215530.125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 8,
+      "rms": 6988.28173828125,
+      "max_abs": 398305.8125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 9,
+      "rms": 6991.7177734375,
+      "max_abs": 398487.75,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 10,
+      "rms": 6997.232421875,
+      "max_abs": 398779.53125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 11,
+      "rms": 6999.9765625,
+      "max_abs": 398930.875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 12,
+      "rms": 7001.24072265625,
+      "max_abs": 398966.65625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 13,
+      "rms": 7004.0166015625,
+      "max_abs": 399090.21875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 14,
+      "rms": 7008.6640625,
+      "max_abs": 399265.28125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 15,
+      "rms": 7017.0634765625,
+      "max_abs": 399618.71875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 16,
+      "rms": 7020.166015625,
+      "max_abs": 399806.9375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 17,
+      "rms": 7025.51513671875,
+      "max_abs": 400015.09375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 18,
+      "rms": 7029.1171875,
+      "max_abs": 400136.4375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 19,
+      "rms": 7036.4541015625,
+      "max_abs": 400421.15625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 20,
+      "rms": 7037.78564453125,
+      "max_abs": 400584.4375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 21,
+      "rms": 7038.81982421875,
+      "max_abs": 400663.8125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 22,
+      "rms": 7043.70654296875,
+      "max_abs": 400802.96875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 23,
+      "rms": 7049.1220703125,
+      "max_abs": 401273.34375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 24,
+      "rms": 7092.0654296875,
+      "max_abs": 402787.84375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 1,
+      "rms": 10.136459350585938,
+      "max_abs": 123.8521957397461,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 2,
+      "rms": 16.243642807006836,
+      "max_abs": 259.3087158203125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 3,
+      "rms": 18.776451110839844,
+      "max_abs": 306.68829345703125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 4,
+      "rms": 42.37189483642578,
+      "max_abs": 701.798583984375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 5,
+      "rms": 87.4546890258789,
+      "max_abs": 1441.998779296875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 6,
+      "rms": 104.95980834960938,
+      "max_abs": 1714.9539794921875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 7,
+      "rms": 649.3306274414062,
+      "max_abs": 8964.775390625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 8,
+      "rms": 657.7271118164062,
+      "max_abs": 9141.3662109375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 9,
+      "rms": 663.68798828125,
+      "max_abs": 9272.587890625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 10,
+      "rms": 668.0196533203125,
+      "max_abs": 9361.0537109375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 11,
+      "rms": 671.6867065429688,
+      "max_abs": 9435.5400390625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 12,
+      "rms": 676.3758544921875,
+      "max_abs": 9526.9248046875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 13,
+      "rms": 679.4822998046875,
+      "max_abs": 9584.111328125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 14,
+      "rms": 688.9479370117188,
+      "max_abs": 9771.28515625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 15,
+      "rms": 697.4114990234375,
+      "max_abs": 9931.30859375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 16,
+      "rms": 714.7601318359375,
+      "max_abs": 10279.6640625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 17,
+      "rms": 730.1015625,
+      "max_abs": 10579.7177734375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 18,
+      "rms": 756.1311645507812,
+      "max_abs": 11083.0966796875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 19,
+      "rms": 789.7673950195312,
+      "max_abs": 11702.578125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 20,
+      "rms": 835.0020141601562,
+      "max_abs": 12551.7314453125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 21,
+      "rms": 876.0258178710938,
+      "max_abs": 13236.634765625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 22,
+      "rms": 916.238525390625,
+      "max_abs": 14007.3544921875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 23,
+      "rms": 969.194091796875,
+      "max_abs": 14892.9638671875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 24,
+      "rms": 999.04296875,
+      "max_abs": 15394.4091796875,
+      "finite": true
+    }
+  ],
+  "flan_large/trace_2_2": [
+    {
+      "stack": "encoder",
+      "layer": 1,
+      "rms": 12.112631797790527,
+      "max_abs": 279.61993408203125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 2,
+      "rms": 16.59507179260254,
+      "max_abs": 437.52886962890625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 3,
+      "rms": 20.482608795166016,
+      "max_abs": 851.8785400390625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 4,
+      "rms": 25.21170425415039,
+      "max_abs": 1334.572021484375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 5,
+      "rms": 1252.701904296875,
+      "max_abs": 100477.515625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 6,
+      "rms": 1257.68896484375,
+      "max_abs": 101105.3125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 7,
+      "rms": 1549.42236328125,
+      "max_abs": 124527.890625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 8,
+      "rms": 4558.47705078125,
+      "max_abs": 324023.25,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 9,
+      "rms": 4561.1484375,
+      "max_abs": 324224.0625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 10,
+      "rms": 4565.29345703125,
+      "max_abs": 324536.375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 11,
+      "rms": 4567.44189453125,
+      "max_abs": 324697.0625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 12,
+      "rms": 4568.4443359375,
+      "max_abs": 324744.78125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 13,
+      "rms": 4570.6318359375,
+      "max_abs": 324893.3125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 14,
+      "rms": 4574.22607421875,
+      "max_abs": 325098.375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 15,
+      "rms": 4580.68994140625,
+      "max_abs": 325482.84375,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 16,
+      "rms": 4583.05078125,
+      "max_abs": 325690.28125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 17,
+      "rms": 4586.97607421875,
+      "max_abs": 325853.1875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 18,
+      "rms": 4589.712890625,
+      "max_abs": 326028.75,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 19,
+      "rms": 4595.34228515625,
+      "max_abs": 326375.6875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 20,
+      "rms": 4596.7998046875,
+      "max_abs": 326592.15625,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 21,
+      "rms": 4597.36279296875,
+      "max_abs": 326711.53125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 22,
+      "rms": 4601.53564453125,
+      "max_abs": 326951.3125,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 23,
+      "rms": 4605.3896484375,
+      "max_abs": 327365.71875,
+      "finite": true
+    },
+    {
+      "stack": "encoder",
+      "layer": 24,
+      "rms": 4637.49365234375,
+      "max_abs": 328957.0625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 1,
+      "rms": 9.972319602966309,
+      "max_abs": 122.00877380371094,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 2,
+      "rms": 15.859658241271973,
+      "max_abs": 252.99453735351562,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 3,
+      "rms": 18.36737632751465,
+      "max_abs": 299.5713195800781,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 4,
+      "rms": 42.9737548828125,
+      "max_abs": 711.055908203125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 5,
+      "rms": 88.62359619140625,
+      "max_abs": 1461.54541015625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 6,
+      "rms": 106.30838775634766,
+      "max_abs": 1737.199951171875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 7,
+      "rms": 679.4901733398438,
+      "max_abs": 9386.0263671875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 8,
+      "rms": 687.7747802734375,
+      "max_abs": 9558.9365234375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 9,
+      "rms": 693.6829833984375,
+      "max_abs": 9690.3330078125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 10,
+      "rms": 697.8580322265625,
+      "max_abs": 9775.2978515625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 11,
+      "rms": 701.1912231445312,
+      "max_abs": 9842.44921875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 12,
+      "rms": 705.81298828125,
+      "max_abs": 9932.5048828125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 13,
+      "rms": 708.4759521484375,
+      "max_abs": 9979.5283203125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 14,
+      "rms": 717.6163940429688,
+      "max_abs": 10160.001953125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 15,
+      "rms": 726.06640625,
+      "max_abs": 10321.5625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 16,
+      "rms": 741.5711059570312,
+      "max_abs": 10631.81640625,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 17,
+      "rms": 754.8075561523438,
+      "max_abs": 10891.0263671875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 18,
+      "rms": 778.4981689453125,
+      "max_abs": 11345.162109375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 19,
+      "rms": 807.7645874023438,
+      "max_abs": 11892.54296875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 20,
+      "rms": 846.3844604492188,
+      "max_abs": 12635.4453125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 21,
+      "rms": 882.3268432617188,
+      "max_abs": 13253.3505859375,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 22,
+      "rms": 911.9371948242188,
+      "max_abs": 13865.5966796875,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 23,
+      "rms": 961.0546264648438,
+      "max_abs": 14711.2705078125,
+      "finite": true
+    },
+    {
+      "stack": "decoder",
+      "layer": 24,
+      "rms": 1002.1217041015625,
+      "max_abs": 15409.873046875,
+      "finite": true
+    }
+  ]
+}

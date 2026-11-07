@@ -1,0 +1,80 @@
+{
+  "frozen_before_new_outputs": true,
+  "date": "2026-11-07",
+  "purpose": "Controlled diagnosis of three previously observed LaMini failures; not an independent accuracy benchmark",
+  "n_probes": 140,
+  "models": [
+    {
+      "alias": "flan_large",
+      "repo": "google/flan-t5-large",
+      "revision": "0613663d0d48ea86ba8cb3d7a44f0f65dc596a2a",
+      "gated": false,
+      "access": "config accessible",
+      "params": 783150080,
+      "files": [
+        ".gitattributes",
+        "README.md",
+        "config.json",
+        "flax_model.msgpack",
+        "generation_config.json",
+        "model.safetensors",
+        "pytorch_model.bin",
+        "special_tokens_map.json",
+        "spiece.model",
+        "tf_model.h5",
+        "tokenizer.json",
+        "tokenizer_config.json"
+      ],
+      "local_path": "/workspace/scratch/b0ed23bed8e9/t5_family/models/flan_large"
+    },
+    {
+      "alias": "lamini_flan_large",
+      "repo": "MBZUAI/LaMini-Flan-T5-783M",
+      "revision": "7a1ff0207cbe75d6a1fcbcc7077ee0b6808ecf9f",
+      "gated": false,
+      "access": "config accessible",
+      "params": null,
+      "files": [
+        ".gitattributes",
+        "README.md",
+        "config.json",
+        "generation_config.json",
+        "pytorch_model.bin",
+        "special_tokens_map.json",
+        "spiece.model",
+        "tokenizer.json",
+        "tokenizer_config.json"
+      ],
+      "local_path": "/workspace/scratch/b0ed23bed8e9/t5_family/models/lamini_flan_large"
+    }
+  ],
+  "generation": {
+    "dtype": "float32",
+    "threads": 4,
+    "batch": 8,
+    "greedy_max_new_tokens": 24,
+    "explanation_max_new_tokens": 64,
+    "input_limit": 512
+  },
+  "supplementary": {
+    "beam_search": "num_beams=4 on six original prompts only",
+    "single_item_replication": "three original failing prompts, greedy",
+    "candidate_likelihood": "teacher-forced sum logP of Success./Failure./Unknown. including EOS on originals and compact_fields; normalized over these three strings only, not calibrated confidence"
+  },
+  "questions": [
+    "Are old wrong outputs reproducible?",
+    "Can actual and expected values be extracted separately?",
+    "Can equality be answered without domain labels?",
+    "Does clause/criterion order or simplification change the result?",
+    "Does beam search remove the error?",
+    "Does the parent checkpoint behave differently?"
+  ],
+  "limitations": [
+    "Diagnostic probes constructed after observing errors",
+    "Prompt changes are interventions on input behavior, not a mechanistic proof about weights or attention",
+    "Explanations are generated outputs, not faithful internal traces",
+    "No training or selection of an operational threshold",
+    "Given-comparison variant supplies part of the answer and is only a diagnostic oracle"
+  ],
+  "probes_sha256": "e1265047f45d7171d0da57fc87f0486861e2af1a1dec1d5e872d3ad36f6b23d5"
+}

@@ -1,0 +1,1946 @@
+[
+  {
+    "id": "validation_latency_11_success",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_971\nSuccess criterion: The acceptable latency is no greater than 145 ms.\nText: The latest measurement for job_971 reports latency 138 ms.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_1_success",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_955\nSuccess criterion: The acceptable throughput is no smaller than 269 items/s.\nText: The latest measurement for job_955 reports throughput 275 items/s.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_0_failure",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_413\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_413 could not produce the requested artifact.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_9_success",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_380\nSuccess criterion: The acceptable latency is no greater than 353 ms.\nText: The latest measurement for job_380 reports latency 345 ms.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_0_success",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_215\nSuccess criterion: A run succeeds exactly when its result code equals 579.\nText: job_215 produced result code 579 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_0_failure",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_399\nSuccess criterion: The acceptable throughput is no smaller than 849 items/s.\nText: The latest measurement for job_399 reports throughput 845 items/s.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_8_success",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_485\nSuccess criterion: A run succeeds exactly when its result code equals 670.\nText: job_485 produced result code 670 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_7_unknown",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_996\nSuccess criterion: A run succeeds exactly when its result code equals 453.\nText: Unresolved conflicting reports about the same current run of job_996: one says success, the other says failure.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_2_unknown",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_219\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: Historical record only, not evidence about the current run: An earlier incident affected job_219. Its latest state is unavailable with recovery unsuccessful.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_1_success",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_576\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_576. Its latest state is restored and healthy.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_1_unknown",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_289\nSuccess criterion: A run succeeds exactly when its result code equals 561.\nText: other_181 produced result code 565 in the current run.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_2_failure",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_343\nSuccess criterion: A run succeeds exactly when its result code equals 271.\nText: job_343 produced result code 280 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_7_failure",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_753\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_753. Its latest state is unavailable with recovery unsuccessful.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_8_failure",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_727\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_727. Its latest state is unavailable with recovery unsuccessful.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_4_failure",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_352\nSuccess criterion: The acceptable latency is no greater than 517 ms.\nText: The latest measurement for job_352 reports latency 519 ms.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_10_success",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_651\nSuccess criterion: A run succeeds exactly when its result code equals 207.\nText: job_651 produced result code 207 in the current run. other_651 produced result code 211 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_2_success",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_696\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_696 successfully produced the requested artifact.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_7_failure",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_639\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_639 could not produce the requested artifact.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_2_unknown",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_459\nSuccess criterion: The acceptable latency is no greater than 181 ms.\nText: Historical record only, not evidence about the current run: The latest measurement for job_459 reports latency 186 ms.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_11_unknown",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_847\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: Unresolved conflicting reports about the same current run of job_847: one says success, the other says failure.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_2_success",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_343\nSuccess criterion: A run succeeds exactly when its result code equals 271.\nText: job_343 produced result code 271 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_0_unknown",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_413\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The current outcome of job_413 has not been reported.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_2_failure",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_459\nSuccess criterion: The acceptable latency is no greater than 181 ms.\nText: The latest measurement for job_459 reports latency 186 ms.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_5_success",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_292\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_292. Its latest state is restored and healthy.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_1_success",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_192\nSuccess criterion: A run succeeds exactly when its result code equals 727.\nText: other_678 produced result code 731 in the current run. job_192 produced result code 727 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_11_failure",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_924\nSuccess criterion: The acceptable throughput is no smaller than 208 items/s.\nText: The latest measurement for job_924 reports throughput 199 items/s.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_10_unknown",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_231\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: Historical record only, not evidence about the current run: The latest run of job_231 could not produce the requested artifact.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_6_failure",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_864\nSuccess criterion: The acceptable throughput is no smaller than 566 items/s.\nText: The latest measurement for job_864 reports throughput 560 items/s.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_11_failure",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_658\nSuccess criterion: A run succeeds exactly when its result code equals 526.\nText: other_922 produced result code 526 in the current run. job_658 produced result code 533 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_10_failure",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_651\nSuccess criterion: A run succeeds exactly when its result code equals 207.\nText: job_651 produced result code 211 in the current run. other_651 produced result code 207 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_8_unknown",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_377\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The current outcome of job_377 has not been reported.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_11_failure",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_847\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_847. Its latest state is unavailable with recovery unsuccessful.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_8_success",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_377\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_377 successfully produced the requested artifact.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_7_success",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_298\nSuccess criterion: The acceptable latency is no greater than 836 ms.\nText: The latest measurement for job_298 reports latency 835 ms.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_4_success",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_382\nSuccess criterion: A run succeeds exactly when its result code equals 283.\nText: job_382 produced result code 283 in the current run. other_493 produced result code 288 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_2_unknown",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_922\nSuccess criterion: The acceptable throughput is no smaller than 654 items/s.\nText: Historical record only, not evidence about the current run: The latest measurement for job_922 reports throughput 645 items/s.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_0_success",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_308\nSuccess criterion: A run succeeds exactly when its result code equals 979.\nText: job_308 produced result code 979 in the current run. other_616 produced result code 985 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_7_failure",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_996\nSuccess criterion: A run succeeds exactly when its result code equals 453.\nText: other_299 produced result code 453 in the current run. job_996 produced result code 455 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_6_success",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_781\nSuccess criterion: A run succeeds exactly when its result code equals 977.\nText: job_781 produced result code 977 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_3_unknown",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_282\nSuccess criterion: A run succeeds exactly when its result code equals 486.\nText: Unresolved conflicting reports about the same current run of job_282: one says success, the other says failure.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_6_success",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_816\nSuccess criterion: The acceptable latency is no greater than 272 ms.\nText: The latest measurement for job_816 reports latency 271 ms.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_0_success",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_889\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_889. Its latest state is restored and healthy.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_7_success",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_996\nSuccess criterion: A run succeeds exactly when its result code equals 453.\nText: other_299 produced result code 455 in the current run. job_996 produced result code 453 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_8_failure",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_485\nSuccess criterion: A run succeeds exactly when its result code equals 670.\nText: job_485 produced result code 677 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_3_failure",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_282\nSuccess criterion: A run succeeds exactly when its result code equals 486.\nText: other_840 produced result code 486 in the current run. job_282 produced result code 493 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_3_success",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_795\nSuccess criterion: The acceptable throughput is no smaller than 580 items/s.\nText: The latest measurement for job_795 reports throughput 583 items/s.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_9_unknown",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_254\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected other_258. Its latest state is unavailable with recovery unsuccessful.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_5_unknown",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_211\nSuccess criterion: A run succeeds exactly when its result code equals 995.\nText: other_125 produced result code 998 in the current run.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_2_unknown",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_696\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: Historical record only, not evidence about the current run: The latest run of job_696 could not produce the requested artifact.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_6_failure",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_657\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_657. Its latest state is unavailable with recovery unsuccessful.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_2_unknown",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_430\nSuccess criterion: A run succeeds exactly when its result code equals 624.\nText: Historical record only, not evidence about the current run: job_430 produced result code 632 in the current run.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_6_success",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_864\nSuccess criterion: The acceptable throughput is no smaller than 566 items/s.\nText: The latest measurement for job_864 reports throughput 572 items/s.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_10_failure",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_947\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_947. Its latest state is unavailable with recovery unsuccessful.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_5_failure",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_428\nSuccess criterion: The acceptable latency is no greater than 484 ms.\nText: The latest measurement for job_428 reports latency 488 ms.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_5_failure",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_643\nSuccess criterion: The acceptable throughput is no smaller than 482 items/s.\nText: The latest measurement for job_643 reports throughput 478 items/s.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_3_unknown",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_437\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: Unresolved conflicting reports about the same current run of job_437: one says success, the other says failure.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_3_failure",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_784\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_784 could not produce the requested artifact.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_7_failure",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_298\nSuccess criterion: The acceptable latency is no greater than 836 ms.\nText: The latest measurement for job_298 reports latency 837 ms.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_11_unknown",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_352\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: Unresolved conflicting reports about the same current run of job_352: one says success, the other says failure.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_6_success",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_760\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_760 successfully produced the requested artifact.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_10_failure",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_694\nSuccess criterion: A run succeeds exactly when its result code equals 897.\nText: job_694 produced result code 902 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_6_success",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_657\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_657. Its latest state is restored and healthy.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_9_success",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_993\nSuccess criterion: A run succeeds exactly when its result code equals 377.\nText: other_872 produced result code 384 in the current run. job_993 produced result code 377 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_3_failure",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_196\nSuccess criterion: A run succeeds exactly when its result code equals 277.\nText: job_196 produced result code 279 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_1_success",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_282\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_282 successfully produced the requested artifact.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_5_failure",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_232\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_232 could not produce the requested artifact.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_10_unknown",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_248\nSuccess criterion: The acceptable throughput is no smaller than 764 items/s.\nText: Historical record only, not evidence about the current run: The latest measurement for job_248 reports throughput 759 items/s.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_0_success",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_102\nSuccess criterion: The acceptable latency is no greater than 931 ms.\nText: The latest measurement for job_102 reports latency 928 ms.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_7_success",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_753\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_753. Its latest state is restored and healthy.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_4_failure",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_875\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_875. Its latest state is unavailable with recovery unsuccessful.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_3_success",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_437\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_437. Its latest state is restored and healthy.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_5_failure",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_292\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_292. Its latest state is unavailable with recovery unsuccessful.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_9_success",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_379\nSuccess criterion: A run succeeds exactly when its result code equals 132.\nText: job_379 produced result code 132 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_7_success",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_700\nSuccess criterion: The acceptable throughput is no smaller than 747 items/s.\nText: The latest measurement for job_700 reports throughput 750 items/s.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_3_unknown",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_196\nSuccess criterion: A run succeeds exactly when its result code equals 277.\nText: Unresolved conflicting reports about the same current run of job_196: one says success, the other says failure.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_10_success",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_947\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_947. Its latest state is restored and healthy.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_11_success",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_924\nSuccess criterion: The acceptable throughput is no smaller than 208 items/s.\nText: The latest measurement for job_924 reports throughput 217 items/s.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_1_success",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_430\nSuccess criterion: The acceptable latency is no greater than 832 ms.\nText: The latest measurement for job_430 reports latency 824 ms.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_7_unknown",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_700\nSuccess criterion: The acceptable throughput is no smaller than 747 items/s.\nText: Unresolved conflicting reports about the same current run of job_700: one says success, the other says failure.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_1_failure",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_192\nSuccess criterion: A run succeeds exactly when its result code equals 727.\nText: other_678 produced result code 727 in the current run. job_192 produced result code 731 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_10_success",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_351\nSuccess criterion: The acceptable latency is no greater than 459 ms.\nText: The latest measurement for job_351 reports latency 456 ms.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_1_failure",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_955\nSuccess criterion: The acceptable throughput is no smaller than 269 items/s.\nText: The latest measurement for job_955 reports throughput 263 items/s.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_1_failure",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_430\nSuccess criterion: The acceptable latency is no greater than 832 ms.\nText: The latest measurement for job_430 reports latency 840 ms.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_1_unknown",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_192\nSuccess criterion: A run succeeds exactly when its result code equals 727.\nText: other_678 produced result code 731 in the current run.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_2_success",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_922\nSuccess criterion: The acceptable throughput is no smaller than 654 items/s.\nText: The latest measurement for job_922 reports throughput 663 items/s.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_5_success",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_643\nSuccess criterion: The acceptable throughput is no smaller than 482 items/s.\nText: The latest measurement for job_643 reports throughput 486 items/s.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_9_failure",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_380\nSuccess criterion: The acceptable latency is no greater than 353 ms.\nText: The latest measurement for job_380 reports latency 361 ms.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_4_unknown",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_758\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The current outcome of job_758 has not been reported.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_6_failure",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_760\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_760 could not produce the requested artifact.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_5_unknown",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_292\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected other_320. Its latest state is unavailable with recovery unsuccessful.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_0_failure",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_889\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_889. Its latest state is unavailable with recovery unsuccessful.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_0_unknown",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_102\nSuccess criterion: The acceptable latency is no greater than 931 ms.\nText: The current outcome of job_102 has not been reported.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_11_unknown",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_876\nSuccess criterion: A run succeeds exactly when its result code equals 570.\nText: Unresolved conflicting reports about the same current run of job_876: one says success, the other says failure.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_5_unknown",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_643\nSuccess criterion: The acceptable throughput is no smaller than 482 items/s.\nText: The latest measurement for other_793 reports throughput 478 items/s.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_9_success",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_715\nSuccess criterion: The acceptable throughput is no smaller than 751 items/s.\nText: The latest measurement for job_715 reports throughput 757 items/s.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_4_success",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_758\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_758 successfully produced the requested artifact.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_6_failure",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_781\nSuccess criterion: A run succeeds exactly when its result code equals 977.\nText: job_781 produced result code 986 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_2_success",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_459\nSuccess criterion: The acceptable latency is no greater than 181 ms.\nText: The latest measurement for job_459 reports latency 176 ms.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_10_unknown",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_947\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: Historical record only, not evidence about the current run: An earlier incident affected job_947. Its latest state is unavailable with recovery unsuccessful.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_10_success",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_231\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_231 successfully produced the requested artifact.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_8_success",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_878\nSuccess criterion: The acceptable throughput is no smaller than 972 items/s.\nText: The latest measurement for job_878 reports throughput 979 items/s.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_8_unknown",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_878\nSuccess criterion: The acceptable throughput is no smaller than 972 items/s.\nText: The current outcome of job_878 has not been reported.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_8_unknown",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_727\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: The current outcome of job_727 has not been reported.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_11_success",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_352\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_352 successfully produced the requested artifact.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_6_failure",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_609\nSuccess criterion: A run succeeds exactly when its result code equals 508.\nText: job_609 produced result code 515 in the current run. other_258 produced result code 508 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_8_unknown",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_267\nSuccess criterion: A run succeeds exactly when its result code equals 555.\nText: The current outcome of job_267 has not been reported.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_2_failure",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_219\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_219. Its latest state is unavailable with recovery unsuccessful.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_2_failure",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_922\nSuccess criterion: The acceptable throughput is no smaller than 654 items/s.\nText: The latest measurement for job_922 reports throughput 645 items/s.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_4_unknown",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_382\nSuccess criterion: A run succeeds exactly when its result code equals 283.\nText: The current outcome of job_382 has not been reported.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_0_unknown",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_399\nSuccess criterion: The acceptable throughput is no smaller than 849 items/s.\nText: The current outcome of job_399 has not been reported.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_3_success",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_282\nSuccess criterion: A run succeeds exactly when its result code equals 486.\nText: other_840 produced result code 493 in the current run. job_282 produced result code 486 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_4_unknown",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_352\nSuccess criterion: The acceptable latency is no greater than 517 ms.\nText: The current outcome of job_352 has not been reported.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_9_success",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_254\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_254. Its latest state is restored and healthy.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_4_unknown",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_875\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: The current outcome of job_875 has not been reported.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_7_failure",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_827\nSuccess criterion: A run succeeds exactly when its result code equals 720.\nText: job_827 produced result code 729 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_5_success",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_211\nSuccess criterion: A run succeeds exactly when its result code equals 995.\nText: job_211 produced result code 995 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_0_unknown",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_215\nSuccess criterion: A run succeeds exactly when its result code equals 579.\nText: The current outcome of job_215 has not been reported.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_8_failure",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_267\nSuccess criterion: A run succeeds exactly when its result code equals 555.\nText: job_267 produced result code 557 in the current run. other_580 produced result code 555 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_0_unknown",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_889\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: The current outcome of job_889 has not been reported.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_9_failure",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_254\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_254. Its latest state is unavailable with recovery unsuccessful.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_9_failure",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_104\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_104 could not produce the requested artifact.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_9_success",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_104\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_104 successfully produced the requested artifact.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_10_unknown",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_694\nSuccess criterion: A run succeeds exactly when its result code equals 897.\nText: Historical record only, not evidence about the current run: job_694 produced result code 902 in the current run.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_6_unknown",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_816\nSuccess criterion: The acceptable latency is no greater than 272 ms.\nText: Historical record only, not evidence about the current run: The latest measurement for job_816 reports latency 273 ms.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_1_unknown",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_955\nSuccess criterion: The acceptable throughput is no smaller than 269 items/s.\nText: The latest measurement for other_985 reports throughput 263 items/s.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_11_success",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_876\nSuccess criterion: A run succeeds exactly when its result code equals 570.\nText: job_876 produced result code 570 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_1_failure",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_289\nSuccess criterion: A run succeeds exactly when its result code equals 561.\nText: job_289 produced result code 565 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_4_unknown",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_762\nSuccess criterion: A run succeeds exactly when its result code equals 116.\nText: The current outcome of job_762 has not been reported.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_0_unknown",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_308\nSuccess criterion: A run succeeds exactly when its result code equals 979.\nText: The current outcome of job_308 has not been reported.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_0_failure",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_308\nSuccess criterion: A run succeeds exactly when its result code equals 979.\nText: job_308 produced result code 985 in the current run. other_616 produced result code 979 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_1_failure",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_282\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_282 could not produce the requested artifact.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_5_unknown",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_232\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of other_598 could not produce the requested artifact.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_8_failure",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_377\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_377 could not produce the requested artifact.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_7_unknown",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_298\nSuccess criterion: The acceptable latency is no greater than 836 ms.\nText: Unresolved conflicting reports about the same current run of job_298: one says success, the other says failure.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_11_unknown",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_971\nSuccess criterion: The acceptable latency is no greater than 145 ms.\nText: Unresolved conflicting reports about the same current run of job_971: one says success, the other says failure.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_9_unknown",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_379\nSuccess criterion: A run succeeds exactly when its result code equals 132.\nText: other_545 produced result code 138 in the current run.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_3_failure",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_795\nSuccess criterion: The acceptable throughput is no smaller than 580 items/s.\nText: The latest measurement for job_795 reports throughput 577 items/s.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_1_success",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_289\nSuccess criterion: A run succeeds exactly when its result code equals 561.\nText: job_289 produced result code 561 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_8_failure",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_878\nSuccess criterion: The acceptable throughput is no smaller than 972 items/s.\nText: The latest measurement for job_878 reports throughput 965 items/s.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_9_unknown",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_104\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of other_663 could not produce the requested artifact.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_7_failure",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_700\nSuccess criterion: The acceptable throughput is no smaller than 747 items/s.\nText: The latest measurement for job_700 reports throughput 744 items/s.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_10_success",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_248\nSuccess criterion: The acceptable throughput is no smaller than 764 items/s.\nText: The latest measurement for job_248 reports throughput 769 items/s.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_11_failure",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_971\nSuccess criterion: The acceptable latency is no greater than 145 ms.\nText: The latest measurement for job_971 reports latency 152 ms.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_8_failure",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_738\nSuccess criterion: The acceptable latency is no greater than 164 ms.\nText: The latest measurement for job_738 reports latency 165 ms.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_9_failure",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_993\nSuccess criterion: A run succeeds exactly when its result code equals 377.\nText: other_872 produced result code 377 in the current run. job_993 produced result code 384 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_0_success",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_413\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_413 successfully produced the requested artifact.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_4_failure",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_242\nSuccess criterion: The acceptable throughput is no smaller than 954 items/s.\nText: The latest measurement for job_242 reports throughput 950 items/s.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_2_failure",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_430\nSuccess criterion: A run succeeds exactly when its result code equals 624.\nText: job_430 produced result code 632 in the current run. other_993 produced result code 624 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_11_failure",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_352\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_352 could not produce the requested artifact.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_5_success",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_232\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_232 successfully produced the requested artifact.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_7_unknown",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_639\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: Unresolved conflicting reports about the same current run of job_639: one says success, the other says failure.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_6_unknown",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_781\nSuccess criterion: A run succeeds exactly when its result code equals 977.\nText: Historical record only, not evidence about the current run: job_781 produced result code 986 in the current run.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_7_unknown",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_753\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: Unresolved conflicting reports about the same current run of job_753: one says success, the other says failure.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_3_success",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_784\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_784 successfully produced the requested artifact.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_0_failure",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_215\nSuccess criterion: A run succeeds exactly when its result code equals 579.\nText: job_215 produced result code 583 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_6_unknown",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_760\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: Historical record only, not evidence about the current run: The latest run of job_760 could not produce the requested artifact.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_3_success",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_796\nSuccess criterion: The acceptable latency is no greater than 149 ms.\nText: The latest measurement for job_796 reports latency 146 ms.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_4_success",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_762\nSuccess criterion: A run succeeds exactly when its result code equals 116.\nText: job_762 produced result code 116 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_1_failure",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_576\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_576. Its latest state is unavailable with recovery unsuccessful.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_8_unknown",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_738\nSuccess criterion: The acceptable latency is no greater than 164 ms.\nText: The current outcome of job_738 has not been reported.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_10_success",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_694\nSuccess criterion: A run succeeds exactly when its result code equals 897.\nText: job_694 produced result code 897 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_11_failure",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_876\nSuccess criterion: A run succeeds exactly when its result code equals 570.\nText: job_876 produced result code 577 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_6_unknown",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_609\nSuccess criterion: A run succeeds exactly when its result code equals 508.\nText: Historical record only, not evidence about the current run: job_609 produced result code 515 in the current run.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_5_unknown",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_428\nSuccess criterion: The acceptable latency is no greater than 484 ms.\nText: The latest measurement for other_141 reports latency 488 ms.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_6_unknown",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_657\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: Historical record only, not evidence about the current run: An earlier incident affected job_657. Its latest state is unavailable with recovery unsuccessful.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_1_unknown",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_576\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected other_491. Its latest state is unavailable with recovery unsuccessful.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_11_success",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_658\nSuccess criterion: A run succeeds exactly when its result code equals 526.\nText: other_922 produced result code 533 in the current run. job_658 produced result code 526 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_8_success",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_738\nSuccess criterion: The acceptable latency is no greater than 164 ms.\nText: The latest measurement for job_738 reports latency 163 ms.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_10_unknown",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_351\nSuccess criterion: The acceptable latency is no greater than 459 ms.\nText: Historical record only, not evidence about the current run: The latest measurement for job_351 reports latency 462 ms.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_11_success",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_847\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_847. Its latest state is restored and healthy.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_6_unknown",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_864\nSuccess criterion: The acceptable throughput is no smaller than 566 items/s.\nText: Historical record only, not evidence about the current run: The latest measurement for job_864 reports throughput 560 items/s.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_7_unknown",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_827\nSuccess criterion: A run succeeds exactly when its result code equals 720.\nText: Unresolved conflicting reports about the same current run of job_827: one says success, the other says failure.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_6_success",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_609\nSuccess criterion: A run succeeds exactly when its result code equals 508.\nText: job_609 produced result code 508 in the current run. other_258 produced result code 515 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_9_failure",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_379\nSuccess criterion: A run succeeds exactly when its result code equals 132.\nText: job_379 produced result code 138 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_8_success",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_727\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_727. Its latest state is restored and healthy.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_3_success",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_196\nSuccess criterion: A run succeeds exactly when its result code equals 277.\nText: job_196 produced result code 277 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_2_unknown",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_343\nSuccess criterion: A run succeeds exactly when its result code equals 271.\nText: Historical record only, not evidence about the current run: job_343 produced result code 280 in the current run.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_3_unknown",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_796\nSuccess criterion: The acceptable latency is no greater than 149 ms.\nText: Unresolved conflicting reports about the same current run of job_796: one says success, the other says failure.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_3_unknown",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_784\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: Unresolved conflicting reports about the same current run of job_784: one says success, the other says failure.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_9_unknown",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_715\nSuccess criterion: The acceptable throughput is no smaller than 751 items/s.\nText: The latest measurement for other_251 reports throughput 745 items/s.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_9_unknown",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_380\nSuccess criterion: The acceptable latency is no greater than 353 ms.\nText: The latest measurement for other_494 reports latency 361 ms.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_4_unknown",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_242\nSuccess criterion: The acceptable throughput is no smaller than 954 items/s.\nText: The current outcome of job_242 has not been reported.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_11_unknown",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_924\nSuccess criterion: The acceptable throughput is no smaller than 208 items/s.\nText: Unresolved conflicting reports about the same current run of job_924: one says success, the other says failure.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_4_success",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_875\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_875. Its latest state is restored and healthy.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_10_failure",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_248\nSuccess criterion: The acceptable throughput is no smaller than 764 items/s.\nText: The latest measurement for job_248 reports throughput 759 items/s.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_2_success",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_219\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_219. Its latest state is restored and healthy.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_5_success",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_661\nSuccess criterion: A run succeeds exactly when its result code equals 392.\nText: other_394 produced result code 396 in the current run. job_661 produced result code 392 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_9_unknown",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_993\nSuccess criterion: A run succeeds exactly when its result code equals 377.\nText: other_872 produced result code 384 in the current run.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_5_unknown",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_661\nSuccess criterion: A run succeeds exactly when its result code equals 392.\nText: other_394 produced result code 396 in the current run.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_2_failure",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_696\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_696 could not produce the requested artifact.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_11_unknown",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_658\nSuccess criterion: A run succeeds exactly when its result code equals 526.\nText: Unresolved conflicting reports about the same current run of job_658: one says success, the other says failure.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_1_unknown",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_430\nSuccess criterion: The acceptable latency is no greater than 832 ms.\nText: The latest measurement for other_220 reports latency 840 ms.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_0_success",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_399\nSuccess criterion: The acceptable throughput is no smaller than 849 items/s.\nText: The latest measurement for job_399 reports throughput 853 items/s.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_4_success",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_242\nSuccess criterion: The acceptable throughput is no smaller than 954 items/s.\nText: The latest measurement for job_242 reports throughput 958 items/s.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_9_failure",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_715\nSuccess criterion: The acceptable throughput is no smaller than 751 items/s.\nText: The latest measurement for job_715 reports throughput 745 items/s.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_5_success",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_428\nSuccess criterion: The acceptable latency is no greater than 484 ms.\nText: The latest measurement for job_428 reports latency 480 ms.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_throughput_3_unknown",
+    "suite": "sre_throughput",
+    "family": "throughput",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_795\nSuccess criterion: The acceptable throughput is no smaller than 580 items/s.\nText: Unresolved conflicting reports about the same current run of job_795: one says success, the other says failure.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_10_failure",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_351\nSuccess criterion: The acceptable latency is no greater than 459 ms.\nText: The latest measurement for job_351 reports latency 462 ms.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_6_failure",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_816\nSuccess criterion: The acceptable latency is no greater than 272 ms.\nText: The latest measurement for job_816 reports latency 273 ms.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_8_success",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_267\nSuccess criterion: A run succeeds exactly when its result code equals 555.\nText: job_267 produced result code 555 in the current run. other_580 produced result code 557 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_4_failure",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_382\nSuccess criterion: A run succeeds exactly when its result code equals 283.\nText: job_382 produced result code 288 in the current run. other_493 produced result code 283 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_4_failure",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_758\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_758 could not produce the requested artifact.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_8_unknown",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_485\nSuccess criterion: A run succeeds exactly when its result code equals 670.\nText: The current outcome of job_485 has not been reported.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_2_success",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_430\nSuccess criterion: A run succeeds exactly when its result code equals 624.\nText: job_430 produced result code 624 in the current run. other_993 produced result code 632 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_10_unknown",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_651\nSuccess criterion: A run succeeds exactly when its result code equals 207.\nText: Historical record only, not evidence about the current run: job_651 produced result code 211 in the current run.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_7_success",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_827\nSuccess criterion: A run succeeds exactly when its result code equals 720.\nText: job_827 produced result code 720 in the current run.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_4_failure",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_762\nSuccess criterion: A run succeeds exactly when its result code equals 116.\nText: job_762 produced result code 125 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_3_failure",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_796\nSuccess criterion: The acceptable latency is no greater than 149 ms.\nText: The latest measurement for job_796 reports latency 152 ms.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_code_5_failure",
+    "suite": "sre_code",
+    "family": "code",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_211\nSuccess criterion: A run succeeds exactly when its result code equals 995.\nText: job_211 produced result code 998 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_recovery_3_failure",
+    "suite": "sre_recovery",
+    "family": "recovery",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_437\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: An earlier incident affected job_437. Its latest state is unavailable with recovery unsuccessful.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_10_failure",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_231\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_231 could not produce the requested artifact.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_binding_5_failure",
+    "suite": "sre_binding",
+    "family": "binding",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_661\nSuccess criterion: A run succeeds exactly when its result code equals 392.\nText: other_394 produced result code 392 in the current run. job_661 produced result code 396 in the current run.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_1_unknown",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_282\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of other_659 could not produce the requested artifact.\nAnswer:",
+    "expected": "unknown",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_4_success",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_352\nSuccess criterion: The acceptable latency is no greater than 517 ms.\nText: The latest measurement for job_352 reports latency 515 ms.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_latency_0_failure",
+    "suite": "sre_latency",
+    "family": "latency",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_102\nSuccess criterion: The acceptable latency is no greater than 931 ms.\nText: The latest measurement for job_102 reports latency 934 ms.\nAnswer:",
+    "expected": "failure",
+    "kind": "state",
+    "split": "validation"
+  },
+  {
+    "id": "validation_completion_7_success",
+    "suite": "sre_completion",
+    "family": "completion",
+    "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_639\nSuccess criterion: Success requires the requested artifact to have been created; an explicit creation failure means failure.\nText: The latest run of job_639 successfully produced the requested artifact.\nAnswer:",
+    "expected": "success",
+    "kind": "state",
+    "split": "validation"
+  }
+]

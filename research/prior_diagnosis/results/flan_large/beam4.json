@@ -1,0 +1,38 @@
+[
+  {
+    "id": "p19_fail__original",
+    "expected": "FAIL",
+    "output_text": "failure",
+    "prediction": "FAIL"
+  },
+  {
+    "id": "p19_ok__original",
+    "expected": "OK",
+    "output_text": "success",
+    "prediction": "OK"
+  },
+  {
+    "id": "p20_fail__original",
+    "expected": "FAIL",
+    "output_text": "failure",
+    "prediction": "FAIL"
+  },
+  {
+    "id": "p20_ok__original",
+    "expected": "OK",
+    "output_text": "success",
+    "prediction": "OK"
+  },
+  {
+    "id": "p24_fail__original",
+    "expected": "FAIL",
+    "output_text": "failure",
+    "prediction": "FAIL"
+  },
+  {
+    "id": "p24_ok__original",
+    "expected": "OK",
+    "output_text": "success",
+    "prediction": "OK"
+  }
+]

@@ -1,0 +1,28 @@
+Loading weights:   0%|          | 0/134 [00:00<?, ?it/s]Loading weights:   7%|7         | 10/134 [00:00<00:01, 92.79it/s]Loading weights:  17%|#7        | 23/134 [00:00<00:00, 111.10it/s]Loading weights:  32%|###2      | 43/134 [00:00<00:00, 150.34it/s]Loading weights: 100%|##########| 134/134 [00:00<00:00, 362.21it/s]
+[transformers] [1mModernBertModel LOAD REPORT[0m from: A:\ProgressiveModelSRE-cache\models\modernbert
+Key               | Status     |  | 
+------------------+------------+--+-
+head.dense.weight | UNEXPECTED |  | 
+head.norm.weight  | UNEXPECTED |  | 
+decoder.bias      | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+FEATURES train 0 / 1080
+FEATURES train 160 / 1080
+FEATURES train 320 / 1080
+FEATURES train 480 / 1080
+FEATURES train 640 / 1080
+FEATURES train 800 / 1080
+FEATURES train 960 / 1080
+FEATURES validation 0 / 216
+FEATURES validation 160 / 216
+FEATURES test 0 / 432
+FEATURES test 160 / 432
+FEATURES test 320 / 432
+SAVED modernbert_head 0 {'n': 432, 'correct': 258, 'accuracy': 0.5972222222222222, 'success_n': 144, 'false_alarm': 4, 'failure_n': 144, 'missed_failure': 137, 'unknown_n': 144, 'unknown_correct': 111, 'invalid': 0, 'predictions': {'unknown': 111, 'success': 286, 'failure': 35}}
+SAVED modernbert_head 1 {'n': 432, 'correct': 240, 'accuracy': 0.5555555555555556, 'success_n': 144, 'false_alarm': 0, 'failure_n': 144, 'missed_failure': 144, 'unknown_n': 144, 'unknown_correct': 96, 'invalid': 0, 'predictions': {'unknown': 96, 'success': 336}}
+SAVED modernbert_head 2 {'n': 432, 'correct': 267, 'accuracy': 0.6180555555555556, 'success_n': 144, 'false_alarm': 0, 'failure_n': 144, 'missed_failure': 144, 'unknown_n': 144, 'unknown_correct': 123, 'invalid': 0, 'predictions': {'unknown': 123, 'success': 309}}
+SAVED modernbert_numeric 0 {'n': 432, 'correct': 268, 'accuracy': 0.6203703703703703, 'success_n': 144, 'false_alarm': 144, 'failure_n': 144, 'missed_failure': 0, 'unknown_n': 144, 'unknown_correct': 124, 'invalid': 0, 'predictions': {'unknown': 124, 'failure': 308}}
+SAVED modernbert_numeric 1 {'n': 432, 'correct': 306, 'accuracy': 0.7083333333333334, 'success_n': 144, 'false_alarm': 48, 'failure_n': 144, 'missed_failure': 56, 'unknown_n': 144, 'unknown_correct': 122, 'invalid': 0, 'predictions': {'unknown': 122, 'failure': 158, 'success': 152}}
+SAVED modernbert_numeric 2 {'n': 432, 'correct': 326, 'accuracy': 0.7546296296296297, 'success_n': 144, 'false_alarm': 40, 'failure_n': 144, 'missed_failure': 61, 'unknown_n': 144, 'unknown_correct': 139, 'invalid': 0, 'predictions': {'unknown': 139, 'failure': 128, 'success': 165}}

@@ -1,0 +1,98 @@
+{
+  "flan_large": {
+    "transformers_version": "5.22.2",
+    "architectures": [
+      "T5ForConditionalGeneration"
+    ],
+    "output_hidden_states": false,
+    "return_dict": true,
+    "dtype": null,
+    "chunk_size_feed_forward": 0,
+    "is_encoder_decoder": true,
+    "id2label": {
+      "0": "LABEL_0",
+      "1": "LABEL_1"
+    },
+    "label2id": {
+      "LABEL_0": 0,
+      "LABEL_1": 1
+    },
+    "problem_type": null,
+    "vocab_size": 32128,
+    "d_model": 1024,
+    "d_kv": 64,
+    "d_ff": 2816,
+    "num_layers": 24,
+    "num_decoder_layers": 24,
+    "num_heads": 16,
+    "relative_attention_num_buckets": 32,
+    "relative_attention_max_distance": 128,
+    "dropout_rate": 0.1,
+    "layer_norm_epsilon": 1e-06,
+    "initializer_factor": 1.0,
+    "feed_forward_proj": "gated-gelu",
+    "use_cache": true,
+    "pad_token_id": 0,
+    "eos_token_id": 1,
+    "classifier_dropout": 0.0,
+    "is_decoder": false,
+    "dense_act_fn": "gelu_new",
+    "is_gated_act": true,
+    "scale_decoder_outputs": false,
+    "tie_word_embeddings": true,
+    "_name_or_path": "/workspace/scratch/b0ed23bed8e9/t5_family/models/flan_large",
+    "decoder_start_token_id": 0,
+    "model_type": "t5",
+    "n_positions": 512,
+    "output_past": true,
+    "output_attentions": false
+  },
+  "lamini_flan_large": {
+    "transformers_version": "5.22.2",
+    "architectures": [
+      "T5ForConditionalGeneration"
+    ],
+    "output_hidden_states": false,
+    "return_dict": true,
+    "dtype": "float32",
+    "chunk_size_feed_forward": 0,
+    "is_encoder_decoder": true,
+    "id2label": {
+      "0": "LABEL_0",
+      "1": "LABEL_1"
+    },
+    "label2id": {
+      "LABEL_0": 0,
+      "LABEL_1": 1
+    },
+    "problem_type": null,
+    "vocab_size": 32128,
+    "d_model": 1024,
+    "d_kv": 64,
+    "d_ff": 2816,
+    "num_layers": 24,
+    "num_decoder_layers": 24,
+    "num_heads": 16,
+    "relative_attention_num_buckets": 32,
+    "relative_attention_max_distance": 128,
+    "dropout_rate": 0.1,
+    "layer_norm_epsilon": 1e-06,
+    "initializer_factor": 1.0,
+    "feed_forward_proj": "gated-gelu",
+    "use_cache": true,
+    "pad_token_id": 0,
+    "eos_token_id": 1,
+    "classifier_dropout": 0.0,
+    "is_decoder": false,
+    "dense_act_fn": "gelu_new",
+    "is_gated_act": true,
+    "scale_decoder_outputs": false,
+    "tie_word_embeddings": true,
+    "_name_or_path": "/workspace/scratch/b0ed23bed8e9/t5_family/models/lamini_flan_large",
+    "decoder_start_token_id": 0,
+    "model_type": "t5",
+    "n_positions": 512,
+    "output_past": true,
+    "output_attentions": false
+  }
+}

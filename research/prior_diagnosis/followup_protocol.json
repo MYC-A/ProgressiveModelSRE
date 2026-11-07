@@ -1,0 +1,13 @@
+{
+  "frozen_before_followup_outputs": true,
+  "reason": "After main LaMini outputs: check whether the 6/6 domain yes/no result transfers to value counterfactuals; repeat pure equality one prompt per call to exclude batch dependence",
+  "model": "lamini_flan_large",
+  "n": 34,
+  "single_equality": true,
+  "counterfactual_rule_batch": 8,
+  "dtype": "FP32",
+  "max_new_tokens": 24,
+  "do_sample": false,
+  "inputs_sha256": "7f23b9b9a1a5ddbc442e172bc9e85b2090094b64cbdf8b1cccea0cfb7f6ecb3f",
+  "limitation": "Adaptive diagnostic follow-up, not an independent benchmark or a selected production prompt"
+}

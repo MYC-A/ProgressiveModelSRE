@@ -1,0 +1,10 @@
+LOADED 5.6
+INFER baseline 56 0 budget 8 cache True think False
+SAVED panel_baseline {'n': 56, 'correct': 24, 'accuracy': 0.42857142857142855, 'success_n': 15, 'false_alarm': 3, 'failure_n': 17, 'missed_failure': 5, 'unknown_n': 24, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'success': 17, 'failure': 39}}
+INFER baseline 17 0 budget 8 cache True think False
+SAVED control_batch1 {'n': 17, 'correct': 6, 'accuracy': 0.35294117647058826, 'success_n': 6, 'false_alarm': 3, 'failure_n': 8, 'missed_failure': 5, 'unknown_n': 3, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'success': 8, 'failure': 9}}
+INFER baseline 17 0 budget 64 cache True think False
+SAVED control_long64 {'n': 17, 'correct': 6, 'accuracy': 0.35294117647058826, 'success_n': 6, 'false_alarm': 3, 'failure_n': 8, 'missed_failure': 5, 'unknown_n': 3, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'success': 8, 'failure': 9}}
+INFER baseline 17 0 budget 8 cache False think False
+SAVED control_no_cache {'n': 17, 'correct': 6, 'accuracy': 0.35294117647058826, 'success_n': 6, 'false_alarm': 3, 'failure_n': 8, 'missed_failure': 5, 'unknown_n': 3, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'success': 8, 'failure': 9}}
+INFER baseline 48 0 budget 8 cache True think False

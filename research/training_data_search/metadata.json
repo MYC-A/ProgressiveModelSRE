@@ -1,0 +1,85 @@
+{
+  "_id": "64311c3cf2355217ea42dc4c",
+  "id": "MBZUAI/LaMini-instruction",
+  "author": "MBZUAI",
+  "sha": "7372b3c04dd7a09e4ca5ae572557d843cb4b5482",
+  "lastModified": "2023-04-30T11:01:41.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "language:en",
+    "license:cc-by-nc-4.0",
+    "size_categories:1M<n<10M",
+    "format:parquet",
+    "modality:text",
+    "library:datasets",
+    "library:dask",
+    "library:mlcroissant",
+    "library:polars",
+    "arxiv:2304.14402",
+    "region:us"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tDataset Card for \"LaMini-Instruction\"\n\t\n\n\n    \n\n\n Minghao Wu, Abdul Waheed, Chiyu Zhang,  Muhammad Abdul-Mageed, Alham Fikri Aji,\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\nWe distill the knowledge from large language models by performing sentence/offline distillation (Kim and Rush, 2016). We generate a total of 2.58M pairs of instructions and responses using gpt-3.5-turbo based on several existing resources of prompts, including self-instruct (Wang et al., 2022), P3 (Sanh et al., 2022)\u2026 See the full description on the dataset page: https://huggingface.co/datasets/MBZUAI/LaMini-instruction.",
+  "downloads": 489,
+  "likes": 148,
+  "cardData": {
+    "license": "cc-by-nc-4.0",
+    "task_categories": [
+      "text2text-generation"
+    ],
+    "language": [
+      "en"
+    ],
+    "size_categories": [
+      "1M<n<10M"
+    ],
+    "dataset_info": {
+      "features": [
+        {
+          "name": "instruction",
+          "dtype": "string"
+        },
+        {
+          "name": "response",
+          "dtype": "string"
+        },
+        {
+          "name": "instruction_source",
+          "dtype": "string"
+        }
+      ],
+      "splits": [
+        {
+          "name": "train",
+          "num_bytes": 1162632572,
+          "num_examples": 2585615
+        }
+      ],
+      "download_size": 704293718,
+      "dataset_size": 1162632572
+    }
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "data/train-00000-of-00003-929c6c373c0473cd.parquet"
+    },
+    {
+      "rfilename": "data/train-00001-of-00003-1f823c156c353d51.parquet"
+    },
+    {
+      "rfilename": "data/train-00002-of-00003-752db5e1576f5089.parquet"
+    },
+    {
+      "rfilename": "dataset_infos.json"
+    }
+  ],
+  "createdAt": "2023-04-08T07:48:12.000Z",
+  "usedStorage": 11075328090
+}

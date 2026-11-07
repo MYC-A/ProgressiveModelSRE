@@ -1,0 +1,158 @@
+[
+  {
+    "id": "p19_fail__original",
+    "candidate_logp": {
+      "Success.": -0.8099794983863831,
+      "Failure.": -1.8205734491348267,
+      "Unknown.": -4.512485027313232
+    },
+    "relative_mass_among_three_strings": {
+      "Success.": 0.7201164364814758,
+      "Failure.": 0.26212435960769653,
+      "Unknown.": 0.017759263515472412
+    }
+  },
+  {
+    "id": "p19_fail__compact_fields",
+    "candidate_logp": {
+      "Success.": -1.1683223247528076,
+      "Failure.": -2.1209263801574707,
+      "Unknown.": -5.184213161468506
+    },
+    "relative_mass_among_three_strings": {
+      "Success.": 0.7123714089393616,
+      "Failure.": 0.2747867703437805,
+      "Unknown.": 0.012841837480664253
+    }
+  },
+  {
+    "id": "p19_ok__original",
+    "candidate_logp": {
+      "Success.": -0.31162211298942566,
+      "Failure.": -3.0968096256256104,
+      "Unknown.": -5.788880348205566
+    },
+    "relative_mass_among_three_strings": {
+      "Success.": 0.9381757974624634,
+      "Failure.": 0.057901881635189056,
+      "Unknown.": 0.003922303672879934
+    }
+  },
+  {
+    "id": "p19_ok__compact_fields",
+    "candidate_logp": {
+      "Success.": -0.8722372651100159,
+      "Failure.": -4.733124732971191,
+      "Unknown.": -6.746255397796631
+    },
+    "relative_mass_among_three_strings": {
+      "Success.": 0.9766952395439148,
+      "Failure.": 0.020558759570121765,
+      "Unknown.": 0.0027460306882858276
+    }
+  },
+  {
+    "id": "p20_fail__original",
+    "candidate_logp": {
+      "Success.": -0.4692765772342682,
+      "Failure.": -5.157217979431152,
+      "Unknown.": -4.8498969078063965
+    },
+    "relative_mass_among_three_strings": {
+      "Success.": 0.9787387251853943,
+      "Failure.": 0.00900989305227995,
+      "Unknown.": 0.012251448817551136
+    }
+  },
+  {
+    "id": "p20_fail__compact_fields",
+    "candidate_logp": {
+      "Success.": -2.7083847522735596,
+      "Failure.": -2.890451669692993,
+      "Unknown.": -4.545212745666504
+    },
+    "relative_mass_among_three_strings": {
+      "Success.": 0.5017895102500916,
+      "Failure.": 0.4182644188404083,
+      "Unknown.": 0.0799461081624031
+    }
+  },
+  {
+    "id": "p20_ok__original",
+    "candidate_logp": {
+      "Success.": -0.37831565737724304,
+      "Failure.": -5.714256286621094,
+      "Unknown.": -5.465269565582275
+    },
+    "relative_mass_among_three_strings": {
+      "Success.": 0.9891273379325867,
+      "Failure.": 0.004763021133840084,
+      "Unknown.": 0.006109646987169981
+    }
+  },
+  {
+    "id": "p20_ok__compact_fields",
+    "candidate_logp": {
+      "Success.": -2.1563446521759033,
+      "Failure.": -3.2512400150299072,
+      "Unknown.": -4.7800421714782715
+    },
+    "relative_mass_among_three_strings": {
+      "Success.": 0.7106770873069763,
+      "Failure.": 0.23777450621128082,
+      "Unknown.": 0.051548369228839874
+    }
+  },
+  {
+    "id": "p24_fail__original",
+    "candidate_logp": {
+      "Success.": -0.9076219201087952,
+      "Failure.": -3.0183346271514893,
+      "Unknown.": -4.055562973022461
+    },
+    "relative_mass_among_three_strings": {
+      "Success.": 0.8590385913848877,
+      "Failure.": 0.10407388210296631,
+      "Unknown.": 0.03688750043511391
+    }
+  },
+  {
+    "id": "p24_fail__compact_fields",
+    "candidate_logp": {
+      "Success.": -1.9992018938064575,
+      "Failure.": -1.4547606706619263,
+      "Unknown.": -5.10596227645874
+    },
+    "relative_mass_among_three_strings": {
+      "Success.": 0.36122068762779236,
+      "Failure.": 0.6226162314414978,
+      "Unknown.": 0.016163062304258347
+    }
+  },
+  {
+    "id": "p24_ok__original",
+    "candidate_logp": {
+      "Success.": -0.3044120967388153,
+      "Failure.": -8.420737266540527,
+      "Unknown.": -6.21959114074707
+    },
+    "relative_mass_among_three_strings": {
+      "Success.": 0.9970121383666992,
+      "Failure.": 0.00029773174901492894,
+      "Unknown.": 0.002690114313736558
+    }
+  },
+  {
+    "id": "p24_ok__compact_fields",
+    "candidate_logp": {
+      "Success.": -0.7154515981674194,
+      "Failure.": -4.090662956237793,
+      "Unknown.": -6.547508716583252
+    },
+    "relative_mass_among_three_strings": {
+      "Success.": 0.9641872048377991,
+      "Failure.": 0.03298570215702057,
+      "Unknown.": 0.002827035030350089
+    }
+  }
+]

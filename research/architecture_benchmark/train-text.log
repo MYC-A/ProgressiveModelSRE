@@ -1,0 +1,147 @@
+mean 0 {'epoch': 1, 'validation_accuracy': 0.3333333432674408} 0.2
+mean 0 {'epoch': 2, 'validation_accuracy': 0.48148149251937866} 0.2
+mean 0 {'epoch': 3, 'validation_accuracy': 0.5277777910232544} 0.3
+mean 0 {'epoch': 4, 'validation_accuracy': 0.5648148059844971} 0.3
+mean 0 {'epoch': 5, 'validation_accuracy': 0.5787037014961243} 0.4
+mean 0 {'epoch': 6, 'validation_accuracy': 0.6064814925193787} 0.5
+mean 0 {'epoch': 7, 'validation_accuracy': 0.6388888955116272} 0.5
+mean 0 {'epoch': 8, 'validation_accuracy': 0.6388888955116272} 0.6
+mean 0 {'epoch': 9, 'validation_accuracy': 0.5972222089767456} 0.6
+mean 0 {'epoch': 10, 'validation_accuracy': 0.6620370149612427} 0.7
+mean 0 {'epoch': 11, 'validation_accuracy': 0.6018518805503845} 0.7
+mean 0 {'epoch': 12, 'validation_accuracy': 0.5972222089767456} 0.8
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\text_mean_0.json {'n': 432, 'correct': 254, 'accuracy': 0.5879629629629629, 'success_n': 144, 'false_alarm': 25, 'failure_n': 144, 'missed_failure': 119, 'unknown_n': 144, 'unknown_correct': 140, 'invalid': 0, 'predictions': {'unknown': 200, 'failure': 51, 'success': 181}}
+mean 1 {'epoch': 1, 'validation_accuracy': 0.33796295523643494} 0.1
+mean 1 {'epoch': 2, 'validation_accuracy': 0.4166666567325592} 0.1
+mean 1 {'epoch': 3, 'validation_accuracy': 0.4166666567325592} 0.2
+mean 1 {'epoch': 4, 'validation_accuracy': 0.5648148059844971} 0.2
+mean 1 {'epoch': 5, 'validation_accuracy': 0.5462962985038757} 0.3
+mean 1 {'epoch': 6, 'validation_accuracy': 0.5787037014961243} 0.3
+mean 1 {'epoch': 7, 'validation_accuracy': 0.5833333134651184} 0.4
+mean 1 {'epoch': 8, 'validation_accuracy': 0.5462962985038757} 0.5
+mean 1 {'epoch': 9, 'validation_accuracy': 0.5555555820465088} 0.5
+mean 1 {'epoch': 10, 'validation_accuracy': 0.5833333134651184} 0.6
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\text_mean_1.json {'n': 432, 'correct': 274, 'accuracy': 0.6342592592592593, 'success_n': 144, 'false_alarm': 134, 'failure_n': 144, 'missed_failure': 9, 'unknown_n': 144, 'unknown_correct': 131, 'invalid': 0, 'predictions': {'unknown': 134, 'failure': 282, 'success': 16}}
+mean 2 {'epoch': 1, 'validation_accuracy': 0.33796295523643494} 0.1
+mean 2 {'epoch': 2, 'validation_accuracy': 0.5138888955116272} 0.1
+mean 2 {'epoch': 3, 'validation_accuracy': 0.5509259104728699} 0.2
+mean 2 {'epoch': 4, 'validation_accuracy': 0.5787037014961243} 0.2
+mean 2 {'epoch': 5, 'validation_accuracy': 0.6111111044883728} 0.3
+mean 2 {'epoch': 6, 'validation_accuracy': 0.5879629850387573} 0.4
+mean 2 {'epoch': 7, 'validation_accuracy': 0.5972222089767456} 0.4
+mean 2 {'epoch': 8, 'validation_accuracy': 0.6574074029922485} 0.5
+mean 2 {'epoch': 9, 'validation_accuracy': 0.6157407164573669} 0.5
+mean 2 {'epoch': 10, 'validation_accuracy': 0.6111111044883728} 0.6
+mean 2 {'epoch': 11, 'validation_accuracy': 0.6157407164573669} 0.6
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\text_mean_2.json {'n': 432, 'correct': 297, 'accuracy': 0.6875, 'success_n': 144, 'false_alarm': 12, 'failure_n': 144, 'missed_failure': 101, 'unknown_n': 144, 'unknown_correct': 127, 'invalid': 0, 'predictions': {'unknown': 135, 'failure': 67, 'success': 230}}
+gru 0 {'epoch': 1, 'validation_accuracy': 0.5046296119689941} 0.9
+gru 0 {'epoch': 2, 'validation_accuracy': 0.5231481194496155} 1.8
+gru 0 {'epoch': 3, 'validation_accuracy': 0.6712962985038757} 2.6
+gru 0 {'epoch': 4, 'validation_accuracy': 0.6111111044883728} 3.5
+gru 0 {'epoch': 5, 'validation_accuracy': 0.6481481194496155} 4.4
+gru 0 {'epoch': 6, 'validation_accuracy': 0.6805555820465088} 5.3
+gru 0 {'epoch': 7, 'validation_accuracy': 0.6851851940155029} 6.2
+gru 0 {'epoch': 8, 'validation_accuracy': 0.6712962985038757} 7.1
+gru 0 {'epoch': 9, 'validation_accuracy': 0.6157407164573669} 8.0
+gru 0 {'epoch': 10, 'validation_accuracy': 0.6712962985038757} 9.1
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\text_gru_0.json {'n': 432, 'correct': 261, 'accuracy': 0.6041666666666666, 'success_n': 144, 'false_alarm': 77, 'failure_n': 144, 'missed_failure': 83, 'unknown_n': 144, 'unknown_correct': 134, 'invalid': 0, 'predictions': {'unknown': 162, 'failure': 140, 'success': 130}}
+gru 1 {'epoch': 1, 'validation_accuracy': 0.5} 0.9
+gru 1 {'epoch': 2, 'validation_accuracy': 0.48148149251937866} 1.9
+gru 1 {'epoch': 3, 'validation_accuracy': 0.5601851940155029} 2.8
+gru 1 {'epoch': 4, 'validation_accuracy': 0.48148149251937866} 3.7
+gru 1 {'epoch': 5, 'validation_accuracy': 0.49537035822868347} 4.5
+gru 1 {'epoch': 6, 'validation_accuracy': 0.5138888955116272} 5.4
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\text_gru_1.json {'n': 432, 'correct': 254, 'accuracy': 0.5879629629629629, 'success_n': 144, 'false_alarm': 60, 'failure_n': 144, 'missed_failure': 59, 'unknown_n': 144, 'unknown_correct': 143, 'invalid': 0, 'predictions': {'unknown': 237, 'failure': 146, 'success': 49}}
+gru 2 {'epoch': 1, 'validation_accuracy': 0.5370370149612427} 0.9
+gru 2 {'epoch': 2, 'validation_accuracy': 0.6620370149612427} 1.8
+gru 2 {'epoch': 3, 'validation_accuracy': 0.7268518805503845} 2.7
+gru 2 {'epoch': 4, 'validation_accuracy': 0.75} 3.6
+gru 2 {'epoch': 5, 'validation_accuracy': 0.75} 4.5
+gru 2 {'epoch': 6, 'validation_accuracy': 0.7361111044883728} 5.5
+gru 2 {'epoch': 7, 'validation_accuracy': 0.7546296119689941} 6.4
+gru 2 {'epoch': 8, 'validation_accuracy': 0.7546296119689941} 7.3
+gru 2 {'epoch': 9, 'validation_accuracy': 0.6157407164573669} 8.2
+gru 2 {'epoch': 10, 'validation_accuracy': 0.6620370149612427} 9.1
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\text_gru_2.json {'n': 432, 'correct': 245, 'accuracy': 0.5671296296296297, 'success_n': 144, 'false_alarm': 93, 'failure_n': 144, 'missed_failure': 69, 'unknown_n': 144, 'unknown_correct': 144, 'invalid': 0, 'predictions': {'unknown': 219, 'failure': 168, 'success': 45}}
+lstm 0 {'epoch': 1, 'validation_accuracy': 0.5} 0.3
+lstm 0 {'epoch': 2, 'validation_accuracy': 0.6157407164573669} 0.5
+lstm 0 {'epoch': 3, 'validation_accuracy': 0.5787037014961243} 0.8
+lstm 0 {'epoch': 4, 'validation_accuracy': 0.6620370149612427} 1.0
+lstm 0 {'epoch': 5, 'validation_accuracy': 0.6435185074806213} 1.2
+lstm 0 {'epoch': 6, 'validation_accuracy': 0.6574074029922485} 1.5
+lstm 0 {'epoch': 7, 'validation_accuracy': 0.6527777910232544} 1.7
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\text_lstm_0.json {'n': 432, 'correct': 245, 'accuracy': 0.5671296296296297, 'success_n': 144, 'false_alarm': 113, 'failure_n': 144, 'missed_failure': 33, 'unknown_n': 144, 'unknown_correct': 127, 'invalid': 0, 'predictions': {'failure': 241, 'unknown': 176, 'success': 15}}
+lstm 1 {'epoch': 1, 'validation_accuracy': 0.5231481194496155} 0.2
+lstm 1 {'epoch': 2, 'validation_accuracy': 0.5833333134651184} 0.5
+lstm 1 {'epoch': 3, 'validation_accuracy': 0.5416666865348816} 0.7
+lstm 1 {'epoch': 4, 'validation_accuracy': 0.6018518805503845} 1.0
+lstm 1 {'epoch': 5, 'validation_accuracy': 0.6064814925193787} 1.2
+lstm 1 {'epoch': 6, 'validation_accuracy': 0.6342592835426331} 2.1
+lstm 1 {'epoch': 7, 'validation_accuracy': 0.6574074029922485} 2.4
+lstm 1 {'epoch': 8, 'validation_accuracy': 0.6203703880310059} 3.2
+lstm 1 {'epoch': 9, 'validation_accuracy': 0.6851851940155029} 3.4
+lstm 1 {'epoch': 10, 'validation_accuracy': 0.6944444179534912} 3.7
+lstm 1 {'epoch': 11, 'validation_accuracy': 0.6064814925193787} 4.0
+lstm 1 {'epoch': 12, 'validation_accuracy': 0.6157407164573669} 4.2
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\text_lstm_1.json {'n': 432, 'correct': 231, 'accuracy': 0.5347222222222222, 'success_n': 144, 'false_alarm': 60, 'failure_n': 144, 'missed_failure': 88, 'unknown_n': 144, 'unknown_correct': 119, 'invalid': 0, 'predictions': {'success': 136, 'unknown': 175, 'failure': 121}}
+lstm 2 {'epoch': 1, 'validation_accuracy': 0.5509259104728699} 0.2
+lstm 2 {'epoch': 2, 'validation_accuracy': 0.625} 0.5
+lstm 2 {'epoch': 3, 'validation_accuracy': 0.6388888955116272} 0.7
+lstm 2 {'epoch': 4, 'validation_accuracy': 0.6203703880310059} 1.0
+lstm 2 {'epoch': 5, 'validation_accuracy': 0.6203703880310059} 1.2
+lstm 2 {'epoch': 6, 'validation_accuracy': 0.625} 1.5
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\text_lstm_2.json {'n': 432, 'correct': 235, 'accuracy': 0.5439814814814815, 'success_n': 144, 'false_alarm': 109, 'failure_n': 144, 'missed_failure': 56, 'unknown_n': 144, 'unknown_correct': 137, 'invalid': 0, 'predictions': {'failure': 204, 'unknown': 209, 'success': 19}}
+tcn 0 {'epoch': 1, 'validation_accuracy': 0.5046296119689941} 0.7
+tcn 0 {'epoch': 2, 'validation_accuracy': 0.49537035822868347} 1.4
+tcn 0 {'epoch': 3, 'validation_accuracy': 0.5138888955116272} 2.0
+tcn 0 {'epoch': 4, 'validation_accuracy': 0.43981480598449707} 2.7
+tcn 0 {'epoch': 5, 'validation_accuracy': 0.5046296119689941} 3.4
+tcn 0 {'epoch': 6, 'validation_accuracy': 0.49074074625968933} 4.1
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\text_tcn_0.json {'n': 432, 'correct': 150, 'accuracy': 0.3472222222222222, 'success_n': 144, 'false_alarm': 34, 'failure_n': 144, 'missed_failure': 117, 'unknown_n': 144, 'unknown_correct': 112, 'invalid': 0, 'predictions': {'unknown': 309, 'success': 39, 'failure': 84}}
+tcn 1 {'epoch': 1, 'validation_accuracy': 0.40740740299224854} 0.7
+tcn 1 {'epoch': 2, 'validation_accuracy': 0.49537035822868347} 1.3
+tcn 1 {'epoch': 3, 'validation_accuracy': 0.49537035822868347} 2.0
+tcn 1 {'epoch': 4, 'validation_accuracy': 0.4861111044883728} 2.7
+tcn 1 {'epoch': 5, 'validation_accuracy': 0.5509259104728699} 3.4
+tcn 1 {'epoch': 6, 'validation_accuracy': 0.46759259700775146} 4.1
+tcn 1 {'epoch': 7, 'validation_accuracy': 0.5277777910232544} 4.8
+tcn 1 {'epoch': 8, 'validation_accuracy': 0.5} 5.5
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\text_tcn_1.json {'n': 432, 'correct': 173, 'accuracy': 0.40046296296296297, 'success_n': 144, 'false_alarm': 85, 'failure_n': 144, 'missed_failure': 93, 'unknown_n': 144, 'unknown_correct': 116, 'invalid': 0, 'predictions': {'unknown': 229, 'success': 51, 'failure': 152}}
+tcn 2 {'epoch': 1, 'validation_accuracy': 0.4305555522441864} 0.7
+tcn 2 {'epoch': 2, 'validation_accuracy': 0.39814814925193787} 1.4
+tcn 2 {'epoch': 3, 'validation_accuracy': 0.48148149251937866} 2.0
+tcn 2 {'epoch': 4, 'validation_accuracy': 0.45370370149612427} 2.7
+tcn 2 {'epoch': 5, 'validation_accuracy': 0.5138888955116272} 3.4
+tcn 2 {'epoch': 6, 'validation_accuracy': 0.5324074029922485} 4.1
+tcn 2 {'epoch': 7, 'validation_accuracy': 0.5138888955116272} 4.8
+tcn 2 {'epoch': 8, 'validation_accuracy': 0.43981480598449707} 5.5
+tcn 2 {'epoch': 9, 'validation_accuracy': 0.5277777910232544} 6.1
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\text_tcn_2.json {'n': 432, 'correct': 215, 'accuracy': 0.4976851851851852, 'success_n': 144, 'false_alarm': 46, 'failure_n': 144, 'missed_failure': 78, 'unknown_n': 144, 'unknown_correct': 94, 'invalid': 0, 'predictions': {'unknown': 156, 'success': 150, 'failure': 126}}
+ssd 0 {'epoch': 1, 'validation_accuracy': 0.45370370149612427} 1.3
+ssd 0 {'epoch': 2, 'validation_accuracy': 0.5740740895271301} 2.6
+ssd 0 {'epoch': 3, 'validation_accuracy': 0.6064814925193787} 3.9
+ssd 0 {'epoch': 4, 'validation_accuracy': 0.6018518805503845} 5.2
+ssd 0 {'epoch': 5, 'validation_accuracy': 0.625} 6.4
+ssd 0 {'epoch': 6, 'validation_accuracy': 0.6157407164573669} 7.8
+ssd 0 {'epoch': 7, 'validation_accuracy': 0.6527777910232544} 9.0
+ssd 0 {'epoch': 8, 'validation_accuracy': 0.6435185074806213} 10.4
+ssd 0 {'epoch': 9, 'validation_accuracy': 0.6481481194496155} 11.7
+ssd 0 {'epoch': 10, 'validation_accuracy': 0.6527777910232544} 13.2
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\text_ssd_0.json {'n': 432, 'correct': 202, 'accuracy': 0.4675925925925926, 'success_n': 144, 'false_alarm': 39, 'failure_n': 144, 'missed_failure': 86, 'unknown_n': 144, 'unknown_correct': 144, 'invalid': 0, 'predictions': {'unknown': 335, 'failure': 97}}
+ssd 1 {'epoch': 1, 'validation_accuracy': 0.5092592835426331} 1.3
+ssd 1 {'epoch': 2, 'validation_accuracy': 0.6018518805503845} 2.6
+ssd 1 {'epoch': 3, 'validation_accuracy': 0.5833333134651184} 3.9
+ssd 1 {'epoch': 4, 'validation_accuracy': 0.6481481194496155} 5.3
+ssd 1 {'epoch': 5, 'validation_accuracy': 0.6435185074806213} 6.6
+ssd 1 {'epoch': 6, 'validation_accuracy': 0.6388888955116272} 7.9
+ssd 1 {'epoch': 7, 'validation_accuracy': 0.6388888955116272} 9.2
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\text_ssd_1.json {'n': 432, 'correct': 214, 'accuracy': 0.49537037037037035, 'success_n': 144, 'false_alarm': 45, 'failure_n': 144, 'missed_failure': 81, 'unknown_n': 144, 'unknown_correct': 144, 'invalid': 0, 'predictions': {'unknown': 308, 'failure': 108, 'success': 16}}
+ssd 2 {'epoch': 1, 'validation_accuracy': 0.49537035822868347} 1.4
+ssd 2 {'epoch': 2, 'validation_accuracy': 0.5138888955116272} 2.7
+ssd 2 {'epoch': 3, 'validation_accuracy': 0.49074074625968933} 3.9
+ssd 2 {'epoch': 4, 'validation_accuracy': 0.42592594027519226} 5.2
+ssd 2 {'epoch': 5, 'validation_accuracy': 0.5231481194496155} 6.5
+ssd 2 {'epoch': 6, 'validation_accuracy': 0.5185185074806213} 8.1
+ssd 2 {'epoch': 7, 'validation_accuracy': 0.47685185074806213} 9.5
+ssd 2 {'epoch': 8, 'validation_accuracy': 0.49074074625968933} 10.9
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\text_ssd_2.json {'n': 432, 'correct': 148, 'accuracy': 0.3425925925925926, 'success_n': 144, 'false_alarm': 0, 'failure_n': 144, 'missed_failure': 144, 'unknown_n': 144, 'unknown_correct': 144, 'invalid': 0, 'predictions': {'unknown': 425, 'success': 7}}

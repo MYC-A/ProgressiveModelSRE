@@ -1,0 +1,39 @@
+{
+  "frozen_before_candidate_outputs": true,
+  "seed": 177,
+  "files": {
+    "train.json": {
+      "n": 1080,
+      "sha256": "92374abc29f173b0ddb628205ba58acb1145f29ceb2fb6aeecf6bd7c8de36b89"
+    },
+    "validation.json": {
+      "n": 216,
+      "sha256": "7d1972dac1f008d518d717968d65ae3338436aa75dcb477c936abbe2bf37a9e5"
+    },
+    "test.json": {
+      "n": 432,
+      "sha256": "9f2b545cfcd6b4a6c435e21daaec041519b2d8f561fc455dd5c97f7dcc2cd8bf"
+    },
+    "diagnostic.json": {
+      "n": 122,
+      "sha256": "081ce3caf75c0348fe15b410b93508b6a9f9bcb14ba8edd98b36f9bb2fb72c99"
+    }
+  },
+  "device": "CPU",
+  "threads": 4,
+  "labels": [
+    "success",
+    "failure",
+    "unknown"
+  ],
+  "selection": "Validation-only model selection; numeric ranges and success/failure evidence wording differ by split; some criterion and unknown patterns are shared.",
+  "caveats": [
+    "Synthetic pilot, not production evidence",
+    "No full previous 120-case corpus available locally",
+    "BGL is a separate binary alert task; it has no ground-truth unknown class",
+    "Pretraining differs across ready-made models; no isolated architecture superiority claim"
+  ],
+  "clarifications": [
+    "Clarified after initial pilot outputs: shared instruction/unknown templates were not held out. Input bytes and hashes are unchanged."
+  ]
+}

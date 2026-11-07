@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-07",
+  "recorded_after_followup": true,
+  "adaptive_not_preregistered": true,
+  "probe_set_reused_without_changes": true,
+  "probes_sha256": "0c6d512c44fb6e513778b4c048220e69d94d2521f7f5ed5d7f0b8c18d4f226d7",
+  "head_followup": {
+    "selection": "Two heads with largest bidirectional numeric attention in the baseline 200=200 trace",
+    "actions": "Zero head outputs before attention output projection, individually and jointly",
+    "selection_data": "trace_200_200.json"
+  },
+  "position_followup": {
+    "selection": "Encoder FF21 and FF23 after baseline gradient and group-ablation measurements",
+    "mask": "Tokenizer pieces consisting of digits, or complement; not an exact semantic numeric-span parser",
+    "actions": [
+      [
+        [
+          21,
+          "numbers"
+        ]
+      ],
+      [
+        [
+          21,
+          "other"
+        ]
+      ],
+      [
+        [
+          21,
+          "numbers"
+        ],
+        [
+          23,
+          "all"
+        ]
+      ],
+      [
+        [
+          21,
+          "all"
+        ],
+        [
+          23,
+          "numbers"
+        ]
+      ],
+      [
+        [
+          21,
+          "all"
+        ],
+        [
+          23,
+          "other"
+        ]
+      ]
+    ]
+  },
+  "limitation": "Adaptive diagnostic interventions; scores are not an independently selected production repair"
+}

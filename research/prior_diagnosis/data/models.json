@@ -1,0 +1,45 @@
+[
+  {
+    "alias": "flan_large",
+    "repo": "google/flan-t5-large",
+    "revision": "0613663d0d48ea86ba8cb3d7a44f0f65dc596a2a",
+    "gated": false,
+    "access": "config accessible",
+    "params": 783150080,
+    "files": [
+      ".gitattributes",
+      "README.md",
+      "config.json",
+      "flax_model.msgpack",
+      "generation_config.json",
+      "model.safetensors",
+      "pytorch_model.bin",
+      "special_tokens_map.json",
+      "spiece.model",
+      "tf_model.h5",
+      "tokenizer.json",
+      "tokenizer_config.json"
+    ],
+    "local_path": "/workspace/scratch/b0ed23bed8e9/t5_family/models/flan_large"
+  },
+  {
+    "alias": "lamini_flan_large",
+    "repo": "MBZUAI/LaMini-Flan-T5-783M",
+    "revision": "7a1ff0207cbe75d6a1fcbcc7077ee0b6808ecf9f",
+    "gated": false,
+    "access": "config accessible",
+    "params": null,
+    "files": [
+      ".gitattributes",
+      "README.md",
+      "config.json",
+      "generation_config.json",
+      "pytorch_model.bin",
+      "special_tokens_map.json",
+      "spiece.model",
+      "tokenizer.json",
+      "tokenizer_config.json"
+    ],
+    "local_path": "/workspace/scratch/b0ed23bed8e9/t5_family/models/lamini_flan_large"
+  }
+]

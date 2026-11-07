@@ -1,0 +1,9653 @@
+[
+  {
+    "id": "p19_fail__original",
+    "group": "original",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nSuccess criterion: The HTTP response status matches the expected status.\nFailure criterion: The HTTP response status is different from the expected status.\nText: Production GET /checkout returned HTTP 503. The expected response status is HTTP 200.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p19_fail",
+    "observed": "503",
+    "expected_value": "200",
+    "suite": "original",
+    "first_token": "Success",
+    "yes_minus_no": -0.3416481018066406,
+    "p_yes": 0.0008213008404709399,
+    "p_no": 0.0011557877296581864,
+    "top6": [
+      {
+        "id": 16581,
+        "token": "▁Success",
+        "p": 0.4137555658817291
+      },
+      {
+        "id": 597,
+        "token": "▁Un",
+        "p": 0.14689114689826965
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.092047318816185
+      },
+      {
+        "id": 25629,
+        "token": "▁Failure",
+        "p": 0.07931139320135117
+      },
+      {
+        "id": 3338,
+        "token": "▁failure",
+        "p": 0.07027390599250793
+      },
+      {
+        "id": 1269,
+        "token": "▁success",
+        "p": 0.016181396320462227
+      }
+    ],
+    "output_text": "Success.",
+    "input_token_ids": [
+      30197,
+      8,
+      750,
+      6138,
+      13,
+      8,
+      2387,
+      45,
+      8,
+      1499,
+      5,
+      7847,
+      4903,
+      7,
+      11,
+      1644,
+      2620,
+      4568,
+      16,
+      8,
+      1499,
+      5,
+      2048,
+      163,
+      8794,
+      2084,
+      5,
+      11801,
+      28,
+      1776,
+      80,
+      1448,
+      10,
+      1269,
+      6,
+      3338,
+      6,
+      42,
+      7752,
+      5,
+      2048,
+      7752,
+      3,
+      99,
+      8,
+      750,
+      6138,
+      19,
+      59,
+      2127,
+      5,
+      12615,
+      10,
+      19924,
+      15912,
+      1690,
+      16581,
+      3,
+      2685,
+      10140,
+      29,
+      10,
+      37,
+      19924,
+      1773,
+      2637,
+      6407,
+      8,
+      1644,
+      2637,
+      5,
+      25629,
+      3,
+      2685,
+      10140,
+      29,
+      10,
+      37,
+      19924,
+      1773,
+      2637,
+      19,
+      315,
+      45,
+      8,
+      1644,
+      2637,
+      5,
+      5027,
+      10,
+      11114,
+      3,
+      20750,
+      3,
+      87,
+      10031,
+      670,
+      3666,
+      19924,
+      305,
+      13267,
+      37,
+      1644,
+      1773,
+      2637,
+      19,
+      19924,
+      2382,
+      5,
+      11801,
+      10,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      16581,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "OK",
+    "correct": false
+  },
+  {
+    "id": "p19_ok__original",
+    "group": "original",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nSuccess criterion: The HTTP response status matches the expected status.\nFailure criterion: The HTTP response status is different from the expected status.\nText: Production GET /checkout returned HTTP 200. The expected response status is HTTP 200.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p19_ok",
+    "observed": "200",
+    "expected_value": "200",
+    "suite": "original",
+    "first_token": "Success",
+    "yes_minus_no": 0.46256041526794434,
+    "p_yes": 0.0006750450702384114,
+    "p_no": 0.00042505518649704754,
+    "top6": [
+      {
+        "id": 16581,
+        "token": "▁Success",
+        "p": 0.697632372379303
+      },
+      {
+        "id": 25629,
+        "token": "▁Failure",
+        "p": 0.05622517317533493
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.046998996287584305
+      },
+      {
+        "id": 3338,
+        "token": "▁failure",
+        "p": 0.034725122153759
+      },
+      {
+        "id": 1269,
+        "token": "▁success",
+        "p": 0.026210520416498184
+      },
+      {
+        "id": 597,
+        "token": "▁Un",
+        "p": 0.013944790698587894
+      }
+    ],
+    "output_text": "Success.",
+    "input_token_ids": [
+      30197,
+      8,
+      750,
+      6138,
+      13,
+      8,
+      2387,
+      45,
+      8,
+      1499,
+      5,
+      7847,
+      4903,
+      7,
+      11,
+      1644,
+      2620,
+      4568,
+      16,
+      8,
+      1499,
+      5,
+      2048,
+      163,
+      8794,
+      2084,
+      5,
+      11801,
+      28,
+      1776,
+      80,
+      1448,
+      10,
+      1269,
+      6,
+      3338,
+      6,
+      42,
+      7752,
+      5,
+      2048,
+      7752,
+      3,
+      99,
+      8,
+      750,
+      6138,
+      19,
+      59,
+      2127,
+      5,
+      12615,
+      10,
+      19924,
+      15912,
+      1690,
+      16581,
+      3,
+      2685,
+      10140,
+      29,
+      10,
+      37,
+      19924,
+      1773,
+      2637,
+      6407,
+      8,
+      1644,
+      2637,
+      5,
+      25629,
+      3,
+      2685,
+      10140,
+      29,
+      10,
+      37,
+      19924,
+      1773,
+      2637,
+      19,
+      315,
+      45,
+      8,
+      1644,
+      2637,
+      5,
+      5027,
+      10,
+      11114,
+      3,
+      20750,
+      3,
+      87,
+      10031,
+      670,
+      3666,
+      19924,
+      2382,
+      5,
+      37,
+      1644,
+      1773,
+      2637,
+      19,
+      19924,
+      2382,
+      5,
+      11801,
+      10,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      16581,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "OK",
+    "correct": true
+  },
+  {
+    "id": "p20_fail__original",
+    "group": "original",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: command execution\nSuccess criterion: The command exited with a code that indicates success.\nFailure criterion: The command exited with a code that indicates failure.\nText: For this command, exit code 0 means success and every other exit code means failure. The command exited with code 2.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p20_fail",
+    "observed": "2",
+    "expected_value": "0",
+    "suite": "original",
+    "first_token": "Success",
+    "yes_minus_no": 1.0440123081207275,
+    "p_yes": 0.0008343253866769373,
+    "p_no": 0.00029371530399657786,
+    "top6": [
+      {
+        "id": 16581,
+        "token": "▁Success",
+        "p": 0.6935268044471741
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.15171575546264648
+      },
+      {
+        "id": 1269,
+        "token": "▁success",
+        "p": 0.02667977660894394
+      },
+      {
+        "id": 597,
+        "token": "▁Un",
+        "p": 0.014459123834967613
+      },
+      {
+        "id": 12892,
+        "token": "▁Current",
+        "p": 0.013834476470947266
+      },
+      {
+        "id": 11801,
+        "token": "▁Answer",
+        "p": 0.005928287748247385
+      }
+    ],
+    "output_text": "Success.",
+    "input_token_ids": [
+      30197,
+      8,
+      750,
+      6138,
+      13,
+      8,
+      2387,
+      45,
+      8,
+      1499,
+      5,
+      7847,
+      4903,
+      7,
+      11,
+      1644,
+      2620,
+      4568,
+      16,
+      8,
+      1499,
+      5,
+      2048,
+      163,
+      8794,
+      2084,
+      5,
+      11801,
+      28,
+      1776,
+      80,
+      1448,
+      10,
+      1269,
+      6,
+      3338,
+      6,
+      42,
+      7752,
+      5,
+      2048,
+      7752,
+      3,
+      99,
+      8,
+      750,
+      6138,
+      19,
+      59,
+      2127,
+      5,
+      12615,
+      10,
+      4106,
+      9328,
+      16581,
+      3,
+      2685,
+      10140,
+      29,
+      10,
+      37,
+      4106,
+      7189,
+      15,
+      26,
+      28,
+      3,
+      9,
+      1081,
+      24,
+      9379,
+      1269,
+      5,
+      25629,
+      3,
+      2685,
+      10140,
+      29,
+      10,
+      37,
+      4106,
+      7189,
+      15,
+      26,
+      28,
+      3,
+      9,
+      1081,
+      24,
+      9379,
+      3338,
+      5,
+      5027,
+      10,
+      242,
+      48,
+      4106,
+      6,
+      7189,
+      1081,
+      3,
+      632,
+      598,
+      1269,
+      11,
+      334,
+      119,
+      7189,
+      1081,
+      598,
+      3338,
+      5,
+      37,
+      4106,
+      7189,
+      15,
+      26,
+      28,
+      1081,
+      1682,
+      11801,
+      10,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      16581,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "OK",
+    "correct": false
+  },
+  {
+    "id": "p20_ok__original",
+    "group": "original",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: command execution\nSuccess criterion: The command exited with a code that indicates success.\nFailure criterion: The command exited with a code that indicates failure.\nText: For this command, exit code 0 means success and every other exit code means failure. The command exited with code 0.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p20_ok",
+    "observed": "0",
+    "expected_value": "0",
+    "suite": "original",
+    "first_token": "Success",
+    "yes_minus_no": 1.1193928718566895,
+    "p_yes": 0.000701144163031131,
+    "p_no": 0.00022890808759257197,
+    "top6": [
+      {
+        "id": 16581,
+        "token": "▁Success",
+        "p": 0.7484320402145386
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.11405376344919205
+      },
+      {
+        "id": 1269,
+        "token": "▁success",
+        "p": 0.0333828330039978
+      },
+      {
+        "id": 12892,
+        "token": "▁Current",
+        "p": 0.012937617488205433
+      },
+      {
+        "id": 597,
+        "token": "▁Un",
+        "p": 0.008425301872193813
+      },
+      {
+        "id": 11801,
+        "token": "▁Answer",
+        "p": 0.005612268578261137
+      }
+    ],
+    "output_text": "Success.",
+    "input_token_ids": [
+      30197,
+      8,
+      750,
+      6138,
+      13,
+      8,
+      2387,
+      45,
+      8,
+      1499,
+      5,
+      7847,
+      4903,
+      7,
+      11,
+      1644,
+      2620,
+      4568,
+      16,
+      8,
+      1499,
+      5,
+      2048,
+      163,
+      8794,
+      2084,
+      5,
+      11801,
+      28,
+      1776,
+      80,
+      1448,
+      10,
+      1269,
+      6,
+      3338,
+      6,
+      42,
+      7752,
+      5,
+      2048,
+      7752,
+      3,
+      99,
+      8,
+      750,
+      6138,
+      19,
+      59,
+      2127,
+      5,
+      12615,
+      10,
+      4106,
+      9328,
+      16581,
+      3,
+      2685,
+      10140,
+      29,
+      10,
+      37,
+      4106,
+      7189,
+      15,
+      26,
+      28,
+      3,
+      9,
+      1081,
+      24,
+      9379,
+      1269,
+      5,
+      25629,
+      3,
+      2685,
+      10140,
+      29,
+      10,
+      37,
+      4106,
+      7189,
+      15,
+      26,
+      28,
+      3,
+      9,
+      1081,
+      24,
+      9379,
+      3338,
+      5,
+      5027,
+      10,
+      242,
+      48,
+      4106,
+      6,
+      7189,
+      1081,
+      3,
+      632,
+      598,
+      1269,
+      11,
+      334,
+      119,
+      7189,
+      1081,
+      598,
+      3338,
+      5,
+      37,
+      4106,
+      7189,
+      15,
+      26,
+      28,
+      1081,
+      4097,
+      11801,
+      10,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      16581,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "OK",
+    "correct": true
+  },
+  {
+    "id": "p24_fail__original",
+    "group": "original",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: custom task result\nSuccess criterion: The task returned a status that means success.\nFailure criterion: The task returned a status that means failure.\nText: In this application, status 1 means success and status 0 means failure. Task result: status 0.\nAnswer:",
+    "expected": "FAIL",
+    "kind": "state",
+    "seed": "p24_fail",
+    "observed": "0",
+    "expected_value": "1",
+    "suite": "original",
+    "first_token": "Success",
+    "yes_minus_no": 0.04206037521362305,
+    "p_yes": 0.0017162609146907926,
+    "p_no": 0.0016455714358016849,
+    "top6": [
+      {
+        "id": 16581,
+        "token": "▁Success",
+        "p": 0.36360636353492737
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.24375317990779877
+      },
+      {
+        "id": 597,
+        "token": "▁Un",
+        "p": 0.07043945789337158
+      },
+      {
+        "id": 3338,
+        "token": "▁failure",
+        "p": 0.03427473455667496
+      },
+      {
+        "id": 12892,
+        "token": "▁Current",
+        "p": 0.02282962203025818
+      },
+      {
+        "id": 1269,
+        "token": "▁success",
+        "p": 0.02207266166806221
+      }
+    ],
+    "output_text": "Success.",
+    "input_token_ids": [
+      30197,
+      8,
+      750,
+      6138,
+      13,
+      8,
+      2387,
+      45,
+      8,
+      1499,
+      5,
+      7847,
+      4903,
+      7,
+      11,
+      1644,
+      2620,
+      4568,
+      16,
+      8,
+      1499,
+      5,
+      2048,
+      163,
+      8794,
+      2084,
+      5,
+      11801,
+      28,
+      1776,
+      80,
+      1448,
+      10,
+      1269,
+      6,
+      3338,
+      6,
+      42,
+      7752,
+      5,
+      2048,
+      7752,
+      3,
+      99,
+      8,
+      750,
+      6138,
+      19,
+      59,
+      2127,
+      5,
+      12615,
+      10,
+      1653,
+      2491,
+      741,
+      16581,
+      3,
+      2685,
+      10140,
+      29,
+      10,
+      37,
+      2491,
+      3666,
+      3,
+      9,
+      2637,
+      24,
+      598,
+      1269,
+      5,
+      25629,
+      3,
+      2685,
+      10140,
+      29,
+      10,
+      37,
+      2491,
+      3666,
+      3,
+      9,
+      2637,
+      24,
+      598,
+      3338,
+      5,
+      5027,
+      10,
+      86,
+      48,
+      917,
+      6,
+      2637,
+      209,
+      598,
+      1269,
+      11,
+      2637,
+      3,
+      632,
+      598,
+      3338,
+      5,
+      16107,
+      741,
+      10,
+      2637,
+      4097,
+      11801,
+      10,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      16581,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "OK",
+    "correct": false
+  },
+  {
+    "id": "p24_ok__original",
+    "group": "original",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: custom task result\nSuccess criterion: The task returned a status that means success.\nFailure criterion: The task returned a status that means failure.\nText: In this application, status 1 means success and status 0 means failure. Task result: status 1.\nAnswer:",
+    "expected": "OK",
+    "kind": "state",
+    "seed": "p24_ok",
+    "observed": "1",
+    "expected_value": "1",
+    "suite": "original",
+    "first_token": "Success",
+    "yes_minus_no": 1.9266390800476074,
+    "p_yes": 0.0007997990469448268,
+    "p_no": 0.00011648017971310765,
+    "top6": [
+      {
+        "id": 16581,
+        "token": "▁Success",
+        "p": 0.8075820207595825
+      },
+      {
+        "id": 1269,
+        "token": "▁success",
+        "p": 0.10738993436098099
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.03504408523440361
+      },
+      {
+        "id": 12892,
+        "token": "▁Current",
+        "p": 0.003940540831536055
+      },
+      {
+        "id": 2637,
+        "token": "▁status",
+        "p": 0.003394260536879301
+      },
+      {
+        "id": 19318,
+        "token": "▁Status",
+        "p": 0.0025504049845039845
+      }
+    ],
+    "output_text": "Success.",
+    "input_token_ids": [
+      30197,
+      8,
+      750,
+      6138,
+      13,
+      8,
+      2387,
+      45,
+      8,
+      1499,
+      5,
+      7847,
+      4903,
+      7,
+      11,
+      1644,
+      2620,
+      4568,
+      16,
+      8,
+      1499,
+      5,
+      2048,
+      163,
+      8794,
+      2084,
+      5,
+      11801,
+      28,
+      1776,
+      80,
+      1448,
+      10,
+      1269,
+      6,
+      3338,
+      6,
+      42,
+      7752,
+      5,
+      2048,
+      7752,
+      3,
+      99,
+      8,
+      750,
+      6138,
+      19,
+      59,
+      2127,
+      5,
+      12615,
+      10,
+      1653,
+      2491,
+      741,
+      16581,
+      3,
+      2685,
+      10140,
+      29,
+      10,
+      37,
+      2491,
+      3666,
+      3,
+      9,
+      2637,
+      24,
+      598,
+      1269,
+      5,
+      25629,
+      3,
+      2685,
+      10140,
+      29,
+      10,
+      37,
+      2491,
+      3666,
+      3,
+      9,
+      2637,
+      24,
+      598,
+      3338,
+      5,
+      5027,
+      10,
+      86,
+      48,
+      917,
+      6,
+      2637,
+      209,
+      598,
+      1269,
+      11,
+      2637,
+      3,
+      632,
+      598,
+      3338,
+      5,
+      16107,
+      741,
+      10,
+      2637,
+      1300,
+      11801,
+      10,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      16581,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "OK",
+    "correct": true
+  },
+  {
+    "id": "equality_0_2",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 0 and 2 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 0,
+    "b": 2,
+    "suite": "pure_equality",
+    "first_token": "No",
+    "yes_minus_no": -1.0801191329956055,
+    "p_yes": 0.24263118207454681,
+    "p_no": 0.7145564556121826,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.7116618156433105
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.24022194743156433
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.013678343966603279
+      },
+      {
+        "id": 3,
+        "token": "▁",
+        "p": 0.004633813630789518
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0038074711337685585
+      },
+      {
+        "id": 4097,
+        "token": "▁0.",
+        "p": 0.00374769140034914
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      3,
+      632,
+      11,
+      204,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "equality_2_0",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 2 and 0 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 2,
+    "b": 0,
+    "suite": "pure_equality",
+    "first_token": "No",
+    "yes_minus_no": -2.3075265884399414,
+    "p_yes": 0.08680768311023712,
+    "p_no": 0.8723767995834351,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.8696691989898682
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.08603110164403915
+      },
+      {
+        "id": 1682,
+        "token": "▁2.",
+        "p": 0.01283225230872631
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.009433986619114876
+      },
+      {
+        "id": 204,
+        "token": "▁2",
+        "p": 0.004254660569131374
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0027075777761638165
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      204,
+      11,
+      3,
+      632,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "equality_0_0",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 0 and 0 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 0,
+    "b": 0,
+    "suite": "pure_equality",
+    "first_token": "No",
+    "yes_minus_no": -0.6747894287109375,
+    "p_yes": 0.32391348481178284,
+    "p_no": 0.636042594909668,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.6331154704093933
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.32065489888191223
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.01630108803510666
+      },
+      {
+        "id": 3,
+        "token": "▁",
+        "p": 0.006785739213228226
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.003524308791384101
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.003258591750636697
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      3,
+      632,
+      11,
+      3,
+      632,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "equality_2_2",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 2 and 2 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 2,
+    "b": 2,
+    "suite": "pure_equality",
+    "first_token": "Yes",
+    "yes_minus_no": 0.39705657958984375,
+    "p_yes": 0.5846464037895203,
+    "p_no": 0.3930554986000061,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.5798078179359436
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.3921455144882202
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.006651581265032291
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.005406511016190052
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.004838602151721716
+      },
+      {
+        "id": 1682,
+        "token": "▁2.",
+        "p": 0.0020228452049195766
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      204,
+      11,
+      204,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "equality_200_503",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 200 and 503 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 200,
+    "b": 503,
+    "suite": "pure_equality",
+    "first_token": "No",
+    "yes_minus_no": -0.9512968063354492,
+    "p_yes": 0.2705056369304657,
+    "p_no": 0.7003561854362488,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.6989426016807556
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.2689692974090576
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.012833448126912117
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.005961366929113865
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0015363441780209541
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0014135766541585326
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      2382,
+      11,
+      943,
+      519,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "equality_503_200",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 503 and 200 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 503,
+    "b": 200,
+    "suite": "pure_equality",
+    "first_token": "No",
+    "yes_minus_no": -0.9877481460571289,
+    "p_yes": 0.26227283477783203,
+    "p_no": 0.7042499780654907,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.7027564644813538
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.2608594000339508
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.011808507144451141
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0064141638576984406
+      },
+      {
+        "id": 943,
+        "token": "▁50",
+        "p": 0.004624480381608009
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0014935076469555497
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      943,
+      519,
+      11,
+      2382,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "equality_200_200",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 200 and 200 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 200,
+    "b": 200,
+    "suite": "pure_equality",
+    "first_token": "No",
+    "yes_minus_no": -1.53466796875,
+    "p_yes": 0.17317891120910645,
+    "p_no": 0.80351322889328,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.8022342324256897
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.17232783138751984
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.008039942942559719
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.007112947758287191
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0012789862230420113
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.0011117642279714346
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      2382,
+      11,
+      2382,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "equality_503_503",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 503 and 503 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 503,
+    "b": 503,
+    "suite": "pure_equality",
+    "first_token": "No",
+    "yes_minus_no": -0.42851924896240234,
+    "p_yes": 0.3796357810497284,
+    "p_no": 0.5827345252037048,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.5815937519073486
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.37769487500190735
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.018332231789827347
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.009903606958687305
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0019408960361033678
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.0015306849963963032
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      943,
+      519,
+      11,
+      943,
+      519,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "equality_7_9",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 7 and 9 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 7,
+    "b": 9,
+    "suite": "pure_equality",
+    "first_token": "No",
+    "yes_minus_no": -1.366042137145996,
+    "p_yes": 0.19807186722755432,
+    "p_no": 0.7764025926589966,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.7741515636444092
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.19639717042446136
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.010678035207092762
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.004683114588260651
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0022510194685310125
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.001674703904427588
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      489,
+      11,
+      668,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "equality_9_7",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 9 and 7 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 9,
+    "b": 7,
+    "suite": "pure_equality",
+    "first_token": "No",
+    "yes_minus_no": -1.4538345336914062,
+    "p_yes": 0.18644799292087555,
+    "p_no": 0.7979028224945068,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.7961066365242004
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.18510042130947113
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.004513794556260109
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0037894572596997023
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0017962048295885324
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0013475642772391438
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      668,
+      11,
+      489,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "equality_7_7",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 7 and 7 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 7,
+    "b": 7,
+    "suite": "pure_equality",
+    "first_token": "No",
+    "yes_minus_no": -0.3101787567138672,
+    "p_yes": 0.41424843668937683,
+    "p_no": 0.5648975372314453,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.5638119578361511
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.41189339756965637
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.007052765693515539
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0061757853254675865
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0023550495970994234
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.0011581855360418558
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      489,
+      11,
+      489,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "equality_9_9",
+    "group": "pure_equality",
+    "prompt": "Are the numbers 9 and 9 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 9,
+    "b": 9,
+    "suite": "pure_equality",
+    "first_token": "No",
+    "yes_minus_no": -0.8810329437255859,
+    "p_yes": 0.2869575321674347,
+    "p_no": 0.69254070520401,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.6907333731651306
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.2842251658439636
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.006172508466988802
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.005576546303927898
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.002732378663495183
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0018073066603392363
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      668,
+      11,
+      668,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "new_original_form_3_3",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 3 and 3 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 3,
+    "b": 3,
+    "first_token": "No",
+    "yes_minus_no": -0.14239025115966797,
+    "p_yes": 0.4544122815132141,
+    "p_no": 0.5239496231079102,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.522454559803009
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.4511014223098755
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.00729577848687768
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.004844977520406246
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0033108671195805073
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0014950510812923312
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      220,
+      11,
+      220,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "new_same_3_3",
+    "suite": "heldout_same",
+    "prompt": "Is 3 the same number as 3? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 3,
+    "b": 3,
+    "first_token": "Yes",
+    "yes_minus_no": 0.7998085021972656,
+    "p_yes": 0.6876537203788757,
+    "p_no": 0.3090416193008423,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.6840893030166626
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.3084985017776489
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.003564421320334077
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0005981274298392236
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0005431256722658873
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.00044055818580091
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      27,
+      7,
+      220,
+      8,
+      337,
+      381,
+      38,
+      220,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_statement_3_3",
+    "suite": "heldout_statement",
+    "prompt": "3 is equal to 3. Is this statement true? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 3,
+    "b": 3,
+    "first_token": "Yes",
+    "yes_minus_no": 2.0482845306396484,
+    "p_yes": 0.8711283206939697,
+    "p_no": 0.1123371347784996,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.8616332411766052
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.1118515208363533
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.009495091624557972
+      },
+      {
+        "id": 10998,
+        "token": "▁True",
+        "p": 0.007730991579592228
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0029432603623718023
+      },
+      {
+        "id": 10747,
+        "token": "▁Fal",
+        "p": 0.0011975528905168176
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      220,
+      19,
+      4081,
+      12,
+      1877,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_inequality_3_3",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 3 and 3 different? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 3,
+    "b": 3,
+    "first_token": "No",
+    "yes_minus_no": -0.1320657730102539,
+    "p_yes": 0.46054115891456604,
+    "p_no": 0.5255616307258606,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.524785041809082
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.4583795964717865
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.004385796375572681
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0038026776164770126
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.002161575946956873
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0007766070193611085
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      220,
+      11,
+      220,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_original_form_3_12345",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 3 and 12345 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 3,
+    "b": 12345,
+    "first_token": "No",
+    "yes_minus_no": -2.411759376525879,
+    "p_yes": 0.08092809468507767,
+    "p_no": 0.9026374220848083,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.8996806740760803
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.08040996640920639
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.007391888182610273
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.003830807050690055
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.002956748241558671
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.001201813924126327
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      220,
+      11,
+      3,
+      14574,
+      2128,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_same_3_12345",
+    "suite": "heldout_same",
+    "prompt": "Is 3 the same number as 12345? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 3,
+    "b": 12345,
+    "first_token": "No",
+    "yes_minus_no": -1.9412784576416016,
+    "p_yes": 0.12446645647287369,
+    "p_no": 0.8672391176223755,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.8652249574661255
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.12390921264886856
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.004374033771455288
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.002014137338846922
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0008875385974533856
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0005572418449446559
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      27,
+      7,
+      220,
+      8,
+      337,
+      381,
+      38,
+      3,
+      14574,
+      2128,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_statement_3_12345",
+    "suite": "heldout_statement",
+    "prompt": "3 is equal to 12345. Is this statement true? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 3,
+    "b": 12345,
+    "first_token": "No",
+    "yes_minus_no": -0.9238519668579102,
+    "p_yes": 0.27611497044563293,
+    "p_no": 0.6955269575119019,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.68942791223526
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.2717556655406952
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.009789684787392616
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.006817304994910955
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.00609901687130332
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.004359315149486065
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      220,
+      19,
+      4081,
+      12,
+      3,
+      14574,
+      2128,
+      5,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_inequality_3_12345",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 3 and 12345 different? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 3,
+    "b": 12345,
+    "first_token": "Yes",
+    "yes_minus_no": 0.1560192108154297,
+    "p_yes": 0.5347670912742615,
+    "p_no": 0.4575158953666687,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.5328712463378906
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.45694443583488464
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0023964596912264824
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.002048993483185768
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0018958152504637837
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.0006271704332903028
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      220,
+      11,
+      3,
+      14574,
+      2128,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_original_form_4_4",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 4 and 4 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 4,
+    "b": 4,
+    "first_token": "No",
+    "yes_minus_no": -0.15828227996826172,
+    "p_yes": 0.4538724720478058,
+    "p_no": 0.5317102074623108,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.5305947065353394
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.4513288140296936
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.00457328325137496
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.004103994462639093
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.002543653827160597
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.001115492545068264
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      314,
+      11,
+      314,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "new_same_4_4",
+    "suite": "heldout_same",
+    "prompt": "Is 4 the same number as 4? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 4,
+    "b": 4,
+    "first_token": "Yes",
+    "yes_minus_no": 0.4492988586425781,
+    "p_yes": 0.6088318824768066,
+    "p_no": 0.3884802758693695,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.606207013130188
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.3879314064979553
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.002624850021675229
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0005488594179041684
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0005157070118002594
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0004082228697370738
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      27,
+      7,
+      314,
+      8,
+      337,
+      381,
+      38,
+      314,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_statement_4_4",
+    "suite": "heldout_statement",
+    "prompt": "4 is equal to 4. Is this statement true? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 4,
+    "b": 4,
+    "first_token": "Yes",
+    "yes_minus_no": 2.045877456665039,
+    "p_yes": 0.8744631409645081,
+    "p_no": 0.11303898692131042,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.8661361932754517
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.11262848228216171
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.00832697656005621
+      },
+      {
+        "id": 10998,
+        "token": "▁True",
+        "p": 0.005978006403893232
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.002230845857411623
+      },
+      {
+        "id": 10747,
+        "token": "▁Fal",
+        "p": 0.0009716332424432039
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      314,
+      19,
+      4081,
+      12,
+      2853,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_inequality_4_4",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 4 and 4 different? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 4,
+    "b": 4,
+    "first_token": "No",
+    "yes_minus_no": -0.10150718688964844,
+    "p_yes": 0.46964988112449646,
+    "p_no": 0.5198265910148621,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.5192744731903076
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.4680729806423187
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.004104865714907646
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0026012954767793417
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0015769050223752856
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0005521296407096088
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      314,
+      11,
+      314,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_original_form_4_54321",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 4 and 54321 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 4,
+    "b": 54321,
+    "first_token": "No",
+    "yes_minus_no": -1.4968757629394531,
+    "p_yes": 0.17905199527740479,
+    "p_no": 0.7999522686004639,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.7976722717285156
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.17809323966503143
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.010051549412310123
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.004929994232952595
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0022799877915531397
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.001096025574952364
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      314,
+      11,
+      305,
+      4906,
+      2658,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_same_4_54321",
+    "suite": "heldout_same",
+    "prompt": "Is 4 the same number as 54321? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 4,
+    "b": 54321,
+    "first_token": "No",
+    "yes_minus_no": -1.4850950241088867,
+    "p_yes": 0.18262189626693726,
+    "p_no": 0.8063457012176514,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.8041357398033142
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.18183617293834686
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.00557947950437665
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.002209983766078949
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0011296356096863747
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0007857255404815078
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      27,
+      7,
+      314,
+      8,
+      337,
+      381,
+      38,
+      305,
+      4906,
+      2658,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_statement_4_54321",
+    "suite": "heldout_statement",
+    "prompt": "4 is equal to 54321. Is this statement true? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 4,
+    "b": 54321,
+    "first_token": "Yes",
+    "yes_minus_no": 0.8931035995483398,
+    "p_yes": 0.6923357248306274,
+    "p_no": 0.2834305763244629,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.6848065257072449
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.28143560886383057
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0076430668123066425
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.007529172580689192
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.005535539239645004
+      },
+      {
+        "id": 10998,
+        "token": "▁True",
+        "p": 0.0031550510320812464
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      314,
+      19,
+      4081,
+      12,
+      10630,
+      2668,
+      5411,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": false
+  },
+  {
+    "id": "new_inequality_4_54321",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 4 and 54321 different? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 4,
+    "b": 54321,
+    "first_token": "Yes",
+    "yes_minus_no": 0.05054759979248047,
+    "p_yes": 0.5069653391838074,
+    "p_no": 0.48197606205940247,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.5050965547561646
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.4812045693397522
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.004097091965377331
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0032770796678960323
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0018687734846025705
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0007714802632108331
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      314,
+      11,
+      305,
+      4906,
+      2658,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_original_form_10_10",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 10 and 10 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 10,
+    "b": 10,
+    "first_token": "No",
+    "yes_minus_no": -0.8262386322021484,
+    "p_yes": 0.2959688901901245,
+    "p_no": 0.6762027144432068,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.6751395463943481
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.294474720954895
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.009718486107885838
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.006322944536805153
+      },
+      {
+        "id": 335,
+        "token": "▁10",
+        "p": 0.0018297556089237332
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.001494170748628676
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      335,
+      11,
+      335,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "new_same_10_10",
+    "suite": "heldout_same",
+    "prompt": "Is 10 the same number as 10? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 10,
+    "b": 10,
+    "first_token": "No",
+    "yes_minus_no": -0.1808910369873047,
+    "p_yes": 0.4522111713886261,
+    "p_no": 0.5418776869773865,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.541298508644104
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.45043858885765076
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0017725784564390779
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0012310687452554703
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0008285745279863477
+      },
+      {
+        "id": 335,
+        "token": "▁10",
+        "p": 0.0007389431120827794
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      27,
+      7,
+      335,
+      8,
+      337,
+      381,
+      38,
+      335,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "new_statement_10_10",
+    "suite": "heldout_statement",
+    "prompt": "10 is equal to 10. Is this statement true? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 10,
+    "b": 10,
+    "first_token": "Yes",
+    "yes_minus_no": 1.0923423767089844,
+    "p_yes": 0.7338247299194336,
+    "p_no": 0.24614690244197845,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.728515088558197
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.2455897033214569
+      },
+      {
+        "id": 10998,
+        "token": "▁True",
+        "p": 0.008708329871296883
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.005309666972607374
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0029805218800902367
+      },
+      {
+        "id": 10747,
+        "token": "▁Fal",
+        "p": 0.0026948298327624798
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      335,
+      19,
+      4081,
+      12,
+      5477,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_inequality_10_10",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 10 and 10 different? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 10,
+    "b": 10,
+    "first_token": "No",
+    "yes_minus_no": -0.7382593154907227,
+    "p_yes": 0.31883203983306885,
+    "p_no": 0.6670888662338257,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.666487455368042
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.3176689147949219
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.005062044132500887
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.003382754744961858
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.001163128181360662
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.0008013381739147007
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      335,
+      11,
+      335,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_original_form_10_404",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 10 and 404 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 10,
+    "b": 404,
+    "first_token": "No",
+    "yes_minus_no": -2.726433753967285,
+    "p_yes": 0.060173213481903076,
+    "p_no": 0.9193445444107056,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.9166941046714783
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.059766098856925964
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.006947016343474388
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.003271230263635516
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.002650446956977248
+      },
+      {
+        "id": 335,
+        "token": "▁10",
+        "p": 0.002483504358679056
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      335,
+      11,
+      3,
+      25285,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_same_10_404",
+    "suite": "heldout_same",
+    "prompt": "Is 10 the same number as 404? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 10,
+    "b": 404,
+    "first_token": "No",
+    "yes_minus_no": -2.451854705810547,
+    "p_yes": 0.07869278639554977,
+    "p_no": 0.9136124849319458,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.9119234681129456
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.07845158129930496
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.002194275613874197
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0016890232218429446
+      },
+      {
+        "id": 335,
+        "token": "▁10",
+        "p": 0.001341734197922051
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0006735490169376135
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      27,
+      7,
+      335,
+      8,
+      337,
+      381,
+      38,
+      3,
+      25285,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_statement_10_404",
+    "suite": "heldout_statement",
+    "prompt": "10 is equal to 404. Is this statement true? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 10,
+    "b": 404,
+    "first_token": "No",
+    "yes_minus_no": -0.8515405654907227,
+    "p_yes": 0.29276835918426514,
+    "p_no": 0.6860312223434448,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.6822422742843628
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.2897343039512634
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.005189116578549147
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.004619100131094456
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0037889189552515745
+      },
+      {
+        "id": 10747,
+        "token": "▁Fal",
+        "p": 0.0036915321834385395
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      335,
+      19,
+      4081,
+      12,
+      3,
+      25285,
+      5,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_inequality_10_404",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 10 and 404 different? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 10,
+    "b": 404,
+    "first_token": "No",
+    "yes_minus_no": -0.25269031524658203,
+    "p_yes": 0.4334191679954529,
+    "p_no": 0.5580205321311951,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.5573275089263916
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.43184927105903625
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0022685956209897995
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.001592773012816906
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0015698838979005814
+      },
+      {
+        "id": 335,
+        "token": "▁10",
+        "p": 0.0007928539998829365
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      335,
+      11,
+      3,
+      25285,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "new_original_form_17_17",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 17 and 17 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 17,
+    "b": 17,
+    "first_token": "No",
+    "yes_minus_no": -0.5015449523925781,
+    "p_yes": 0.3674105405807495,
+    "p_no": 0.6066941618919373,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.6056921482086182
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.3654908239841461
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.009387273341417313
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.008745955303311348
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0019197056535631418
+      },
+      {
+        "id": 94,
+        "token": "▁It",
+        "p": 0.0012944475747644901
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      1003,
+      11,
+      1003,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "new_same_17_17",
+    "suite": "heldout_same",
+    "prompt": "Is 17 the same number as 17? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 17,
+    "b": 17,
+    "first_token": "Yes",
+    "yes_minus_no": 0.8730964660644531,
+    "p_yes": 0.7018788456916809,
+    "p_no": 0.2931440770626068,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.6986631751060486
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.2927417755126953
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.003215694334357977
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0015382760902866721
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.001113245845772326
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.00040231598541140556
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      27,
+      7,
+      1003,
+      8,
+      337,
+      381,
+      38,
+      1003,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_statement_17_17",
+    "suite": "heldout_statement",
+    "prompt": "17 is equal to 17. Is this statement true? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 17,
+    "b": 17,
+    "first_token": "Yes",
+    "yes_minus_no": 1.26593017578125,
+    "p_yes": 0.7668935656547546,
+    "p_no": 0.2162463515996933,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.7607413530349731
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.2156910002231598
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.006152216345071793
+      },
+      {
+        "id": 10998,
+        "token": "▁True",
+        "p": 0.005521136336028576
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.00314909964799881
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0022612372413277626
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      1003,
+      19,
+      4081,
+      12,
+      11030,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_inequality_17_17",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 17 and 17 different? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 17,
+    "b": 17,
+    "first_token": "No",
+    "yes_minus_no": -0.23595333099365234,
+    "p_yes": 0.4359755218029022,
+    "p_no": 0.551994800567627,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.5515798330307007
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.4347704350948334
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.00590992858633399
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.002210852922871709
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0012050936929881573
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.0006682325038127601
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      1003,
+      11,
+      1003,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_original_form_17_999",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 17 and 999 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 17,
+    "b": 999,
+    "first_token": "No",
+    "yes_minus_no": -3.1179819107055664,
+    "p_yes": 0.041968800127506256,
+    "p_no": 0.9485251307487488,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.946760892868042
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.041766393929719925
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0030249617993831635
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0024385564029216766
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.001764249405823648
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.000917511701118201
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      1003,
+      11,
+      3,
+      19446,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_same_17_999",
+    "suite": "heldout_same",
+    "prompt": "Is 17 the same number as 999? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 17,
+    "b": 999,
+    "first_token": "No",
+    "yes_minus_no": -3.74721622467041,
+    "p_yes": 0.02298601344227791,
+    "p_no": 0.9746737480163574,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.9734156727790833
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.022920483723282814
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0012580491602420807
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0006144863436929882
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.00031667627627030015
+      },
+      {
+        "id": 10747,
+        "token": "▁Fal",
+        "p": 0.00018648832337930799
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      27,
+      7,
+      1003,
+      8,
+      337,
+      381,
+      38,
+      3,
+      19446,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_statement_17_999",
+    "suite": "heldout_statement",
+    "prompt": "17 is equal to 999. Is this statement true? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 17,
+    "b": 999,
+    "first_token": "No",
+    "yes_minus_no": -3.033466339111328,
+    "p_yes": 0.04515106603503227,
+    "p_no": 0.9377469420433044,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.9331719279289246
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.04466133937239647
+      },
+      {
+        "id": 10747,
+        "token": "▁Fal",
+        "p": 0.006759993731975555
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.004575022030621767
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0043111275881528854
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0028149494901299477
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1003,
+      19,
+      4081,
+      12,
+      3,
+      19446,
+      5,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_inequality_17_999",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 17 and 999 different? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 17,
+    "b": 999,
+    "first_token": "Yes",
+    "yes_minus_no": 0.9210996627807617,
+    "p_yes": 0.7134042978286743,
+    "p_no": 0.28399258852005005,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.7118700742721558
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.28381121158599854
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0015342195983976126
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0007479985943064094
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.00032319113961420953
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.00018137127335648984
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      1003,
+      11,
+      3,
+      19446,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_original_form_42_42",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 42 and 42 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 42,
+    "b": 42,
+    "first_token": "No",
+    "yes_minus_no": -1.211400032043457,
+    "p_yes": 0.22604382038116455,
+    "p_no": 0.759096622467041,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.757908046245575
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.2250773310661316
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.004975993186235428
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.004475885536521673
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0011886026477441192
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0009664966491982341
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      6426,
+      11,
+      6426,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "new_same_42_42",
+    "suite": "heldout_same",
+    "prompt": "Is 42 the same number as 42? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 42,
+    "b": 42,
+    "first_token": "No",
+    "yes_minus_no": -0.15959930419921875,
+    "p_yes": 0.45764583349227905,
+    "p_no": 0.5368375778198242,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.5358783006668091
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.45548978447914124
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.002156038535758853
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.001915507484227419
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0011222971370443702
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.000959268887527287
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      27,
+      7,
+      6426,
+      8,
+      337,
+      381,
+      38,
+      6426,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "new_statement_42_42",
+    "suite": "heldout_statement",
+    "prompt": "42 is equal to 42. Is this statement true? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 42,
+    "b": 42,
+    "first_token": "Yes",
+    "yes_minus_no": 0.4074840545654297,
+    "p_yes": 0.5922315120697021,
+    "p_no": 0.3940248489379883,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.5877804756164551
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.3928729295730591
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.004451035056263208
+      },
+      {
+        "id": 10998,
+        "token": "▁True",
+        "p": 0.0032749902456998825
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0027292363811284304
+      },
+      {
+        "id": 10747,
+        "token": "▁Fal",
+        "p": 0.0022059683687984943
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      6426,
+      19,
+      4081,
+      12,
+      6426,
+      5,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_inequality_42_42",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 42 and 42 different? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 42,
+    "b": 42,
+    "first_token": "No",
+    "yes_minus_no": -0.8738327026367188,
+    "p_yes": 0.2914274334907532,
+    "p_no": 0.6982826590538025,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.6975907683372498
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.29061195254325867
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.004345763474702835
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0022677150554955006
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0008154661627486348
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.000691898341756314
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      6426,
+      11,
+      6426,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_original_form_42_3",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 42 and 3 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 42,
+    "b": 3,
+    "first_token": "No",
+    "yes_minus_no": -3.021822929382324,
+    "p_yes": 0.045734673738479614,
+    "p_no": 0.9388724565505981,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.9367017149925232
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.04540914669632912
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.004491935484111309
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0027642122004181147
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0021707331761717796
+      },
+      {
+        "id": 6426,
+        "token": "▁42",
+        "p": 0.0015273161698132753
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      6426,
+      11,
+      220,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_same_42_3",
+    "suite": "heldout_same",
+    "prompt": "Is 42 the same number as 3? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 42,
+    "b": 3,
+    "first_token": "No",
+    "yes_minus_no": -3.4709386825561523,
+    "p_yes": 0.030108582228422165,
+    "p_no": 0.9685007333755493,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.9674902558326721
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.029996398836374283
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.001010450185276568
+      },
+      {
+        "id": 6426,
+        "token": "▁42",
+        "p": 0.0001445734524168074
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0001350543461740017
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.00011377652117516845
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      27,
+      7,
+      6426,
+      8,
+      337,
+      381,
+      38,
+      220,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_statement_42_3",
+    "suite": "heldout_statement",
+    "prompt": "42 is equal to 3. Is this statement true? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 42,
+    "b": 3,
+    "first_token": "No",
+    "yes_minus_no": -1.537679672241211,
+    "p_yes": 0.1744285225868225,
+    "p_no": 0.811751127243042,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.8078429698944092
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.17185460031032562
+      },
+      {
+        "id": 10747,
+        "token": "▁Fal",
+        "p": 0.004690665751695633
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0039081871509552
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.00263531063683331
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0025739273987710476
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      6426,
+      19,
+      4081,
+      12,
+      1877,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_inequality_42_3",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 42 and 3 different? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 42,
+    "b": 3,
+    "first_token": "No",
+    "yes_minus_no": -1.812509536743164,
+    "p_yes": 0.13919687271118164,
+    "p_no": 0.8526924252510071,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.8513200283050537
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.13836175203323364
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.002484189812093973
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0014600009890273213
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.001372397062368691
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0008351202704943717
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      6426,
+      11,
+      220,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "new_original_form_100_100",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 100 and 100 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 100,
+    "b": 100,
+    "first_token": "No",
+    "yes_minus_no": -1.3773488998413086,
+    "p_yes": 0.19687718152999878,
+    "p_no": 0.7804954648017883,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.7790886759757996
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.19573186337947845
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0076237334869802
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0075222342275083065
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.001406789873726666
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.0011854675831273198
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      910,
+      11,
+      910,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "new_same_100_100",
+    "suite": "heldout_same",
+    "prompt": "Is 100 the same number as 100? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 100,
+    "b": 100,
+    "first_token": "Yes",
+    "yes_minus_no": 0.29529476165771484,
+    "p_yes": 0.570814311504364,
+    "p_no": 0.42486417293548584,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.5686063170433044
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.4242919087409973
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0022080179769545794
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.001078538945876062
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0008302618516609073
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0005722627975046635
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      27,
+      7,
+      910,
+      8,
+      337,
+      381,
+      38,
+      910,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_statement_100_100",
+    "suite": "heldout_statement",
+    "prompt": "100 is equal to 100. Is this statement true? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 100,
+    "b": 100,
+    "first_token": "Yes",
+    "yes_minus_no": 0.7179231643676758,
+    "p_yes": 0.6632000207901001,
+    "p_no": 0.32348522543907166,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.6585090756416321
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.32270070910453796
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.004690916743129492
+      },
+      {
+        "id": 10998,
+        "token": "▁True",
+        "p": 0.004210745450109243
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.002721257973462343
+      },
+      {
+        "id": 10747,
+        "token": "▁Fal",
+        "p": 0.002125432714819908
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      910,
+      19,
+      4081,
+      12,
+      910,
+      5,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_inequality_100_100",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 100 and 100 different? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 100,
+    "b": 100,
+    "first_token": "No",
+    "yes_minus_no": -1.2560749053955078,
+    "p_yes": 0.21878880262374878,
+    "p_no": 0.7683010697364807,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.7674559354782104
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.21782109141349792
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.006248339544981718
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0022604577243328094
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0009677151683717966
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0008451435714960098
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      910,
+      11,
+      910,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_original_form_100_10",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 100 and 10 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 100,
+    "b": 10,
+    "first_token": "No",
+    "yes_minus_no": -3.1623029708862305,
+    "p_yes": 0.04020136222243309,
+    "p_no": 0.9497544169425964,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.9482784867286682
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.04000168293714523
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0026888649445027113
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.002139232587069273
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0014759275363758206
+      },
+      {
+        "id": 910,
+        "token": "▁100",
+        "p": 0.0006678933277726173
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      910,
+      11,
+      335,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_same_100_10",
+    "suite": "heldout_same",
+    "prompt": "Is 100 the same number as 10? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 100,
+    "b": 10,
+    "first_token": "No",
+    "yes_minus_no": -4.482316017150879,
+    "p_yes": 0.01116819866001606,
+    "p_no": 0.9877073764801025,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.9868243336677551
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.011131527833640575
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0008830507285892963
+      },
+      {
+        "id": 335,
+        "token": "▁10",
+        "p": 0.0001316155248787254
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.00012601324124261737
+      },
+      {
+        "id": 910,
+        "token": "▁100",
+        "p": 9.271133603760973e-05
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      27,
+      7,
+      910,
+      8,
+      337,
+      381,
+      38,
+      335,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_statement_100_10",
+    "suite": "heldout_statement",
+    "prompt": "100 is equal to 10. Is this statement true? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 100,
+    "b": 10,
+    "first_token": "No",
+    "yes_minus_no": -2.5345754623413086,
+    "p_yes": 0.07270872592926025,
+    "p_no": 0.9169352650642395,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.9145705103874207
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.07204831391572952
+      },
+      {
+        "id": 10747,
+        "token": "▁Fal",
+        "p": 0.006007155869156122
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0023647488560527563
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0013490982819348574
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0006604119553230703
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      910,
+      19,
+      4081,
+      12,
+      5477,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_inequality_100_10",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 100 and 10 different? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 100,
+    "b": 10,
+    "first_token": "No",
+    "yes_minus_no": -1.6935348510742188,
+    "p_yes": 0.15449769794940948,
+    "p_no": 0.8402620553970337,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.8394201993942261
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.1537725329399109
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0016250073676928878
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0008418624638579786
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0007251641945913434
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0006536521832458675
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      910,
+      11,
+      335,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "new_original_form_201_201",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 201 and 201 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 201,
+    "b": 201,
+    "first_token": "No",
+    "yes_minus_no": -0.2954282760620117,
+    "p_yes": 0.4151197671890259,
+    "p_no": 0.5577974319458008,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.5565522909164429
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.4126025140285492
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.011245731264352798
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.008389819413423538
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.002517252927646041
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0012451178627088666
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      3,
+      22772,
+      11,
+      3,
+      22772,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "new_same_201_201",
+    "suite": "heldout_same",
+    "prompt": "Is 201 the same number as 201? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 201,
+    "b": 201,
+    "first_token": "No",
+    "yes_minus_no": -0.1916351318359375,
+    "p_yes": 0.44829729199409485,
+    "p_no": 0.5429908633232117,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.5419471859931946
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.44586247205734253
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.003745508147403598
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0024348231963813305
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0014604642055928707
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0010436848970130086
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      27,
+      7,
+      3,
+      22772,
+      8,
+      337,
+      381,
+      38,
+      3,
+      22772,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "new_statement_201_201",
+    "suite": "heldout_statement",
+    "prompt": "201 is equal to 201. Is this statement true? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 201,
+    "b": 201,
+    "first_token": "Yes",
+    "yes_minus_no": 0.5239763259887695,
+    "p_yes": 0.6106123924255371,
+    "p_no": 0.36158111691474915,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.6039656400680542
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.35988813638687134
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.008575350977480412
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.006646739784628153
+      },
+      {
+        "id": 10998,
+        "token": "▁True",
+        "p": 0.004866069182753563
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0044846502132713795
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      3,
+      22772,
+      19,
+      4081,
+      12,
+      3,
+      22772,
+      5,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_inequality_201_201",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 201 and 201 different? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 201,
+    "b": 201,
+    "first_token": "Yes",
+    "yes_minus_no": 0.16637325286865234,
+    "p_yes": 0.5336534380912781,
+    "p_no": 0.4518602788448334,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.5317918658256531
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.4513487219810486
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.005390866659581661
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.00442200293764472
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0018615630688145757
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.0007820997852832079
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      3,
+      22772,
+      11,
+      3,
+      22772,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": false
+  },
+  {
+    "id": "new_original_form_201_12345",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 201 and 12345 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 201,
+    "b": 12345,
+    "first_token": "No",
+    "yes_minus_no": -0.4855194091796875,
+    "p_yes": 0.37410539388656616,
+    "p_no": 0.6079285144805908,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.6064548492431641
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.3721150755882263
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.008091661147773266
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.004440668970346451
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0019903243519365788
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.001473637530580163
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      3,
+      22772,
+      11,
+      3,
+      14574,
+      2128,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_same_201_12345",
+    "suite": "heldout_same",
+    "prompt": "Is 201 the same number as 12345? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 201,
+    "b": 12345,
+    "first_token": "No",
+    "yes_minus_no": -1.1332817077636719,
+    "p_yes": 0.2409372627735138,
+    "p_no": 0.7483108043670654,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.7467224597930908
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.2398364245891571
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.006153681315481663
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0015883148880675435
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0011008370202034712
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0009665582329034805
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      27,
+      7,
+      3,
+      22772,
+      8,
+      337,
+      381,
+      38,
+      3,
+      14574,
+      2128,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_statement_201_12345",
+    "suite": "heldout_statement",
+    "prompt": "201 is equal to 12345. Is this statement true? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 201,
+    "b": 12345,
+    "first_token": "Yes",
+    "yes_minus_no": 0.5593185424804688,
+    "p_yes": 0.6204468011856079,
+    "p_no": 0.3546466529369354,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.6120325922966003
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.3519105315208435
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.010663730092346668
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.008414180018007755
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0034176029730588198
+      },
+      {
+        "id": 10998,
+        "token": "▁True",
+        "p": 0.0032613822259008884
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      3,
+      22772,
+      19,
+      4081,
+      12,
+      3,
+      14574,
+      2128,
+      5,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": false
+  },
+  {
+    "id": "new_inequality_201_12345",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 201 and 12345 different? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 201,
+    "b": 12345,
+    "first_token": "Yes",
+    "yes_minus_no": 0.9351997375488281,
+    "p_yes": 0.7139576077461243,
+    "p_no": 0.28023380041122437,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.7119274139404297
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.279937207698822
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.002030187053605914
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0018324217526242137
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0015278119826689363
+      },
+      {
+        "id": 94,
+        "token": "▁It",
+        "p": 0.000361323676770553
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      3,
+      22772,
+      11,
+      3,
+      14574,
+      2128,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_original_form_404_404",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 404 and 404 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 404,
+    "b": 404,
+    "first_token": "No",
+    "yes_minus_no": -0.14191150665283203,
+    "p_yes": 0.4597930312156677,
+    "p_no": 0.5299000144004822,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.5289233326911926
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.4585082530975342
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.003229135647416115
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0017347763059660792
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0012847920879721642
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.00097665807697922
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      3,
+      25285,
+      11,
+      3,
+      25285,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "new_same_404_404",
+    "suite": "heldout_same",
+    "prompt": "Is 404 the same number as 404? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 404,
+    "b": 404,
+    "first_token": "Yes",
+    "yes_minus_no": 0.8377161026000977,
+    "p_yes": 0.6950806379318237,
+    "p_no": 0.30075985193252563,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.6934863328933716
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.3002118766307831
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0015943279722705483
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0010236760135740042
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0005479655810631812
+      },
+      {
+        "id": 3,
+        "token": "▁",
+        "p": 0.00050767493667081
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      27,
+      7,
+      3,
+      25285,
+      8,
+      337,
+      381,
+      38,
+      3,
+      25285,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_statement_404_404",
+    "suite": "heldout_statement",
+    "prompt": "404 is equal to 404. Is this statement true? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 404,
+    "b": 404,
+    "first_token": "Yes",
+    "yes_minus_no": 1.4294166564941406,
+    "p_yes": 0.7971307635307312,
+    "p_no": 0.19087186455726624,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.793714165687561
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.19036263227462769
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.003416575025767088
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0031615362968295813
+      },
+      {
+        "id": 10998,
+        "token": "▁True",
+        "p": 0.0025999369099736214
+      },
+      {
+        "id": 10747,
+        "token": "▁Fal",
+        "p": 0.001236496726050973
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      3,
+      25285,
+      19,
+      4081,
+      12,
+      3,
+      25285,
+      5,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_inequality_404_404",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 404 and 404 different? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 404,
+    "b": 404,
+    "first_token": "Yes",
+    "yes_minus_no": 0.8752355575561523,
+    "p_yes": 0.7034547924995422,
+    "p_no": 0.2931743562221527,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.702391505241394
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.2929162383079529
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0013361150631681085
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.001063258619979024
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.00025810475926846266
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.00023226570920087397
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      3,
+      25285,
+      11,
+      3,
+      25285,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": false
+  },
+  {
+    "id": "new_original_form_404_42",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 404 and 42 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 404,
+    "b": 42,
+    "first_token": "No",
+    "yes_minus_no": -1.3323554992675781,
+    "p_yes": 0.20653097331523895,
+    "p_no": 0.7827440500259399,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.7810155153274536
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.20563119649887085
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.003079550340771675
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.002797952387481928
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0017285472713410854
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.00089977215975523
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      3,
+      25285,
+      11,
+      6426,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_same_404_42",
+    "suite": "heldout_same",
+    "prompt": "Is 404 the same number as 42? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 404,
+    "b": 42,
+    "first_token": "No",
+    "yes_minus_no": -2.443981170654297,
+    "p_yes": 0.07947146892547607,
+    "p_no": 0.9154167771339417,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.9139389395713806
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.07924775034189224
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0017116370145231485
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0014778414042666554
+      },
+      {
+        "id": 3,
+        "token": "▁",
+        "p": 0.000754416745621711
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0005812083836644888
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      27,
+      7,
+      3,
+      25285,
+      8,
+      337,
+      381,
+      38,
+      6426,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_statement_404_42",
+    "suite": "heldout_statement",
+    "prompt": "404 is equal to 42. Is this statement true? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 404,
+    "b": 42,
+    "first_token": "No",
+    "yes_minus_no": -0.8147239685058594,
+    "p_yes": 0.30096185207366943,
+    "p_no": 0.6797382235527039,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.6760878562927246
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.2975468933582306
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.006462599150836468
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.003650351893156767
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0034938561730086803
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0034149494022130966
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      3,
+      25285,
+      19,
+      4081,
+      12,
+      6426,
+      5,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_inequality_404_42",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 404 and 42 different? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 404,
+    "b": 42,
+    "first_token": "No",
+    "yes_minus_no": -0.10466670989990234,
+    "p_yes": 0.4712695777416229,
+    "p_no": 0.5232696533203125,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.5226717591285706
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.4700084328651428
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0014294324209913611
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0013018482131883502
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.001261159311980009
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0005978909321129322
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      3,
+      25285,
+      11,
+      6426,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "new_original_form_999_999",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 999 and 999 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 999,
+    "b": 999,
+    "first_token": "No",
+    "yes_minus_no": -0.5931358337402344,
+    "p_yes": 0.3501826226711273,
+    "p_no": 0.633709728717804,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.6329765319824219
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.34913870692253113
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.006912485230714083
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0030768979340791702
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0010439198231324553
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.0008896640501916409
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      3,
+      19446,
+      11,
+      3,
+      19446,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "new_same_999_999",
+    "suite": "heldout_same",
+    "prompt": "Is 999 the same number as 999? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 999,
+    "b": 999,
+    "first_token": "Yes",
+    "yes_minus_no": 0.5099506378173828,
+    "p_yes": 0.6219101548194885,
+    "p_no": 0.3734727203845978,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.6198726296424866
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.3729448914527893
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0020375249441713095
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0014824129175394773
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0005334510933607817
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0005278356838971376
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      27,
+      7,
+      3,
+      19446,
+      8,
+      337,
+      381,
+      38,
+      3,
+      19446,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_statement_999_999",
+    "suite": "heldout_statement",
+    "prompt": "999 is equal to 999. Is this statement true? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 999,
+    "b": 999,
+    "first_token": "Yes",
+    "yes_minus_no": 0.5106306076049805,
+    "p_yes": 0.6106763482093811,
+    "p_no": 0.36647725105285645,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.607195258140564
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.3656054735183716
+      },
+      {
+        "id": 10998,
+        "token": "▁True",
+        "p": 0.005010615102946758
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.004900709725916386
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.004025389906018972
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0034810707438737154
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      3,
+      19446,
+      19,
+      4081,
+      12,
+      3,
+      19446,
+      5,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_inequality_999_999",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 999 and 999 different? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 999,
+    "b": 999,
+    "first_token": "Yes",
+    "yes_minus_no": 0.3643922805786133,
+    "p_yes": 0.586728036403656,
+    "p_no": 0.407552033662796,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.5858784317970276
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.407351553440094
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0030246227979660034
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0008495883084833622
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0003513205738272518
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.00032175006344914436
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      3,
+      19446,
+      11,
+      3,
+      19446,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": false
+  },
+  {
+    "id": "new_original_form_999_17",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 999 and 17 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 999,
+    "b": 17,
+    "first_token": "No",
+    "yes_minus_no": -1.9198369979858398,
+    "p_yes": 0.12600217759609222,
+    "p_no": 0.8593160510063171,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.8576765656471252
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.12546631693840027
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0041399248875677586
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.003985615447163582
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0016394711565226316
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.0012476375559344888
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      3,
+      19446,
+      11,
+      1003,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_same_999_17",
+    "suite": "heldout_same",
+    "prompt": "Is 999 the same number as 17? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 999,
+    "b": 17,
+    "first_token": "No",
+    "yes_minus_no": -3.4138002395629883,
+    "p_yes": 0.03180205076932907,
+    "p_no": 0.96616131067276,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.9651874303817749
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.031725991517305374
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0009738513035699725
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.00044492966844700277
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.00038609886541962624
+      },
+      {
+        "id": 3,
+        "token": "▁",
+        "p": 0.00019764942408073694
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      27,
+      7,
+      3,
+      19446,
+      8,
+      337,
+      381,
+      38,
+      1003,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_statement_999_17",
+    "suite": "heldout_statement",
+    "prompt": "999 is equal to 17. Is this statement true? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 999,
+    "b": 17,
+    "first_token": "No",
+    "yes_minus_no": -1.569300651550293,
+    "p_yes": 0.1696898341178894,
+    "p_no": 0.8150687217712402,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.8129719495773315
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.1684047132730484
+      },
+      {
+        "id": 10747,
+        "token": "▁Fal",
+        "p": 0.00583143113180995
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.003002733923494816
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.002314346143975854
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0020967659074813128
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      3,
+      19446,
+      19,
+      4081,
+      12,
+      11030,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_inequality_999_17",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 999 and 17 different? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 999,
+    "b": 17,
+    "first_token": "No",
+    "yes_minus_no": -0.3363780975341797,
+    "p_yes": 0.41503939032554626,
+    "p_no": 0.5810000896453857,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.5805919766426086
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.4141235053539276
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.00131813099142164
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.00091587781207636
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0004659435944631696
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.000408097926992923
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      3,
+      19446,
+      11,
+      1003,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "new_original_form_1000_1000",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 1000 and 1000 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 1000,
+    "b": 1000,
+    "first_token": "No",
+    "yes_minus_no": -0.7699670791625977,
+    "p_yes": 0.30968597531318665,
+    "p_no": 0.6688277721405029,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.6679803133010864
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.30874741077423096
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.007163860369473696
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.006307968404144049
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.001310110674239695
+      },
+      {
+        "id": 94,
+        "token": "▁It",
+        "p": 0.0012324522249400616
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      5580,
+      11,
+      5580,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "new_same_1000_1000",
+    "suite": "heldout_same",
+    "prompt": "Is 1000 the same number as 1000? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 1000,
+    "b": 1000,
+    "first_token": "Yes",
+    "yes_minus_no": 0.0675668716430664,
+    "p_yes": 0.5146651268005371,
+    "p_no": 0.4810396730899811,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.5136796236038208
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.48055320978164673
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0009951639221981168
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0009855247335508466
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0007039507618173957
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0004864624352194369
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      27,
+      7,
+      5580,
+      8,
+      337,
+      381,
+      38,
+      5580,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_statement_1000_1000",
+    "suite": "heldout_statement",
+    "prompt": "1000 is equal to 1000. Is this statement true? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 1000,
+    "b": 1000,
+    "first_token": "Yes",
+    "yes_minus_no": 1.5232009887695312,
+    "p_yes": 0.8082395792007446,
+    "p_no": 0.17620675265789032,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.8046879768371582
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.17584609985351562
+      },
+      {
+        "id": 10998,
+        "token": "▁True",
+        "p": 0.007345713209360838
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.003551623085513711
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0026348026003688574
+      },
+      {
+        "id": 10747,
+        "token": "▁Fal",
+        "p": 0.0016986761474981904
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      5580,
+      19,
+      4081,
+      12,
+      5580,
+      5,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_inequality_1000_1000",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 1000 and 1000 different? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 1000,
+    "b": 1000,
+    "first_token": "No",
+    "yes_minus_no": -0.7449827194213867,
+    "p_yes": 0.3173885643482208,
+    "p_no": 0.6685488224029541,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.6680209636688232
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.31662842631340027
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.006474507972598076
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.002501397393643856
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.0009474126854911447
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0007601321558468044
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      5580,
+      11,
+      5580,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_original_form_1000_17",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 1000 and 17 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 1000,
+    "b": 17,
+    "first_token": "No",
+    "yes_minus_no": -2.354922294616699,
+    "p_yes": 0.0832182914018631,
+    "p_no": 0.8768969774246216,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.8746079802513123
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.08291127532720566
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.01255219429731369
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.011158926412463188
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.003657860681414604
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0022890178952366114
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      5580,
+      11,
+      1003,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_same_1000_17",
+    "suite": "heldout_same",
+    "prompt": "Is 1000 the same number as 17? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 1000,
+    "b": 17,
+    "first_token": "No",
+    "yes_minus_no": -4.439022064208984,
+    "p_yes": 0.011636712588369846,
+    "p_no": 0.985537588596344,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.9842280149459839
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.011612378992140293
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.001309549668803811
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0006366673042066395
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.000426936661824584
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.0002690989931579679
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      27,
+      7,
+      5580,
+      8,
+      337,
+      381,
+      38,
+      1003,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_statement_1000_17",
+    "suite": "heldout_statement",
+    "prompt": "1000 is equal to 17. Is this statement true? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 1000,
+    "b": 17,
+    "first_token": "No",
+    "yes_minus_no": -1.2455854415893555,
+    "p_yes": 0.21975013613700867,
+    "p_no": 0.7636250257492065,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.7614129185676575
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.21828997135162354
+      },
+      {
+        "id": 10747,
+        "token": "▁Fal",
+        "p": 0.006544569041579962
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0025250143371522427
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0022120920475572348
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0021687352564185858
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      5580,
+      19,
+      4081,
+      12,
+      11030,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_inequality_1000_17",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 1000 and 17 different? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 1000,
+    "b": 17,
+    "first_token": "No",
+    "yes_minus_no": -1.4180927276611328,
+    "p_yes": 0.19225522875785828,
+    "p_no": 0.7938675880432129,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.7927589416503906
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.19170574843883514
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.005018383730202913
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.002535866806283593
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.0013667835155501962
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.00110864348243922
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      5580,
+      11,
+      1003,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "new_original_form_12345_12345",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 12345 and 12345 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 12345,
+    "b": 12345,
+    "first_token": "Yes",
+    "yes_minus_no": 0.22170639038085938,
+    "p_yes": 0.5443043112754822,
+    "p_no": 0.4360695481300354,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.542317271232605
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.43539777398109436
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.008131454698741436
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.006002509500831366
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.001987050985917449
+      },
+      {
+        "id": 94,
+        "token": "▁It",
+        "p": 0.0009008758934214711
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      3,
+      14574,
+      2128,
+      11,
+      3,
+      14574,
+      2128,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_same_12345_12345",
+    "suite": "heldout_same",
+    "prompt": "Is 12345 the same number as 12345? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 12345,
+    "b": 12345,
+    "first_token": "Yes",
+    "yes_minus_no": 0.6090049743652344,
+    "p_yes": 0.6428025364875793,
+    "p_no": 0.3496151268482208,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.6400682926177979
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.34893128275871277
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0037086973898112774
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0027342645917087793
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.001166656264103949
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0006838351837359369
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      27,
+      7,
+      3,
+      14574,
+      2128,
+      8,
+      337,
+      381,
+      38,
+      3,
+      14574,
+      2128,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_statement_12345_12345",
+    "suite": "heldout_statement",
+    "prompt": "12345 is equal to 12345. Is this statement true? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 12345,
+    "b": 12345,
+    "first_token": "Yes",
+    "yes_minus_no": 1.431711196899414,
+    "p_yes": 0.7952092885971069,
+    "p_no": 0.1899753361940384,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.7879495024681091
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.18907685577869415
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.007259795907884836
+      },
+      {
+        "id": 10998,
+        "token": "▁True",
+        "p": 0.0044655511155724525
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0030946515034884214
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0023004692047834396
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      3,
+      14574,
+      2128,
+      19,
+      4081,
+      12,
+      3,
+      14574,
+      2128,
+      5,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_inequality_12345_12345",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 12345 and 12345 different? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 12345,
+    "b": 12345,
+    "first_token": "Yes",
+    "yes_minus_no": 0.7878141403198242,
+    "p_yes": 0.6807116866111755,
+    "p_no": 0.30961358547210693,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.6794335246086121
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.30940133333206177
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.004814822692424059
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0018121119355782866
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.001278156298212707
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.0005063545540906489
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      3,
+      14574,
+      2128,
+      11,
+      3,
+      14574,
+      2128,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": false
+  },
+  {
+    "id": "new_original_form_12345_4",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 12345 and 4 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 12345,
+    "b": 4,
+    "first_token": "No",
+    "yes_minus_no": -0.65386962890625,
+    "p_yes": 0.3352249264717102,
+    "p_no": 0.6446263790130615,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.6428155303001404
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.33338305354118347
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.007297285366803408
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.006559403613209724
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0018418851541355252
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0018108218209818006
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      3,
+      14574,
+      2128,
+      11,
+      314,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_same_12345_4",
+    "suite": "heldout_same",
+    "prompt": "Is 12345 the same number as 4? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 12345,
+    "b": 4,
+    "first_token": "No",
+    "yes_minus_no": -2.2647628784179688,
+    "p_yes": 0.09367112815380096,
+    "p_no": 0.9019449949264526,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.9007257223129272
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.09332500398159027
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0017514047212898731
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0012192938011139631
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0006580846384167671
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.00034612775198183954
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      27,
+      7,
+      3,
+      14574,
+      2128,
+      8,
+      337,
+      381,
+      38,
+      314,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_statement_12345_4",
+    "suite": "heldout_statement",
+    "prompt": "12345 is equal to 4. Is this statement true? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 12345,
+    "b": 4,
+    "first_token": "Yes",
+    "yes_minus_no": 0.18183326721191406,
+    "p_yes": 0.5323408842086792,
+    "p_no": 0.44383442401885986,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.5257278084754944
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.4414588212966919
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.007066261488944292
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.006613097619265318
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.004581982269883156
+      },
+      {
+        "id": 10998,
+        "token": "▁True",
+        "p": 0.0034168187994509935
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      3,
+      14574,
+      2128,
+      19,
+      4081,
+      12,
+      2853,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": false
+  },
+  {
+    "id": "new_inequality_12345_4",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 12345 and 4 different? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 12345,
+    "b": 4,
+    "first_token": "Yes",
+    "yes_minus_no": 0.2745332717895508,
+    "p_yes": 0.5640431046485901,
+    "p_no": 0.4286317229270935,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.5623160600662231
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.42817527055740356
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.002396027557551861
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0020708597730845213
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0017270171083509922
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.0004751014057546854
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      3,
+      14574,
+      2128,
+      11,
+      314,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_original_form_54321_54321",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 54321 and 54321 equal? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 54321,
+    "b": 54321,
+    "first_token": "No",
+    "yes_minus_no": -0.13457298278808594,
+    "p_yes": 0.455600380897522,
+    "p_no": 0.5212287306785583,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.5201073288917542
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.45387113094329834
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.008832873776555061
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.008606948889791965
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.001729238429106772
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.001121400622650981
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      305,
+      4906,
+      2658,
+      11,
+      305,
+      4906,
+      2658,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "new_same_54321_54321",
+    "suite": "heldout_same",
+    "prompt": "Is 54321 the same number as 54321? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 54321,
+    "b": 54321,
+    "first_token": "Yes",
+    "yes_minus_no": 1.0798006057739258,
+    "p_yes": 0.7411870956420898,
+    "p_no": 0.2517542243003845,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.7381049394607544
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.25108829140663147
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0035158335231244564
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.00308214477263391
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0011814272729679942
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0006659413338638842
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      27,
+      7,
+      305,
+      4906,
+      2658,
+      8,
+      337,
+      381,
+      38,
+      305,
+      4906,
+      2658,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_statement_54321_54321",
+    "suite": "heldout_statement",
+    "prompt": "54321 is equal to 54321. Is this statement true? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 54321,
+    "b": 54321,
+    "first_token": "Yes",
+    "yes_minus_no": 1.7410430908203125,
+    "p_yes": 0.8412822484970093,
+    "p_no": 0.14750829339027405,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.8346277475357056
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.14678484201431274
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.006654530297964811
+      },
+      {
+        "id": 10998,
+        "token": "▁True",
+        "p": 0.003463008673861623
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0023013874888420105
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0015715576009824872
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      305,
+      4906,
+      2658,
+      19,
+      4081,
+      12,
+      10630,
+      2668,
+      5411,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "new_inequality_54321_54321",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 54321 and 54321 different? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 54321,
+    "b": 54321,
+    "first_token": "Yes",
+    "yes_minus_no": 0.9970769882202148,
+    "p_yes": 0.7229099273681641,
+    "p_no": 0.26672235131263733,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.7211344242095947
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.26636797189712524
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.004960903897881508
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0025072016287595034
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0017755203880369663
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.0005400570225901902
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      305,
+      4906,
+      2658,
+      11,
+      305,
+      4906,
+      2658,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": false
+  },
+  {
+    "id": "new_original_form_54321_999",
+    "suite": "heldout_original_form",
+    "prompt": "Are the numbers 54321 and 999 equal? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 54321,
+    "b": 999,
+    "first_token": "No",
+    "yes_minus_no": -0.7607488632202148,
+    "p_yes": 0.312254935503006,
+    "p_no": 0.668187141418457,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.6661835312843323
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.3107773959636688
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.006947463843971491
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.005597888492047787
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0020036189816892147
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0014775424497202039
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      305,
+      4906,
+      2658,
+      11,
+      3,
+      19446,
+      4081,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_same_54321_999",
+    "suite": "heldout_same",
+    "prompt": "Is 54321 the same number as 999? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 54321,
+    "b": 999,
+    "first_token": "No",
+    "yes_minus_no": -1.8768415451049805,
+    "p_yes": 0.13189725577831268,
+    "p_no": 0.8616631031036377,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.8600425124168396
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.13155072927474976
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.002729152562096715
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0016205663559958339
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0007346745114773512
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.00035396640305407345
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      27,
+      7,
+      305,
+      4906,
+      2658,
+      8,
+      337,
+      381,
+      38,
+      3,
+      19446,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_statement_54321_999",
+    "suite": "heldout_statement",
+    "prompt": "54321 is equal to 999. Is this statement true? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "a": 54321,
+    "b": 999,
+    "first_token": "No",
+    "yes_minus_no": -0.8278894424438477,
+    "p_yes": 0.2986697256565094,
+    "p_no": 0.6835006475448608,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.6800553798675537
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.29584619402885437
+      },
+      {
+        "id": 10747,
+        "token": "▁Fal",
+        "p": 0.004629616159945726
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0041734687983989716
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.003811052069067955
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0034452714025974274
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      305,
+      4906,
+      2658,
+      19,
+      4081,
+      12,
+      3,
+      19446,
+      5,
+      27,
+      7,
+      48,
+      2493,
+      1176,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "new_inequality_54321_999",
+    "suite": "heldout_inequality",
+    "prompt": "Are the numbers 54321 and 999 different? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "a": 54321,
+    "b": 999,
+    "first_token": "Yes",
+    "yes_minus_no": 1.8156709671020508,
+    "p_yes": 0.8572936058044434,
+    "p_no": 0.13950617611408234,
+    "top6": [
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.8552190661430359
+      },
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.13933973014354706
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0020745110232383013
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0010157424258068204
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.000673728936817497
+      },
+      {
+        "id": 290,
+        "token": "▁There",
+        "p": 0.00018997798906639218
+      }
+    ],
+    "output_text": "Yes.",
+    "input_token_ids": [
+      1521,
+      8,
+      2302,
+      305,
+      4906,
+      2658,
+      11,
+      3,
+      19446,
+      315,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      2163,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "yes",
+    "correct": true
+  },
+  {
+    "id": "words_apple_apple",
+    "suite": "word_identity",
+    "prompt": "Are the words apple and apple identical? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "first_token": "No",
+    "yes_minus_no": -2.400653839111328,
+    "p_yes": 0.08287014067173004,
+    "p_no": 0.9140899777412415,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.9135735034942627
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.08263257890939713
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0009740100358612835
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.000646087690256536
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0005164612084627151
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.0002375627518631518
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      1234,
+      8947,
+      11,
+      8947,
+      12022,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "words_apple_pear",
+    "suite": "word_identity",
+    "prompt": "Are the words apple and pear identical? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "first_token": "No",
+    "yes_minus_no": -3.99544620513916,
+    "p_yes": 0.018045322969555855,
+    "p_no": 0.9807653427124023,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.9802187085151672
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.018001336604356766
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0005466120201162994
+      },
+      {
+        "id": 933,
+        "token": "▁Not",
+        "p": 0.000228725271881558
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.00020119686087127775
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0001352170220343396
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      1234,
+      8947,
+      11,
+      158,
+      291,
+      12022,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "words_pear_pear",
+    "suite": "word_identity",
+    "prompt": "Are the words pear and pear identical? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "first_token": "No",
+    "yes_minus_no": -1.6577672958374023,
+    "p_yes": 0.1596091091632843,
+    "p_no": 0.8375614881515503,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.8370348215103149
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.15922296047210693
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0007718736887909472
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0005266437656246126
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0005250649992376566
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.000386153522413224
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      1234,
+      158,
+      291,
+      11,
+      158,
+      291,
+      12022,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "words_pear_apple",
+    "suite": "word_identity",
+    "prompt": "Are the words pear and apple identical? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "first_token": "No",
+    "yes_minus_no": -4.369254112243652,
+    "p_yes": 0.012489130720496178,
+    "p_no": 0.9864499568939209,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.985878586769104
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.012458311393857002
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0005713763530366123
+      },
+      {
+        "id": 933,
+        "token": "▁Not",
+        "p": 0.00020362077339086682
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.0001366050710203126
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0001314045221079141
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      1234,
+      158,
+      291,
+      11,
+      8947,
+      12022,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "words_alpha_alpha",
+    "suite": "word_identity",
+    "prompt": "Are the words alpha and alpha identical? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "first_token": "No",
+    "yes_minus_no": -1.7209358215332031,
+    "p_yes": 0.15142633020877838,
+    "p_no": 0.8464369177818298,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.8459182381629944
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.1511797159910202
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0006037987768650055
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0005186796770431101
+      },
+      {
+        "id": 933,
+        "token": "▁Not",
+        "p": 0.0002627765934448689
+      },
+      {
+        "id": 4273,
+        "token": "▁yes",
+        "p": 0.00024661599309183657
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      1234,
+      491,
+      6977,
+      11,
+      491,
+      6977,
+      12022,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "words_alpha_beta",
+    "suite": "word_identity",
+    "prompt": "Are the words alpha and beta identical? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "first_token": "No",
+    "yes_minus_no": -2.6675491333007812,
+    "p_yes": 0.0647432878613472,
+    "p_no": 0.9326028823852539,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.9315266609191895
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.06459364295005798
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0010762327583506703
+      },
+      {
+        "id": 12503,
+        "token": "▁Alpha",
+        "p": 0.0009509801166132092
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0004280427237972617
+      },
+      {
+        "id": 933,
+        "token": "▁Not",
+        "p": 0.00020282634068280458
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      1234,
+      491,
+      6977,
+      11,
+      12637,
+      12022,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  },
+  {
+    "id": "words_beta_beta",
+    "suite": "word_identity",
+    "prompt": "Are the words beta and beta identical? Answer yes or no.",
+    "expected": "yes",
+    "kind": "yesno",
+    "first_token": "No",
+    "yes_minus_no": -1.8892822265625,
+    "p_yes": 0.13061068952083588,
+    "p_no": 0.8639404773712158,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.8625268340110779
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.13023722171783447
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.0017229029908776283
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0014136158861219883
+      },
+      {
+        "id": 19696,
+        "token": "▁Beta",
+        "p": 0.0010959806386381388
+      },
+      {
+        "id": 27,
+        "token": "▁I",
+        "p": 0.00048034891369752586
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      1234,
+      12637,
+      11,
+      12637,
+      12022,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": false
+  },
+  {
+    "id": "words_beta_alpha",
+    "suite": "word_identity",
+    "prompt": "Are the words beta and alpha identical? Answer yes or no.",
+    "expected": "no",
+    "kind": "yesno",
+    "first_token": "No",
+    "yes_minus_no": -2.4388656616210938,
+    "p_yes": 0.08006291836500168,
+    "p_no": 0.9175242781639099,
+    "top6": [
+      {
+        "id": 465,
+        "token": "▁No",
+        "p": 0.9166213870048523
+      },
+      {
+        "id": 2163,
+        "token": "▁Yes",
+        "p": 0.07991716265678406
+      },
+      {
+        "id": 150,
+        "token": "▁no",
+        "p": 0.0009028739295899868
+      },
+      {
+        "id": 19696,
+        "token": "▁Beta",
+        "p": 0.0007110806182026863
+      },
+      {
+        "id": 37,
+        "token": "▁The",
+        "p": 0.00042733101872727275
+      },
+      {
+        "id": 933,
+        "token": "▁Not",
+        "p": 0.00020896103524137288
+      }
+    ],
+    "output_text": "No.",
+    "input_token_ids": [
+      1521,
+      8,
+      1234,
+      12637,
+      11,
+      491,
+      6977,
+      12022,
+      58,
+      11801,
+      4273,
+      42,
+      150,
+      5,
+      1
+    ],
+    "output_token_ids": [
+      0,
+      465,
+      5,
+      1
+    ],
+    "complete_generation": true,
+    "hit_token_limit": false,
+    "prediction": "no",
+    "correct": true
+  }
+]

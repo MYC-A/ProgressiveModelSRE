@@ -1,0 +1,24 @@
+{
+  "counterfactual_rule_yesno": {
+    "n": 22,
+    "correct": 21,
+    "outputs": {
+      "yes": 9,
+      "no": 13
+    }
+  },
+  "single_equality_replication": {
+    "n": 12,
+    "correct": 7,
+    "outputs": {
+      "no": 11,
+      "yes": 1
+    }
+  },
+  "runtime": {
+    "seconds": 19.21912462399996,
+    "scale_decoder_outputs": false,
+    "tie_word_embeddings": true,
+    "shared_and_lm_head_storage_tied": false
+  }
+}

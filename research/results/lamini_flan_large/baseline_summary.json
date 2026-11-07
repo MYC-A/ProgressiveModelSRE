@@ -1,0 +1,112 @@
+{
+  "original": {
+    "n": 6,
+    "correct": 3,
+    "predictions": {
+      "OK": 6
+    },
+    "expected_yes": {
+      "n": 0,
+      "correct": 0
+    },
+    "expected_no": {
+      "n": 0,
+      "correct": 0
+    }
+  },
+  "pure_equality": {
+    "n": 12,
+    "correct": 7,
+    "predictions": {
+      "no": 11,
+      "yes": 1
+    },
+    "expected_yes": {
+      "n": 6,
+      "correct": 1
+    },
+    "expected_no": {
+      "n": 6,
+      "correct": 6
+    }
+  },
+  "heldout_original_form": {
+    "n": 24,
+    "correct": 13,
+    "predictions": {
+      "no": 23,
+      "yes": 1
+    },
+    "expected_yes": {
+      "n": 12,
+      "correct": 1
+    },
+    "expected_no": {
+      "n": 12,
+      "correct": 12
+    }
+  },
+  "heldout_same": {
+    "n": 24,
+    "correct": 21,
+    "predictions": {
+      "yes": 9,
+      "no": 15
+    },
+    "expected_yes": {
+      "n": 12,
+      "correct": 9
+    },
+    "expected_no": {
+      "n": 12,
+      "correct": 12
+    }
+  },
+  "heldout_statement": {
+    "n": 24,
+    "correct": 19,
+    "predictions": {
+      "yes": 11,
+      "no": 13
+    },
+    "expected_yes": {
+      "n": 12,
+      "correct": 9
+    },
+    "expected_no": {
+      "n": 12,
+      "correct": 10
+    }
+  },
+  "heldout_inequality": {
+    "n": 24,
+    "correct": 13,
+    "predictions": {
+      "yes": 19,
+      "no": 5
+    },
+    "expected_yes": {
+      "n": 12,
+      "correct": 10
+    },
+    "expected_no": {
+      "n": 12,
+      "correct": 3
+    }
+  },
+  "word_identity": {
+    "n": 8,
+    "correct": 4,
+    "predictions": {
+      "no": 8
+    },
+    "expected_yes": {
+      "n": 4,
+      "correct": 0
+    },
+    "expected_no": {
+      "n": 4,
+      "correct": 4
+    }
+  }
+}

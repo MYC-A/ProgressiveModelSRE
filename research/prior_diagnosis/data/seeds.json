@@ -1,0 +1,182 @@
+[
+  {
+    "id": "p19_fail",
+    "pair_id": "p19",
+    "category": "numeric_codes",
+    "target": "HTTP checkout request",
+    "text": "Production GET /checkout returned HTTP 503. The expected response status is HTTP 200.",
+    "gold": "FAIL",
+    "rationale": "Use actual and expected HTTP status, not a generic number mask.",
+    "view": "raw",
+    "input_text": "Production GET /checkout returned HTTP 503. The expected response status is HTTP 200.",
+    "premise": "Target: HTTP checkout request.\nProduction GET /checkout returned HTTP 503. The expected response status is HTTP 200.",
+    "model_alias": "lamini_flan_large",
+    "model": "MBZUAI/LaMini-Flan-T5-783M",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nSuccess criterion: The HTTP response status matches the expected status.\nFailure criterion: The HTTP response status is different from the expected status.\nText: Production GET /checkout returned HTTP 503. The expected response status is HTTP 200.\nAnswer:",
+    "output_text": "Success.",
+    "predictions": {
+      "strict": "OK",
+      "compatible": "OK"
+    },
+    "hit_max_new_tokens": false,
+    "unknown_first": {
+      "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: unknown, success, or failure. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nSuccess criterion: The HTTP response status matches the expected status.\nFailure criterion: The HTTP response status is different from the expected status.\nText: Production GET /checkout returned HTTP 503. The expected response status is HTTP 200.\nAnswer:",
+      "output_text": "Success.",
+      "predictions": {
+        "strict": "OK",
+        "compatible": "OK"
+      },
+      "hit_max_new_tokens": false
+    }
+  },
+  {
+    "id": "p19_ok",
+    "pair_id": "p19",
+    "category": "numeric_codes",
+    "target": "HTTP checkout request",
+    "text": "Production GET /checkout returned HTTP 200. The expected response status is HTTP 200.",
+    "gold": "OK",
+    "rationale": "Use actual and expected HTTP status, not a generic number mask.",
+    "view": "raw",
+    "input_text": "Production GET /checkout returned HTTP 200. The expected response status is HTTP 200.",
+    "premise": "Target: HTTP checkout request.\nProduction GET /checkout returned HTTP 200. The expected response status is HTTP 200.",
+    "model_alias": "lamini_flan_large",
+    "model": "MBZUAI/LaMini-Flan-T5-783M",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nSuccess criterion: The HTTP response status matches the expected status.\nFailure criterion: The HTTP response status is different from the expected status.\nText: Production GET /checkout returned HTTP 200. The expected response status is HTTP 200.\nAnswer:",
+    "output_text": "Success.",
+    "predictions": {
+      "strict": "OK",
+      "compatible": "OK"
+    },
+    "hit_max_new_tokens": false,
+    "unknown_first": {
+      "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: unknown, success, or failure. Use unknown if the current outcome is not established.\nTarget: HTTP checkout request\nSuccess criterion: The HTTP response status matches the expected status.\nFailure criterion: The HTTP response status is different from the expected status.\nText: Production GET /checkout returned HTTP 200. The expected response status is HTTP 200.\nAnswer:",
+      "output_text": "Success.",
+      "predictions": {
+        "strict": "OK",
+        "compatible": "OK"
+      },
+      "hit_max_new_tokens": false
+    }
+  },
+  {
+    "id": "p20_fail",
+    "pair_id": "p20",
+    "category": "numeric_codes",
+    "target": "command execution",
+    "text": "For this command, exit code 0 means success and every other exit code means failure. The command exited with code 2.",
+    "gold": "FAIL",
+    "rationale": "The explicit code convention establishes the outcome.",
+    "view": "raw",
+    "input_text": "For this command, exit code 0 means success and every other exit code means failure. The command exited with code 2.",
+    "premise": "Target: command execution.\nFor this command, exit code 0 means success and every other exit code means failure. The command exited with code 2.",
+    "model_alias": "lamini_flan_large",
+    "model": "MBZUAI/LaMini-Flan-T5-783M",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: command execution\nSuccess criterion: The command exited with a code that indicates success.\nFailure criterion: The command exited with a code that indicates failure.\nText: For this command, exit code 0 means success and every other exit code means failure. The command exited with code 2.\nAnswer:",
+    "output_text": "Success.",
+    "predictions": {
+      "strict": "OK",
+      "compatible": "OK"
+    },
+    "hit_max_new_tokens": false,
+    "unknown_first": {
+      "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: unknown, success, or failure. Use unknown if the current outcome is not established.\nTarget: command execution\nSuccess criterion: The command exited with a code that indicates success.\nFailure criterion: The command exited with a code that indicates failure.\nText: For this command, exit code 0 means success and every other exit code means failure. The command exited with code 2.\nAnswer:",
+      "output_text": "Success.",
+      "predictions": {
+        "strict": "OK",
+        "compatible": "OK"
+      },
+      "hit_max_new_tokens": false
+    }
+  },
+  {
+    "id": "p20_ok",
+    "pair_id": "p20",
+    "category": "numeric_codes",
+    "target": "command execution",
+    "text": "For this command, exit code 0 means success and every other exit code means failure. The command exited with code 0.",
+    "gold": "OK",
+    "rationale": "The explicit code convention establishes the outcome.",
+    "view": "raw",
+    "input_text": "For this command, exit code 0 means success and every other exit code means failure. The command exited with code 0.",
+    "premise": "Target: command execution.\nFor this command, exit code 0 means success and every other exit code means failure. The command exited with code 0.",
+    "model_alias": "lamini_flan_large",
+    "model": "MBZUAI/LaMini-Flan-T5-783M",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: command execution\nSuccess criterion: The command exited with a code that indicates success.\nFailure criterion: The command exited with a code that indicates failure.\nText: For this command, exit code 0 means success and every other exit code means failure. The command exited with code 0.\nAnswer:",
+    "output_text": "Success.",
+    "predictions": {
+      "strict": "OK",
+      "compatible": "OK"
+    },
+    "hit_max_new_tokens": false,
+    "unknown_first": {
+      "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: unknown, success, or failure. Use unknown if the current outcome is not established.\nTarget: command execution\nSuccess criterion: The command exited with a code that indicates success.\nFailure criterion: The command exited with a code that indicates failure.\nText: For this command, exit code 0 means success and every other exit code means failure. The command exited with code 0.\nAnswer:",
+      "output_text": "Success.",
+      "predictions": {
+        "strict": "OK",
+        "compatible": "OK"
+      },
+      "hit_max_new_tokens": false
+    }
+  },
+  {
+    "id": "p24_fail",
+    "pair_id": "p24",
+    "category": "numeric_codes",
+    "target": "custom task result",
+    "text": "In this application, status 1 means success and status 0 means failure. Task result: status 0.",
+    "gold": "FAIL",
+    "rationale": "Do not impose the usual exit-code convention on an explicit reversed mapping.",
+    "view": "raw",
+    "input_text": "In this application, status 1 means success and status 0 means failure. Task result: status 0.",
+    "premise": "Target: custom task result.\nIn this application, status 1 means success and status 0 means failure. Task result: status 0.",
+    "model_alias": "lamini_flan_large",
+    "model": "MBZUAI/LaMini-Flan-T5-783M",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: custom task result\nSuccess criterion: The task returned a status that means success.\nFailure criterion: The task returned a status that means failure.\nText: In this application, status 1 means success and status 0 means failure. Task result: status 0.\nAnswer:",
+    "output_text": "Success.",
+    "predictions": {
+      "strict": "OK",
+      "compatible": "OK"
+    },
+    "hit_max_new_tokens": false,
+    "unknown_first": {
+      "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: unknown, success, or failure. Use unknown if the current outcome is not established.\nTarget: custom task result\nSuccess criterion: The task returned a status that means success.\nFailure criterion: The task returned a status that means failure.\nText: In this application, status 1 means success and status 0 means failure. Task result: status 0.\nAnswer:",
+      "output_text": "Success.",
+      "predictions": {
+        "strict": "OK",
+        "compatible": "OK"
+      },
+      "hit_max_new_tokens": false
+    }
+  },
+  {
+    "id": "p24_ok",
+    "pair_id": "p24",
+    "category": "numeric_codes",
+    "target": "custom task result",
+    "text": "In this application, status 1 means success and status 0 means failure. Task result: status 1.",
+    "gold": "OK",
+    "rationale": "Do not impose the usual exit-code convention on an explicit reversed mapping.",
+    "view": "raw",
+    "input_text": "In this application, status 1 means success and status 0 means failure. Task result: status 1.",
+    "premise": "Target: custom task result.\nIn this application, status 1 means success and status 0 means failure. Task result: status 1.",
+    "model_alias": "lamini_flan_large",
+    "model": "MBZUAI/LaMini-Flan-T5-783M",
+    "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: success, failure, or unknown. Use unknown if the current outcome is not established.\nTarget: custom task result\nSuccess criterion: The task returned a status that means success.\nFailure criterion: The task returned a status that means failure.\nText: In this application, status 1 means success and status 0 means failure. Task result: status 1.\nAnswer:",
+    "output_text": "Success.",
+    "predictions": {
+      "strict": "OK",
+      "compatible": "OK"
+    },
+    "hit_max_new_tokens": false,
+    "unknown_first": {
+      "prompt": "Determine the current outcome of the target from the text. Follow definitions and expected values stated in the text. Use only supplied evidence. Answer with exactly one word: unknown, success, or failure. Use unknown if the current outcome is not established.\nTarget: custom task result\nSuccess criterion: The task returned a status that means success.\nFailure criterion: The task returned a status that means failure.\nText: In this application, status 1 means success and status 0 means failure. Task result: status 1.\nAnswer:",
+      "output_text": "Success.",
+      "predictions": {
+        "strict": "OK",
+        "compatible": "OK"
+      },
+      "hit_max_new_tokens": false
+    }
+  }
+]

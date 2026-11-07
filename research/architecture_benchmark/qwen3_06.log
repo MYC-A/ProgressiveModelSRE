@@ -1,0 +1,12 @@
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   9%|9         | 28/311 [00:00<00:01, 267.97it/s]Loading weights:  18%|#7        | 55/311 [00:00<00:00, 266.09it/s]Loading weights:  26%|##6       | 82/311 [00:00<00:00, 254.79it/s]Loading weights:  35%|###5      | 109/311 [00:00<00:00, 245.91it/s]Loading weights:  43%|####3     | 134/311 [00:00<00:00, 217.44it/s]Loading weights:  50%|#####     | 157/311 [00:00<00:00, 206.46it/s]Loading weights:  57%|#####7    | 178/311 [00:00<00:00, 167.03it/s]Loading weights:  63%|######3   | 196/311 [00:01<00:01, 109.86it/s]Loading weights:  68%|######7   | 211/311 [00:01<00:00, 114.03it/s]Loading weights:  75%|#######4  | 232/311 [00:01<00:00, 133.02it/s]Loading weights:  82%|########1 | 254/311 [00:01<00:00, 152.31it/s]Loading weights:  88%|########8 | 275/311 [00:01<00:00, 163.58it/s]Loading weights:  97%|#########6| 301/311 [00:01<00:00, 184.88it/s]Loading weights: 100%|##########| 311/311 [00:01<00:00, 178.15it/s]
+LOADED qwen3_06 3.7
+GENERATING qwen3_06 test 0 / 432
+GENERATING qwen3_06 test 80 / 432
+GENERATING qwen3_06 test 160 / 432
+GENERATING qwen3_06 test 240 / 432
+GENERATING qwen3_06 test 320 / 432
+GENERATING qwen3_06 test 400 / 432
+SAVED qwen3_06 test {'n': 432, 'correct': 232, 'accuracy': 0.5370370370370371, 'success_n': 144, 'false_alarm': 0, 'failure_n': 144, 'missed_failure': 129, 'unknown_n': 144, 'unknown_correct': 73, 'invalid': 0, 'predictions': {'success': 338, 'unknown': 73, 'failure': 21}}
+GENERATING qwen3_06 diagnostic 0 / 122
+GENERATING qwen3_06 diagnostic 80 / 122
+SAVED qwen3_06 diagnostic {'n': 122, 'correct': 6, 'accuracy': 0.04918032786885246, 'success_n': 3, 'false_alarm': 0, 'failure_n': 3, 'missed_failure': 3, 'unknown_n': 0, 'unknown_correct': 0, 'invalid': 112, 'predictions': {'success': 5, 'unknown': 1, 'INVALID': 112, 'no': 3, 'yes': 1}}

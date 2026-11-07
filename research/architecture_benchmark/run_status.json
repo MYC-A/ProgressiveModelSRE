@@ -1,0 +1,26 @@
+{
+  "modernbert": {
+    "exit_code": 0,
+    "seconds": 260.48650910006836
+  },
+  "flan": {
+    "exit_code": 0,
+    "seconds": 560.6322082998231
+  },
+  "lamini": {
+    "exit_code": 0,
+    "seconds": 357.8669481999241
+  },
+  "train-stream": {
+    "exit_code": 0,
+    "seconds": 43.57039800006896
+  },
+  "qwen3_06": {
+    "exit_code": 0,
+    "seconds": 463.2340618998278
+  },
+  "qwen35_08": {
+    "exit_code": 0,
+    "seconds": 714.2468708998058
+  }
+}

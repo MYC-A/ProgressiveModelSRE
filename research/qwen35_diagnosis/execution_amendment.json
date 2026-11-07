@@ -1,0 +1,16 @@
+{
+  "reason": "Original FP32 batch-8 process exhausted available desktop RAM during validation before saving any validation outputs.",
+  "default_batch_size": 2,
+  "thinking_batch_size": 1,
+  "dtype": "float32 unchanged",
+  "execution": "One result file per fresh model process; resume saved phases without rerunning them.",
+  "initial_saved_files": [
+    "asset_verification.json",
+    "control_batch1.json",
+    "control_long64.json",
+    "control_no_cache.json",
+    "panel_baseline.json",
+    "protocol.json"
+  ],
+  "timestamp": "2026-11-07T14:32:41.085250+00:00"
+}

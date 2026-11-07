@@ -1,0 +1,21 @@
+Loading weights:   0%|          | 0/558 [00:00<?, ?it/s]Loading weights:   9%|▉         | 53/558 [00:00<00:00, 516.70it/s]Loading weights:  19%|█▉        | 105/558 [00:00<00:00, 463.05it/s]Loading weights:  28%|██▊       | 158/558 [00:00<00:00, 482.55it/s]Loading weights:  37%|███▋      | 207/558 [00:00<00:00, 425.77it/s]Loading weights:  45%|████▍     | 251/558 [00:00<00:00, 412.64it/s]Loading weights:  53%|█████▎    | 293/558 [00:00<00:00, 340.05it/s]Loading weights:  60%|██████    | 337/558 [00:00<00:00, 364.60it/s]Loading weights:  67%|██████▋   | 376/558 [00:01<00:00, 327.58it/s]Loading weights:  76%|███████▌  | 424/558 [00:01<00:00, 364.99it/s]Loading weights:  83%|████████▎ | 464/558 [00:01<00:00, 372.62it/s]Loading weights:  90%|█████████ | 503/558 [00:01<00:00, 374.66it/s]Loading weights: 100%|██████████| 558/558 [00:01<00:00, 409.14it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie shared.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+LOADED flan_large probes 140
+PROGRESS flan_large 24 8 / 124 12.9 sec
+PROGRESS flan_large 24 16 / 124 19.9 sec
+PROGRESS flan_large 24 24 / 124 24.8 sec
+PROGRESS flan_large 24 32 / 124 30.2 sec
+PROGRESS flan_large 24 40 / 124 36.1 sec
+PROGRESS flan_large 24 48 / 124 40.5 sec
+PROGRESS flan_large 24 56 / 124 45.4 sec
+PROGRESS flan_large 24 64 / 124 48.9 sec
+PROGRESS flan_large 24 72 / 124 52.7 sec
+PROGRESS flan_large 24 80 / 124 56.9 sec
+PROGRESS flan_large 24 88 / 124 61.3 sec
+PROGRESS flan_large 24 96 / 124 66.4 sec
+PROGRESS flan_large 24 104 / 124 74.3 sec
+PROGRESS flan_large 24 112 / 124 75.8 sec
+PROGRESS flan_large 24 120 / 124 77.7 sec
+PROGRESS flan_large 24 124 / 124 79.4 sec
+PROGRESS flan_large 64 6 / 6 89.7 sec
+DONE flan_large 123.5 seconds

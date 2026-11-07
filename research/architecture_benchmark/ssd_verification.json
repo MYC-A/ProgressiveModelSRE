@@ -1,0 +1,6 @@
+{
+  "max_recurrence_error": 5.960464477539063e-08,
+  "max_prefix_error": 2.9802322387695312e-08,
+  "gradients_finite": true,
+  "scope": "CPU reference SSD prototype; not official optimized Mamba-2 kernels"
+}

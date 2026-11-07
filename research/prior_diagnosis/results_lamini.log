@@ -1,0 +1,21 @@
+Loading weights:   0%|          | 0/560 [00:00<?, ?it/s]Loading weights: 100%|██████████| 560/560 [00:00<00:00, 6077.02it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie shared.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+LOADED lamini_flan_large probes 140
+PROGRESS lamini_flan_large 24 8 / 124 16.9 sec
+PROGRESS lamini_flan_large 24 16 / 124 24.8 sec
+PROGRESS lamini_flan_large 24 24 / 124 31.7 sec
+PROGRESS lamini_flan_large 24 32 / 124 44.6 sec
+PROGRESS lamini_flan_large 24 40 / 124 56.0 sec
+PROGRESS lamini_flan_large 24 48 / 124 157.0 sec
+PROGRESS lamini_flan_large 24 56 / 124 173.7 sec
+PROGRESS lamini_flan_large 24 64 / 124 185.2 sec
+PROGRESS lamini_flan_large 24 72 / 124 200.0 sec
+PROGRESS lamini_flan_large 24 80 / 124 213.7 sec
+PROGRESS lamini_flan_large 24 88 / 124 228.5 sec
+PROGRESS lamini_flan_large 24 96 / 124 240.4 sec
+PROGRESS lamini_flan_large 24 104 / 124 260.9 sec
+PROGRESS lamini_flan_large 24 112 / 124 282.4 sec
+PROGRESS lamini_flan_large 24 120 / 124 295.2 sec
+PROGRESS lamini_flan_large 24 124 / 124 314.4 sec
+PROGRESS lamini_flan_large 64 6 / 6 333.2 sec
+DONE lamini_flan_large 364.7 seconds

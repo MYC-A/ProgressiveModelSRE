@@ -1,0 +1,112 @@
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights:   0%|          | 1/473 [00:00<03:10,  2.48it/s]Loading weights:   8%|8         | 39/473 [00:00<00:04, 100.06it/s]Loading weights:  13%|#2        | 61/473 [00:00<00:03, 128.39it/s]Loading weights:  17%|#7        | 82/473 [00:00<00:02, 150.18it/s]Loading weights:  22%|##2       | 106/473 [00:00<00:02, 168.02it/s]Loading weights:  27%|##6       | 127/473 [00:00<00:01, 175.42it/s]Loading weights:  31%|###1      | 148/473 [00:01<00:01, 164.47it/s]Loading weights:  35%|###5      | 167/473 [00:01<00:02, 121.33it/s]Loading weights:  38%|###8      | 182/473 [00:01<00:02, 119.86it/s]Loading weights:  41%|####1     | 196/473 [00:01<00:02, 120.02it/s]Loading weights:  46%|####5     | 216/473 [00:01<00:01, 129.55it/s]Loading weights:  49%|####8     | 230/473 [00:01<00:01, 128.11it/s]Loading weights:  52%|#####1    | 244/473 [00:02<00:02, 86.37it/s] Loading weights:  56%|#####6    | 266/473 [00:02<00:01, 108.11it/s]Loading weights:  60%|#####9    | 283/473 [00:02<00:01, 117.37it/s]Loading weights:  63%|######3   | 299/473 [00:02<00:01, 119.98it/s]Loading weights:  66%|######6   | 313/473 [00:02<00:01, 124.44it/s]Loading weights:  73%|#######3  | 346/473 [00:02<00:00, 162.87it/s]Loading weights:  79%|#######8  | 373/473 [00:02<00:00, 187.57it/s]Loading weights:  83%|########3 | 393/473 [00:02<00:00, 177.18it/s]Loading weights:  90%|########9 | 424/473 [00:03<00:00, 196.01it/s]Loading weights:  95%|#########5| 451/473 [00:03<00:00, 204.25it/s]Loading weights: 100%|#########9| 472/473 [00:03<00:00, 163.47it/s]Loading weights: 100%|##########| 473/473 [00:03<00:00, 138.03it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+Traceback (most recent call last):
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\research\qwen35_diagnosis\run.py", line 217, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\research\qwen35_diagnosis\run.py", line 173, in main
+    rows = infer(validation, variant)
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 158, in inference_mode
+    return func(*args, **kwargs)
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\research\qwen35_diagnosis\run.py", line 133, in infer
+    output = model.generate(**feed, **kwargs)
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 158, in no_grad
+    return func(*args, **kwargs)
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\transformers\generation\utils.py", line 3000, in generate
+    result = decoding_method(
+        self,
+    ...<5 lines>...
+        **model_kwargs,
+    )
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\transformers\generation\utils.py", line 3200, in _sample
+    outputs = self._prefill(
+        input_ids,
+    ...<2 lines>...
+        is_first_iteration=not generation_config.is_assistant,
+    )
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\transformers\generation\utils.py", line 4312, in _prefill
+    return self(**model_inputs, return_dict=True)
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1798, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\transformers\utils\generic.py", line 943, in wrapper
+    output = func(self, *args, **kwargs)
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\transformers\models\qwen3_5\modeling_qwen3_5.py", line 1850, in forward
+    outputs = self.model(
+        input_ids=input_ids,
+    ...<10 lines>...
+        **kwargs,
+    )
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1798, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\transformers\utils\generic.py", line 943, in wrapper
+    output = func(self, *args, **kwargs)
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\transformers\models\qwen3_5\modeling_qwen3_5.py", line 1643, in forward
+    outputs = self.language_model(
+        input_ids=None,
+    ...<5 lines>...
+        **kwargs,
+    )
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1798, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\transformers\utils\generic.py", line 1081, in wrapper
+    output = func(self, *args, **kwargs)
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\transformers\utils\output_capturing.py", line 287, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\transformers\models\qwen3_5\modeling_qwen3_5.py", line 1279, in forward
+    hidden_states = decoder_layer(
+        hidden_states,
+    ...<5 lines>...
+        **kwargs,
+    )
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\transformers\modeling_layers.py", line 111, in __call__
+    return super().__call__(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1798, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\transformers\models\qwen3_5\modeling_qwen3_5.py", line 876, in forward
+    hidden_states = self.linear_attn(
+        hidden_states=hidden_states,
+    ...<2 lines>...
+        **kwargs,
+    )
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1798, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\transformers\integrations\accelerate.py", line 1012, in wrapped
+    output = forward_func(self, *args, **kwargs)
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\transformers\models\qwen3_5\modeling_qwen3_5.py", line 578, in forward
+    mixed_qkv = causal_conv1d_fn(
+        mixed_qkv,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\transformers\integrations\hub_kernels.py", line 1051, in wrapped
+    return implementation(*args, **kwargs)
+  File "C:\Users\Igor\Documents\ProgressiveModelSRE\.venv\Lib\site-packages\transformers\models\qwen3_5\modeling_qwen3_5.py", line 266, in causal_conv1d_fn
+    out = F.conv1d(
+          ~~~~~~~~^
+        hidden_states.to(weight.dtype),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        groups=hidden_size,
+        ^^^^^^^^^^^^^^^^^^^
+    )[:, :, :seq_len]
+    ^
+RuntimeError: [enforce fail at alloc_cpu.cpp:117] data. DefaultCPUAllocator: not enough memory: you tried to allocate 22806528 bytes.

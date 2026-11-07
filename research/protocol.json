@@ -1,0 +1,68 @@
+{
+  "frozen_before_new_outputs": true,
+  "date": "2026-11-07",
+  "n": 122,
+  "probes_sha256": "0c6d512c44fb6e513778b4c048220e69d94d2521f7f5ed5d7f0b8c18d4f226d7",
+  "model_specs": [
+    {
+      "alias": "flan_large",
+      "repo": "google/flan-t5-large",
+      "revision": "0613663d0d48ea86ba8cb3d7a44f0f65dc596a2a",
+      "gated": false,
+      "access": "config accessible",
+      "params": 783150080,
+      "files": [
+        ".gitattributes",
+        "README.md",
+        "config.json",
+        "flax_model.msgpack",
+        "generation_config.json",
+        "model.safetensors",
+        "pytorch_model.bin",
+        "special_tokens_map.json",
+        "spiece.model",
+        "tf_model.h5",
+        "tokenizer.json",
+        "tokenizer_config.json"
+      ],
+      "local_path": "/workspace/scratch/b0ed23bed8e9/t5_family/models/flan_large"
+    },
+    {
+      "alias": "lamini_flan_large",
+      "repo": "MBZUAI/LaMini-Flan-T5-783M",
+      "revision": "7a1ff0207cbe75d6a1fcbcc7077ee0b6808ecf9f",
+      "gated": false,
+      "access": "config accessible",
+      "params": null,
+      "files": [
+        ".gitattributes",
+        "README.md",
+        "config.json",
+        "generation_config.json",
+        "pytorch_model.bin",
+        "special_tokens_map.json",
+        "spiece.model",
+        "tokenizer.json",
+        "tokenizer_config.json"
+      ],
+      "local_path": "/workspace/scratch/b0ed23bed8e9/t5_family/models/lamini_flan_large"
+    }
+  ],
+  "dtype": "float32",
+  "threads": 4,
+  "decoding": "greedy",
+  "attention": "eager",
+  "primary_metric": "exact normalized complete generated answer",
+  "screening_metric": "full-vocabulary argmax at first answer token; not forced binary classification",
+  "interventions": [
+    "skip encoder FF residual update, all 24 individually and layers 21+23 jointly",
+    "replace encoder DenseReluDense weights only with parent checkpoint, and reciprocal",
+    "replace encoder FF layer norms only",
+    "within-model encoder activation patch, matched-length sources 2=2, 2!=7, 7=7 to 200=200 and 200!=7"
+  ],
+  "limitations": [
+    "New numbers and templates are a diagnostic holdout, not an independent benchmark",
+    "Ablations and hybrids change the computation; success is not proof of a unique natural circuit",
+    "Attention weights and intermediate vocabulary projections alone do not establish causality"
+  ]
+}

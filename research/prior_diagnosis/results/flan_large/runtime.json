@@ -1,0 +1,36 @@
+{
+  "elapsed_seconds": 123.53618893200019,
+  "parameters": 783150080,
+  "torch": "2.15.0+cpu",
+  "dtype": "FP32",
+  "threads": 4,
+  "max_input_tokens": 124,
+  "truncated_inputs": 0,
+  "revision": "0613663d0d48ea86ba8cb3d7a44f0f65dc596a2a",
+  "protocol_sha256": "feff8135ee4ff288ca7292ccc0eefd12bc4afe716e7b21d7014a6c439e04b938",
+  "generated_limit_hits": 0,
+  "equality_tokenization": {
+    "0": [
+      "▁",
+      "0",
+      "</s>"
+    ],
+    "1": [
+      "▁1",
+      "</s>"
+    ],
+    "2": [
+      "▁2",
+      "</s>"
+    ],
+    "200": [
+      "▁200",
+      "</s>"
+    ],
+    "503": [
+      "▁50",
+      "3",
+      "</s>"
+    ]
+  }
+}

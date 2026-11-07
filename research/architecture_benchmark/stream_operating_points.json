@@ -1,0 +1,671 @@
+{
+  "purpose": "Additional diagnostic operating points after initial 1% results; no model retraining or test-based threshold selection",
+  "results": {
+    "stream_gnn_0": {
+      "roc_auc": 0.9322930590536225,
+      "points": [
+        {
+          "validation_fpr_budget": 0.005,
+          "threshold": 0.9596171975135803,
+          "test_false_alarm": 17,
+          "test_missed_failure": 30,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.01,
+          "threshold": 0.7988749742507935,
+          "test_false_alarm": 27,
+          "test_missed_failure": 21,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.03,
+          "threshold": 0.46877092123031616,
+          "test_false_alarm": 54,
+          "test_missed_failure": 14,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.05,
+          "threshold": 0.4295203983783722,
+          "test_false_alarm": 58,
+          "test_missed_failure": 14,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        }
+      ]
+    },
+    "stream_gnn_1": {
+      "roc_auc": 0.9423534212266607,
+      "points": [
+        {
+          "validation_fpr_budget": 0.005,
+          "threshold": 0.9747929573059082,
+          "test_false_alarm": 3,
+          "test_missed_failure": 37,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.01,
+          "threshold": 0.9653012752532959,
+          "test_false_alarm": 4,
+          "test_missed_failure": 34,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.03,
+          "threshold": 0.9371904730796814,
+          "test_false_alarm": 9,
+          "test_missed_failure": 31,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.05,
+          "threshold": 0.9072715044021606,
+          "test_false_alarm": 28,
+          "test_missed_failure": 27,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        }
+      ]
+    },
+    "stream_gnn_2": {
+      "roc_auc": 0.9374428388512895,
+      "points": [
+        {
+          "validation_fpr_budget": 0.005,
+          "threshold": 0.9880672693252563,
+          "test_false_alarm": 11,
+          "test_missed_failure": 26,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.01,
+          "threshold": 0.9867329001426697,
+          "test_false_alarm": 14,
+          "test_missed_failure": 25,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.03,
+          "threshold": 0.9766121506690979,
+          "test_false_alarm": 32,
+          "test_missed_failure": 20,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.05,
+          "threshold": 0.9765193462371826,
+          "test_false_alarm": 32,
+          "test_missed_failure": 20,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        }
+      ]
+    },
+    "stream_gru_0": {
+      "roc_auc": 0.9436056900845633,
+      "points": [
+        {
+          "validation_fpr_budget": 0.005,
+          "threshold": 0.9986047148704529,
+          "test_false_alarm": 3,
+          "test_missed_failure": 34,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.01,
+          "threshold": 0.9852692484855652,
+          "test_false_alarm": 21,
+          "test_missed_failure": 21,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.03,
+          "threshold": 0.9080155491828918,
+          "test_false_alarm": 40,
+          "test_missed_failure": 15,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.05,
+          "threshold": 0.8895788192749023,
+          "test_false_alarm": 42,
+          "test_missed_failure": 14,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        }
+      ]
+    },
+    "stream_gru_1": {
+      "roc_auc": 0.9417202515794065,
+      "points": [
+        {
+          "validation_fpr_budget": 0.005,
+          "threshold": 0.9282811880111694,
+          "test_false_alarm": 2,
+          "test_missed_failure": 33,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.01,
+          "threshold": 0.9218741059303284,
+          "test_false_alarm": 4,
+          "test_missed_failure": 32,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.03,
+          "threshold": 0.9212538599967957,
+          "test_false_alarm": 4,
+          "test_missed_failure": 32,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.05,
+          "threshold": 0.844147801399231,
+          "test_false_alarm": 31,
+          "test_missed_failure": 25,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        }
+      ]
+    },
+    "stream_gru_2": {
+      "roc_auc": 0.910174332709544,
+      "points": [
+        {
+          "validation_fpr_budget": 0.005,
+          "threshold": 0.9714342951774597,
+          "test_false_alarm": 17,
+          "test_missed_failure": 34,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.01,
+          "threshold": 0.9713504910469055,
+          "test_false_alarm": 17,
+          "test_missed_failure": 34,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.03,
+          "threshold": 0.9711823463439941,
+          "test_false_alarm": 18,
+          "test_missed_failure": 34,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.05,
+          "threshold": 0.9271494150161743,
+          "test_false_alarm": 48,
+          "test_missed_failure": 24,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        }
+      ]
+    },
+    "stream_lstm_0": {
+      "roc_auc": 0.9322508477438055,
+      "points": [
+        {
+          "validation_fpr_budget": 0.005,
+          "threshold": 0.9944075345993042,
+          "test_false_alarm": 20,
+          "test_missed_failure": 31,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.01,
+          "threshold": 0.9935328960418701,
+          "test_false_alarm": 22,
+          "test_missed_failure": 26,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.03,
+          "threshold": 0.9934870004653931,
+          "test_false_alarm": 23,
+          "test_missed_failure": 26,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.05,
+          "threshold": 0.9934836030006409,
+          "test_false_alarm": 23,
+          "test_missed_failure": 26,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        }
+      ]
+    },
+    "stream_lstm_1": {
+      "roc_auc": 0.8913199476579758,
+      "points": [
+        {
+          "validation_fpr_budget": 0.005,
+          "threshold": 0.9967940449714661,
+          "test_false_alarm": 20,
+          "test_missed_failure": 65,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.01,
+          "threshold": 0.9937212467193604,
+          "test_false_alarm": 43,
+          "test_missed_failure": 33,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.03,
+          "threshold": 0.9932076334953308,
+          "test_false_alarm": 46,
+          "test_missed_failure": 33,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.05,
+          "threshold": 0.9932076334953308,
+          "test_false_alarm": 46,
+          "test_missed_failure": 33,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        }
+      ]
+    },
+    "stream_lstm_2": {
+      "roc_auc": 0.9187572990389892,
+      "points": [
+        {
+          "validation_fpr_budget": 0.005,
+          "threshold": 0.994171679019928,
+          "test_false_alarm": 5,
+          "test_missed_failure": 37,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.01,
+          "threshold": 0.9899954795837402,
+          "test_false_alarm": 13,
+          "test_missed_failure": 33,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.03,
+          "threshold": 0.9899071455001831,
+          "test_false_alarm": 13,
+          "test_missed_failure": 33,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.05,
+          "threshold": 0.972913920879364,
+          "test_false_alarm": 39,
+          "test_missed_failure": 30,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        }
+      ]
+    },
+    "stream_mean_0": {
+      "roc_auc": 0.9255673903561228,
+      "points": [
+        {
+          "validation_fpr_budget": 0.005,
+          "threshold": 0.8234161734580994,
+          "test_false_alarm": 4,
+          "test_missed_failure": 64,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.01,
+          "threshold": 0.783084511756897,
+          "test_false_alarm": 13,
+          "test_missed_failure": 57,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.03,
+          "threshold": 0.6938557028770447,
+          "test_false_alarm": 23,
+          "test_missed_failure": 23,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.05,
+          "threshold": 0.6936560869216919,
+          "test_false_alarm": 23,
+          "test_missed_failure": 23,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        }
+      ]
+    },
+    "stream_mean_1": {
+      "roc_auc": 0.9406508983973773,
+      "points": [
+        {
+          "validation_fpr_budget": 0.005,
+          "threshold": 0.9419183731079102,
+          "test_false_alarm": 2,
+          "test_missed_failure": 30,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.01,
+          "threshold": 0.8663337230682373,
+          "test_false_alarm": 17,
+          "test_missed_failure": 24,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.03,
+          "threshold": 0.7897775173187256,
+          "test_false_alarm": 26,
+          "test_missed_failure": 23,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.05,
+          "threshold": 0.7895686030387878,
+          "test_false_alarm": 26,
+          "test_missed_failure": 23,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        }
+      ]
+    },
+    "stream_mean_2": {
+      "roc_auc": 0.9464619887155098,
+      "points": [
+        {
+          "validation_fpr_budget": 0.005,
+          "threshold": 0.9184013605117798,
+          "test_false_alarm": 8,
+          "test_missed_failure": 29,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.01,
+          "threshold": 0.8909555077552795,
+          "test_false_alarm": 11,
+          "test_missed_failure": 24,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.03,
+          "threshold": 0.8907886147499084,
+          "test_false_alarm": 11,
+          "test_missed_failure": 24,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.05,
+          "threshold": 0.8907886147499084,
+          "test_false_alarm": 11,
+          "test_missed_failure": 24,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        }
+      ]
+    },
+    "stream_ssd_0": {
+      "roc_auc": 0.9315051146037061,
+      "points": [
+        {
+          "validation_fpr_budget": 0.005,
+          "threshold": 0.856370210647583,
+          "test_false_alarm": 9,
+          "test_missed_failure": 23,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.01,
+          "threshold": 0.8430152535438538,
+          "test_false_alarm": 9,
+          "test_missed_failure": 23,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.03,
+          "threshold": 0.7678661942481995,
+          "test_false_alarm": 22,
+          "test_missed_failure": 22,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.05,
+          "threshold": 0.7675328254699707,
+          "test_false_alarm": 22,
+          "test_missed_failure": 22,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        }
+      ]
+    },
+    "stream_ssd_1": {
+      "roc_auc": 0.961798764615666,
+      "points": [
+        {
+          "validation_fpr_budget": 0.005,
+          "threshold": 0.9936675429344177,
+          "test_false_alarm": 0,
+          "test_missed_failure": 35,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.01,
+          "threshold": 0.617627739906311,
+          "test_false_alarm": 2,
+          "test_missed_failure": 18,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.03,
+          "threshold": 0.09244190901517868,
+          "test_false_alarm": 19,
+          "test_missed_failure": 12,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.05,
+          "threshold": 0.040881507098674774,
+          "test_false_alarm": 63,
+          "test_missed_failure": 12,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        }
+      ]
+    },
+    "stream_ssd_2": {
+      "roc_auc": 0.9079512037258516,
+      "points": [
+        {
+          "validation_fpr_budget": 0.005,
+          "threshold": 0.9999804496765137,
+          "test_false_alarm": 11,
+          "test_missed_failure": 34,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.01,
+          "threshold": 0.999967098236084,
+          "test_false_alarm": 13,
+          "test_missed_failure": 34,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.03,
+          "threshold": 0.9999668598175049,
+          "test_false_alarm": 13,
+          "test_missed_failure": 34,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.05,
+          "threshold": 0.9999668598175049,
+          "test_false_alarm": 13,
+          "test_missed_failure": 34,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        }
+      ]
+    },
+    "stream_tcn_0": {
+      "roc_auc": 0.9342769906150188,
+      "points": [
+        {
+          "validation_fpr_budget": 0.005,
+          "threshold": 0.973330020904541,
+          "test_false_alarm": 14,
+          "test_missed_failure": 34,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.01,
+          "threshold": 0.8790751695632935,
+          "test_false_alarm": 25,
+          "test_missed_failure": 24,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.03,
+          "threshold": 0.8088622093200684,
+          "test_false_alarm": 70,
+          "test_missed_failure": 16,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.05,
+          "threshold": 0.7915820479393005,
+          "test_false_alarm": 71,
+          "test_missed_failure": 15,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        }
+      ]
+    },
+    "stream_tcn_1": {
+      "roc_auc": 0.9393282773564464,
+      "points": [
+        {
+          "validation_fpr_budget": 0.005,
+          "threshold": 0.999994158744812,
+          "test_false_alarm": 2,
+          "test_missed_failure": 27,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.01,
+          "threshold": 0.999994158744812,
+          "test_false_alarm": 2,
+          "test_missed_failure": 27,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.03,
+          "threshold": 0.9999940395355225,
+          "test_false_alarm": 2,
+          "test_missed_failure": 27,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.05,
+          "threshold": 0.9994034767150879,
+          "test_false_alarm": 15,
+          "test_missed_failure": 19,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        }
+      ]
+    },
+    "stream_tcn_2": {
+      "roc_auc": 0.9304639022948882,
+      "points": [
+        {
+          "validation_fpr_budget": 0.005,
+          "threshold": 0.8166495561599731,
+          "test_false_alarm": 7,
+          "test_missed_failure": 28,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.01,
+          "threshold": 0.7806985378265381,
+          "test_false_alarm": 13,
+          "test_missed_failure": 24,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.03,
+          "threshold": 0.6568061113357544,
+          "test_false_alarm": 66,
+          "test_missed_failure": 22,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        },
+        {
+          "validation_fpr_budget": 0.05,
+          "threshold": 0.5907571911811829,
+          "test_false_alarm": 74,
+          "test_missed_failure": 20,
+          "test_failure_n": 77,
+          "test_success_n": 923
+        }
+      ]
+    }
+  }
+}

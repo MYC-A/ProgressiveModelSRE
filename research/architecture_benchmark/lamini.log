@@ -1,0 +1,13 @@
+Loading weights:   0%|          | 0/560 [00:00<?, ?it/s]Loading weights: 100%|##########| 560/560 [00:00<00:00, 26159.80it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie shared.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+LOADED lamini_flan_large 0.94
+GENERATING lamini_flan_large test 0 / 432
+GENERATING lamini_flan_large test 80 / 432
+GENERATING lamini_flan_large test 160 / 432
+GENERATING lamini_flan_large test 240 / 432
+GENERATING lamini_flan_large test 320 / 432
+GENERATING lamini_flan_large test 400 / 432
+SAVED lamini_flan_large test {'n': 432, 'correct': 265, 'accuracy': 0.6134259259259259, 'success_n': 144, 'false_alarm': 0, 'failure_n': 144, 'missed_failure': 95, 'unknown_n': 144, 'unknown_correct': 72, 'invalid': 0, 'predictions': {'success': 287, 'failure': 73, 'unknown': 72}}
+GENERATING lamini_flan_large diagnostic 0 / 122
+GENERATING lamini_flan_large diagnostic 80 / 122
+SAVED lamini_flan_large diagnostic {'n': 122, 'correct': 80, 'accuracy': 0.6557377049180327, 'success_n': 3, 'false_alarm': 0, 'failure_n': 3, 'missed_failure': 3, 'unknown_n': 0, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'success': 6, 'no': 75, 'yes': 41}}

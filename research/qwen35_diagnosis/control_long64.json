@@ -1,0 +1,1292 @@
+{
+  "metrics": {
+    "all": {
+      "n": 17,
+      "correct": 6,
+      "accuracy": 0.35294117647058826,
+      "success_n": 6,
+      "false_alarm": 3,
+      "failure_n": 8,
+      "missed_failure": 5,
+      "unknown_n": 3,
+      "unknown_correct": 0,
+      "invalid": 0,
+      "predictions": {
+        "success": 8,
+        "failure": 9
+      }
+    },
+    "sre_binding": {
+      "n": 3,
+      "correct": 2,
+      "accuracy": 0.6666666666666666,
+      "success_n": 1,
+      "false_alarm": 0,
+      "failure_n": 1,
+      "missed_failure": 0,
+      "unknown_n": 1,
+      "unknown_correct": 0,
+      "invalid": 0,
+      "predictions": {
+        "success": 1,
+        "failure": 2
+      }
+    },
+    "sre_latency": {
+      "n": 6,
+      "correct": 2,
+      "accuracy": 0.3333333333333333,
+      "success_n": 4,
+      "false_alarm": 3,
+      "failure_n": 1,
+      "missed_failure": 0,
+      "unknown_n": 1,
+      "unknown_correct": 0,
+      "invalid": 0,
+      "predictions": {
+        "success": 1,
+        "failure": 5
+      }
+    },
+    "sre_recovery": {
+      "n": 3,
+      "correct": 2,
+      "accuracy": 0.6666666666666666,
+      "success_n": 1,
+      "false_alarm": 0,
+      "failure_n": 1,
+      "missed_failure": 0,
+      "unknown_n": 1,
+      "unknown_correct": 0,
+      "invalid": 0,
+      "predictions": {
+        "success": 1,
+        "failure": 2
+      }
+    },
+    "sre_throughput": {
+      "n": 5,
+      "correct": 0,
+      "accuracy": 0.0,
+      "success_n": 0,
+      "false_alarm": 0,
+      "failure_n": 5,
+      "missed_failure": 5,
+      "unknown_n": 0,
+      "unknown_correct": 0,
+      "invalid": 0,
+      "predictions": {
+        "success": 5
+      }
+    }
+  },
+  "predictions": [
+    {
+      "id": "test_binding_0_success",
+      "suite": "sre_binding",
+      "family": "binding",
+      "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_1575\nSuccess criterion: Code 2911 is the sole successful outcome. All other result codes are failures.\nText: The latest execution of job_1575 returned code 2911. The latest execution of other_2251 returned code 2917.\nAnswer:",
+      "expected": "success",
+      "kind": "state",
+      "prediction": "success",
+      "output_text": "success\n",
+      "output_ids": [
+        5453,
+        248046,
+        198,
+        248044
+      ],
+      "hit_token_limit": false,
+      "input_tokens": 129,
+      "first_label_logprob": {
+        "success": -0.11286909878253937,
+        "failure": -2.6998651027679443,
+        "unknown": -6.395851135253906
+      },
+      "first_label_conditional": {
+        "success": 0.9284072518348694,
+        "failure": 0.06985868513584137,
+        "unknown": 0.0017341001657769084
+      },
+      "first_top_tokens": [
+        {
+          "id": 5453,
+          "text": "success",
+          "logprob": -0.11286909878253937
+        },
+        {
+          "id": 27997,
+          "text": "failure",
+          "logprob": -2.6998651027679443
+        },
+        {
+          "id": 6962,
+          "text": "Success",
+          "logprob": -3.474595785140991
+        },
+        {
+          "id": 15615,
+          "text": "unknown",
+          "logprob": -6.395851135253906
+        },
+        {
+          "id": 16987,
+          "text": "Failure",
+          "logprob": -6.676120758056641
+        },
+        {
+          "id": 17854,
+          "text": "fail",
+          "logprob": -6.717990875244141
+        },
+        {
+          "id": 2316,
+          "text": " success",
+          "logprob": -7.969165802001953
+        },
+        {
+          "id": 29934,
+          "text": "successful",
+          "logprob": -8.224863052368164
+        }
+      ],
+      "batch_seconds": 10.768523100065067
+    },
+    {
+      "id": "test_binding_0_failure",
+      "suite": "sre_binding",
+      "family": "binding",
+      "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_1575\nSuccess criterion: Treat a result as successful if and only if its code matches 2911; otherwise it failed.\nText: The latest execution of job_1575 returned code 2917. The latest execution of other_2251 returned code 2911.\nAnswer:",
+      "expected": "failure",
+      "kind": "state",
+      "prediction": "failure",
+      "output_text": "failure\n",
+      "output_ids": [
+        27997,
+        248046,
+        198,
+        248044
+      ],
+      "hit_token_limit": false,
+      "input_tokens": 132,
+      "first_label_logprob": {
+        "success": -2.386043071746826,
+        "failure": -0.15650708973407745,
+        "unknown": -5.0885539054870605
+      },
+      "first_label_conditional": {
+        "success": 0.09650098532438278,
+        "failure": 0.8970299363136292,
+        "unknown": 0.006469134707003832
+      },
+      "first_top_tokens": [
+        {
+          "id": 27997,
+          "text": "failure",
+          "logprob": -0.15650708973407745
+        },
+        {
+          "id": 5453,
+          "text": "success",
+          "logprob": -2.386043071746826
+        },
+        {
+          "id": 16987,
+          "text": "Failure",
+          "logprob": -4.376250743865967
+        },
+        {
+          "id": 17854,
+          "text": "fail",
+          "logprob": -4.4271159172058105
+        },
+        {
+          "id": 15618,
+          "text": "failed",
+          "logprob": -4.9203619956970215
+        },
+        {
+          "id": 15615,
+          "text": "unknown",
+          "logprob": -5.0885539054870605
+        },
+        {
+          "id": 6962,
+          "text": "Success",
+          "logprob": -5.857327938079834
+        },
+        {
+          "id": 7652,
+          "text": " failure",
+          "logprob": -6.213904857635498
+        }
+      ],
+      "batch_seconds": 10.768523100065067
+    },
+    {
+      "id": "test_binding_0_unknown",
+      "suite": "sre_binding",
+      "family": "binding",
+      "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_1575\nSuccess criterion: Treat a result as successful if and only if its code matches 2911; otherwise it failed.\nText: The current outcome of job_1575 has not been reported.\nAnswer:",
+      "expected": "unknown",
+      "kind": "state",
+      "prediction": "failure",
+      "output_text": "failure\n",
+      "output_ids": [
+        27997,
+        248046,
+        198,
+        248044
+      ],
+      "hit_token_limit": false,
+      "input_tokens": 111,
+      "first_label_logprob": {
+        "success": -3.8391244411468506,
+        "failure": -0.21211031079292297,
+        "unknown": -2.232736349105835
+      },
+      "first_label_conditional": {
+        "success": 0.022943593561649323,
+        "failure": 0.8626878261566162,
+        "unknown": 0.11436863243579865
+      },
+      "first_top_tokens": [
+        {
+          "id": 27997,
+          "text": "failure",
+          "logprob": -0.21211031079292297
+        },
+        {
+          "id": 15615,
+          "text": "unknown",
+          "logprob": -2.232736349105835
+        },
+        {
+          "id": 5453,
+          "text": "success",
+          "logprob": -3.8391244411468506
+        },
+        {
+          "id": 17854,
+          "text": "fail",
+          "logprob": -4.152584075927734
+        },
+        {
+          "id": 15618,
+          "text": "failed",
+          "logprob": -4.292816162109375
+        },
+        {
+          "id": 16987,
+          "text": "Failure",
+          "logprob": -4.448696136474609
+        },
+        {
+          "id": 13394,
+          "text": "Unknown",
+          "logprob": -5.055896759033203
+        },
+        {
+          "id": 7652,
+          "text": " failure",
+          "logprob": -6.522357940673828
+        }
+      ],
+      "batch_seconds": 10.768523100065067
+    },
+    {
+      "id": "test_latency_0_success",
+      "suite": "sre_latency",
+      "family": "latency",
+      "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_1441\nSuccess criterion: A successful run requires latency not exceeding 7843 ms.\nText: For job_1441, the current measured latency equals 7836 ms.\nAnswer:",
+      "expected": "success",
+      "kind": "state",
+      "prediction": "success",
+      "output_text": "success\n",
+      "output_ids": [
+        5453,
+        248046,
+        198,
+        248044
+      ],
+      "hit_token_limit": false,
+      "input_tokens": 108,
+      "first_label_logprob": {
+        "success": -0.4465782046318054,
+        "failure": -1.1348602771759033,
+        "unknown": -5.952689170837402
+      },
+      "first_label_conditional": {
+        "success": 0.6637901067733765,
+        "failure": 0.33351370692253113,
+        "unknown": 0.002696230774745345
+      },
+      "first_top_tokens": [
+        {
+          "id": 5453,
+          "text": "success",
+          "logprob": -0.4465782046318054
+        },
+        {
+          "id": 27997,
+          "text": "failure",
+          "logprob": -1.1348602771759033
+        },
+        {
+          "id": 6962,
+          "text": "Success",
+          "logprob": -4.863034248352051
+        },
+        {
+          "id": 17854,
+          "text": "fail",
+          "logprob": -4.873320579528809
+        },
+        {
+          "id": 16987,
+          "text": "Failure",
+          "logprob": -5.381623268127441
+        },
+        {
+          "id": 7652,
+          "text": " failure",
+          "logprob": -5.934599876403809
+        },
+        {
+          "id": 15615,
+          "text": "unknown",
+          "logprob": -5.952689170837402
+        },
+        {
+          "id": 2316,
+          "text": " success",
+          "logprob": -6.254654884338379
+        }
+      ],
+      "batch_seconds": 10.768523100065067
+    },
+    {
+      "id": "test_latency_0_failure",
+      "suite": "sre_latency",
+      "family": "latency",
+      "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_1441\nSuccess criterion: A successful run requires latency not exceeding 7843 ms.\nText: For job_1441, the current measured latency equals 7850 ms.\nAnswer:",
+      "expected": "failure",
+      "kind": "state",
+      "prediction": "failure",
+      "output_text": "failure\n",
+      "output_ids": [
+        27997,
+        248046,
+        198,
+        248044
+      ],
+      "hit_token_limit": false,
+      "input_tokens": 108,
+      "first_label_logprob": {
+        "success": -5.164303779602051,
+        "failure": -0.08415689319372177,
+        "unknown": -5.5987138748168945
+      },
+      "first_label_conditional": {
+        "success": 0.006155917886644602,
+        "failure": 0.9898571968078613,
+        "unknown": 0.003986859228461981
+      },
+      "first_top_tokens": [
+        {
+          "id": 27997,
+          "text": "failure",
+          "logprob": -0.08415689319372177
+        },
+        {
+          "id": 16987,
+          "text": "Failure",
+          "logprob": -3.5730810165405273
+        },
+        {
+          "id": 7652,
+          "text": " failure",
+          "logprob": -3.8201723098754883
+        },
+        {
+          "id": 17854,
+          "text": "fail",
+          "logprob": -4.7967023849487305
+        },
+        {
+          "id": 5453,
+          "text": "success",
+          "logprob": -5.164303779602051
+        },
+        {
+          "id": 15615,
+          "text": "unknown",
+          "logprob": -5.5987138748168945
+        },
+        {
+          "id": 31196,
+          "text": " Failure",
+          "logprob": -5.914755821228027
+        },
+        {
+          "id": 15618,
+          "text": "failed",
+          "logprob": -6.26322078704834
+        }
+      ],
+      "batch_seconds": 10.768523100065067
+    },
+    {
+      "id": "test_latency_0_unknown",
+      "suite": "sre_latency",
+      "family": "latency",
+      "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_1441\nSuccess criterion: A successful run requires latency not exceeding 7843 ms.\nText: The current outcome of job_1441 has not been reported.\nAnswer:",
+      "expected": "unknown",
+      "kind": "state",
+      "prediction": "failure",
+      "output_text": "failure\n",
+      "output_ids": [
+        27997,
+        248046,
+        198,
+        248044
+      ],
+      "hit_token_limit": false,
+      "input_tokens": 103,
+      "first_label_logprob": {
+        "success": -3.580996036529541,
+        "failure": -0.3661981225013733,
+        "unknown": -1.524641513824463
+      },
+      "first_label_conditional": {
+        "success": 0.02965979091823101,
+        "failure": 0.7384772300720215,
+        "unknown": 0.23186303675174713
+      },
+      "first_top_tokens": [
+        {
+          "id": 27997,
+          "text": "failure",
+          "logprob": -0.3661981225013733
+        },
+        {
+          "id": 15615,
+          "text": "unknown",
+          "logprob": -1.524641513824463
+        },
+        {
+          "id": 5453,
+          "text": "success",
+          "logprob": -3.580996036529541
+        },
+        {
+          "id": 17854,
+          "text": "fail",
+          "logprob": -4.134195804595947
+        },
+        {
+          "id": 16987,
+          "text": "Failure",
+          "logprob": -4.478037357330322
+        },
+        {
+          "id": 13394,
+          "text": "Unknown",
+          "logprob": -4.574001789093018
+        },
+        {
+          "id": 15618,
+          "text": "failed",
+          "logprob": -4.9910454750061035
+        },
+        {
+          "id": 7652,
+          "text": " failure",
+          "logprob": -5.758894443511963
+        }
+      ],
+      "batch_seconds": 10.768523100065067
+    },
+    {
+      "id": "test_recovery_0_success",
+      "suite": "sre_recovery",
+      "family": "recovery",
+      "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_5016\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: Previously job_5016 had a fault. At present, recovery has completed and the service is operational.\nAnswer:",
+      "expected": "success",
+      "kind": "state",
+      "prediction": "success",
+      "output_text": "success\n",
+      "output_ids": [
+        5453,
+        248046,
+        198,
+        248044
+      ],
+      "hit_token_limit": false,
+      "input_tokens": 117,
+      "first_label_logprob": {
+        "success": -0.03613125532865524,
+        "failure": -4.92357873916626,
+        "unknown": -6.512680530548096
+      },
+      "first_label_conditional": {
+        "success": 0.9910019040107727,
+        "failure": 0.007472794968634844,
+        "unknown": 0.0015252636512741446
+      },
+      "first_top_tokens": [
+        {
+          "id": 5453,
+          "text": "success",
+          "logprob": -0.03613125532865524
+        },
+        {
+          "id": 6962,
+          "text": "Success",
+          "logprob": -3.7841055393218994
+        },
+        {
+          "id": 27997,
+          "text": "failure",
+          "logprob": -4.92357873916626
+        },
+        {
+          "id": 15615,
+          "text": "unknown",
+          "logprob": -6.512680530548096
+        },
+        {
+          "id": 29934,
+          "text": "successful",
+          "logprob": -7.119886875152588
+        },
+        {
+          "id": 2316,
+          "text": " success",
+          "logprob": -7.8291096687316895
+        },
+        {
+          "id": 17854,
+          "text": "fail",
+          "logprob": -7.955641269683838
+        },
+        {
+          "id": 248046,
+          "text": "<|im_end|>",
+          "logprob": -8.466646194458008
+        }
+      ],
+      "batch_seconds": 10.768523100065067
+    },
+    {
+      "id": "test_recovery_0_failure",
+      "suite": "sre_recovery",
+      "family": "recovery",
+      "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_5016\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: Previously job_5016 had a fault. At present, the outage persists and the service cannot be used.\nAnswer:",
+      "expected": "failure",
+      "kind": "state",
+      "prediction": "failure",
+      "output_text": "failure\n",
+      "output_ids": [
+        27997,
+        248046,
+        198,
+        248044
+      ],
+      "hit_token_limit": false,
+      "input_tokens": 118,
+      "first_label_logprob": {
+        "success": -5.125690937042236,
+        "failure": -0.057644497603178024,
+        "unknown": -6.676971912384033
+      },
+      "first_label_conditional": {
+        "success": 0.00624704547226429,
+        "failure": 0.992428719997406,
+        "unknown": 0.0013242254499346018
+      },
+      "first_top_tokens": [
+        {
+          "id": 27997,
+          "text": "failure",
+          "logprob": -0.057644497603178024
+        },
+        {
+          "id": 16987,
+          "text": "Failure",
+          "logprob": -3.868420362472534
+        },
+        {
+          "id": 17854,
+          "text": "fail",
+          "logprob": -4.483601093292236
+        },
+        {
+          "id": 15618,
+          "text": "failed",
+          "logprob": -4.9437432289123535
+        },
+        {
+          "id": 5453,
+          "text": "success",
+          "logprob": -5.125690937042236
+        },
+        {
+          "id": 7652,
+          "text": " failure",
+          "logprob": -5.507666110992432
+        },
+        {
+          "id": 15615,
+          "text": "unknown",
+          "logprob": -6.676971912384033
+        },
+        {
+          "id": 31196,
+          "text": " Failure",
+          "logprob": -7.201553821563721
+        }
+      ],
+      "batch_seconds": 10.768523100065067
+    },
+    {
+      "id": "test_recovery_0_unknown",
+      "suite": "sre_recovery",
+      "family": "recovery",
+      "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_5016\nSuccess criterion: Use the final current state. A recovered healthy service is successful; a currently unavailable service is failed.\nText: The current outcome of job_5016 has not been reported.\nAnswer:",
+      "expected": "unknown",
+      "kind": "state",
+      "prediction": "failure",
+      "output_text": "failure\n",
+      "output_ids": [
+        27997,
+        248046,
+        198,
+        248044
+      ],
+      "hit_token_limit": false,
+      "input_tokens": 109,
+      "first_label_logprob": {
+        "success": -3.9495959281921387,
+        "failure": -0.33443012833595276,
+        "unknown": -1.6184247732162476
+      },
+      "first_label_conditional": {
+        "success": 0.02064090594649315,
+        "failure": 0.7669644951820374,
+        "unknown": 0.2123945951461792
+      },
+      "first_top_tokens": [
+        {
+          "id": 27997,
+          "text": "failure",
+          "logprob": -0.33443012833595276
+        },
+        {
+          "id": 15615,
+          "text": "unknown",
+          "logprob": -1.6184247732162476
+        },
+        {
+          "id": 5453,
+          "text": "success",
+          "logprob": -3.9495959281921387
+        },
+        {
+          "id": 17854,
+          "text": "fail",
+          "logprob": -4.058505535125732
+        },
+        {
+          "id": 15618,
+          "text": "failed",
+          "logprob": -4.167275905609131
+        },
+        {
+          "id": 16987,
+          "text": "Failure",
+          "logprob": -4.60004186630249
+        },
+        {
+          "id": 13394,
+          "text": "Unknown",
+          "logprob": -4.669787883758545
+        },
+        {
+          "id": 7652,
+          "text": " failure",
+          "logprob": -6.10255765914917
+        }
+      ],
+      "batch_seconds": 10.073263600002974
+    },
+    {
+      "id": "test_throughput_22_failure",
+      "suite": "sre_throughput",
+      "family": "throughput",
+      "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_1178\nSuccess criterion: A successful run requires throughput reaching or exceeding 4594 items/s.\nText: For job_1178, the current measured throughput equals 4591 items/s.\nAnswer:",
+      "expected": "failure",
+      "kind": "state",
+      "prediction": "success",
+      "output_text": "success\n",
+      "output_ids": [
+        5453,
+        248046,
+        198,
+        248044
+      ],
+      "hit_token_limit": false,
+      "input_tokens": 111,
+      "first_label_logprob": {
+        "success": -0.29095011949539185,
+        "failure": -1.622117280960083,
+        "unknown": -5.244576930999756
+      },
+      "first_label_conditional": {
+        "success": 0.7866418361663818,
+        "failure": 0.20780618488788605,
+        "unknown": 0.005551934242248535
+      },
+      "first_top_tokens": [
+        {
+          "id": 5453,
+          "text": "success",
+          "logprob": -0.29095011949539185
+        },
+        {
+          "id": 27997,
+          "text": "failure",
+          "logprob": -1.622117280960083
+        },
+        {
+          "id": 6962,
+          "text": "Success",
+          "logprob": -3.9767582416534424
+        },
+        {
+          "id": 17854,
+          "text": "fail",
+          "logprob": -4.9891791343688965
+        },
+        {
+          "id": 15615,
+          "text": "unknown",
+          "logprob": -5.244576930999756
+        },
+        {
+          "id": 2316,
+          "text": " success",
+          "logprob": -5.449592113494873
+        },
+        {
+          "id": 16987,
+          "text": "Failure",
+          "logprob": -5.521834850311279
+        },
+        {
+          "id": 7652,
+          "text": " failure",
+          "logprob": -5.993829250335693
+        }
+      ],
+      "batch_seconds": 10.073263600002974
+    },
+    {
+      "id": "test_throughput_23_failure",
+      "suite": "sre_throughput",
+      "family": "throughput",
+      "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_2319\nSuccess criterion: A successful run requires throughput reaching or exceeding 5509 items/s.\nText: For job_2319, the current measured throughput equals 5501 items/s.\nAnswer:",
+      "expected": "failure",
+      "kind": "state",
+      "prediction": "success",
+      "output_text": "success\n",
+      "output_ids": [
+        5453,
+        248046,
+        198,
+        248044
+      ],
+      "hit_token_limit": false,
+      "input_tokens": 111,
+      "first_label_logprob": {
+        "success": -0.043007221072912216,
+        "failure": -4.478992938995361,
+        "unknown": -6.615543842315674
+      },
+      "first_label_conditional": {
+        "success": 0.9869313836097717,
+        "failure": 0.011688611470162868,
+        "unknown": 0.0013799731386825442
+      },
+      "first_top_tokens": [
+        {
+          "id": 5453,
+          "text": "success",
+          "logprob": -0.043007221072912216
+        },
+        {
+          "id": 6962,
+          "text": "Success",
+          "logprob": -3.964090585708618
+        },
+        {
+          "id": 27997,
+          "text": "failure",
+          "logprob": -4.478992938995361
+        },
+        {
+          "id": 2316,
+          "text": " success",
+          "logprob": -6.118351459503174
+        },
+        {
+          "id": 9405,
+          "text": "yes",
+          "logprob": -6.395145893096924
+        },
+        {
+          "id": 15615,
+          "text": "unknown",
+          "logprob": -6.615543842315674
+        },
+        {
+          "id": 9175,
+          "text": "Yes",
+          "logprob": -6.935986042022705
+        },
+        {
+          "id": 17854,
+          "text": "fail",
+          "logprob": -7.404837131500244
+        }
+      ],
+      "batch_seconds": 10.073263600002974
+    },
+    {
+      "id": "test_throughput_19_failure",
+      "suite": "sre_throughput",
+      "family": "throughput",
+      "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_9224\nSuccess criterion: A successful run requires throughput reaching or exceeding 4463 items/s.\nText: For job_9224, the current measured throughput equals 4457 items/s.\nAnswer:",
+      "expected": "failure",
+      "kind": "state",
+      "prediction": "success",
+      "output_text": "success\n",
+      "output_ids": [
+        5453,
+        248046,
+        198,
+        248044
+      ],
+      "hit_token_limit": false,
+      "input_tokens": 111,
+      "first_label_logprob": {
+        "success": -0.6965333223342896,
+        "failure": -0.8207837343215942,
+        "unknown": -4.841642379760742
+      },
+      "first_label_conditional": {
+        "success": 0.5265928506851196,
+        "failure": 0.465065062046051,
+        "unknown": 0.008342129178345203
+      },
+      "first_top_tokens": [
+        {
+          "id": 5453,
+          "text": "success",
+          "logprob": -0.6965333223342896
+        },
+        {
+          "id": 27997,
+          "text": "failure",
+          "logprob": -0.8207837343215942
+        },
+        {
+          "id": 6962,
+          "text": "Success",
+          "logprob": -4.391883850097656
+        },
+        {
+          "id": 17854,
+          "text": "fail",
+          "logprob": -4.500892639160156
+        },
+        {
+          "id": 16987,
+          "text": "Failure",
+          "logprob": -4.731395721435547
+        },
+        {
+          "id": 15615,
+          "text": "unknown",
+          "logprob": -4.841642379760742
+        },
+        {
+          "id": 7652,
+          "text": " failure",
+          "logprob": -5.5042266845703125
+        },
+        {
+          "id": 2316,
+          "text": " success",
+          "logprob": -6.181024551391602
+        }
+      ],
+      "batch_seconds": 10.073263600002974
+    },
+    {
+      "id": "test_throughput_6_failure",
+      "suite": "sre_throughput",
+      "family": "throughput",
+      "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_6648\nSuccess criterion: A successful run requires throughput reaching or exceeding 2875 items/s.\nText: For job_6648, the current measured throughput equals 2867 items/s.\nAnswer:",
+      "expected": "failure",
+      "kind": "state",
+      "prediction": "success",
+      "output_text": "success\n",
+      "output_ids": [
+        5453,
+        248046,
+        198,
+        248044
+      ],
+      "hit_token_limit": false,
+      "input_tokens": 111,
+      "first_label_logprob": {
+        "success": -0.2083130180835724,
+        "failure": -1.9480247497558594,
+        "unknown": -5.490350723266602
+      },
+      "first_label_conditional": {
+        "success": 0.8469889163970947,
+        "failure": 0.14870668947696686,
+        "unknown": 0.004304452333599329
+      },
+      "first_top_tokens": [
+        {
+          "id": 5453,
+          "text": "success",
+          "logprob": -0.2083130180835724
+        },
+        {
+          "id": 27997,
+          "text": "failure",
+          "logprob": -1.9480247497558594
+        },
+        {
+          "id": 6962,
+          "text": "Success",
+          "logprob": -4.026044845581055
+        },
+        {
+          "id": 17854,
+          "text": "fail",
+          "logprob": -5.374439239501953
+        },
+        {
+          "id": 15615,
+          "text": "unknown",
+          "logprob": -5.490350723266602
+        },
+        {
+          "id": 2316,
+          "text": " success",
+          "logprob": -5.696622848510742
+        },
+        {
+          "id": 16987,
+          "text": "Failure",
+          "logprob": -5.863948822021484
+        },
+        {
+          "id": 7652,
+          "text": " failure",
+          "logprob": -6.614999771118164
+        }
+      ],
+      "batch_seconds": 10.073263600002974
+    },
+    {
+      "id": "test_latency_18_success",
+      "suite": "sre_latency",
+      "family": "latency",
+      "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_6052\nSuccess criterion: A successful run requires latency not exceeding 8292 ms.\nText: For job_6052, the current measured latency equals 8285 ms.\nAnswer:",
+      "expected": "success",
+      "kind": "state",
+      "prediction": "failure",
+      "output_text": "failure\n",
+      "output_ids": [
+        27997,
+        248046,
+        198,
+        248044
+      ],
+      "hit_token_limit": false,
+      "input_tokens": 108,
+      "first_label_logprob": {
+        "success": -2.466970443725586,
+        "failure": -0.15205951035022736,
+        "unknown": -5.521785736083984
+      },
+      "first_label_conditional": {
+        "success": 0.08951627463102341,
+        "failure": 0.9062646627426147,
+        "unknown": 0.004219030030071735
+      },
+      "first_top_tokens": [
+        {
+          "id": 27997,
+          "text": "failure",
+          "logprob": -0.15205951035022736
+        },
+        {
+          "id": 5453,
+          "text": "success",
+          "logprob": -2.466970443725586
+        },
+        {
+          "id": 16987,
+          "text": "Failure",
+          "logprob": -4.133726119995117
+        },
+        {
+          "id": 17854,
+          "text": "fail",
+          "logprob": -4.436790466308594
+        },
+        {
+          "id": 7652,
+          "text": " failure",
+          "logprob": -4.587383270263672
+        },
+        {
+          "id": 15615,
+          "text": "unknown",
+          "logprob": -5.521785736083984
+        },
+        {
+          "id": 15618,
+          "text": "failed",
+          "logprob": -6.294734954833984
+        },
+        {
+          "id": 6962,
+          "text": "Success",
+          "logprob": -6.499248504638672
+        }
+      ],
+      "batch_seconds": 10.073263600002974
+    },
+    {
+      "id": "test_latency_21_success",
+      "suite": "sre_latency",
+      "family": "latency",
+      "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_1060\nSuccess criterion: A successful run requires latency not exceeding 5195 ms.\nText: For job_1060, the current measured latency equals 5187 ms.\nAnswer:",
+      "expected": "success",
+      "kind": "state",
+      "prediction": "failure",
+      "output_text": "failure\n",
+      "output_ids": [
+        27997,
+        248046,
+        198,
+        248044
+      ],
+      "hit_token_limit": false,
+      "input_tokens": 108,
+      "first_label_logprob": {
+        "success": -1.7979207038879395,
+        "failure": -0.24428032338619232,
+        "unknown": -5.776529788970947
+      },
+      "first_label_conditional": {
+        "success": 0.1739927977323532,
+        "failure": 0.8227515816688538,
+        "unknown": 0.0032556920778006315
+      },
+      "first_top_tokens": [
+        {
+          "id": 27997,
+          "text": "failure",
+          "logprob": -0.24428032338619232
+        },
+        {
+          "id": 5453,
+          "text": "success",
+          "logprob": -1.7979207038879395
+        },
+        {
+          "id": 16987,
+          "text": "Failure",
+          "logprob": -4.274588108062744
+        },
+        {
+          "id": 17854,
+          "text": "fail",
+          "logprob": -4.481810092926025
+        },
+        {
+          "id": 7652,
+          "text": " failure",
+          "logprob": -4.851187229156494
+        },
+        {
+          "id": 15615,
+          "text": "unknown",
+          "logprob": -5.776529788970947
+        },
+        {
+          "id": 6962,
+          "text": "Success",
+          "logprob": -6.000738620758057
+        },
+        {
+          "id": 15618,
+          "text": "failed",
+          "logprob": -6.406345844268799
+        }
+      ],
+      "batch_seconds": 10.073263600002974
+    },
+    {
+      "id": "test_latency_23_success",
+      "suite": "sre_latency",
+      "family": "latency",
+      "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_8522\nSuccess criterion: A successful run requires latency not exceeding 8509 ms.\nText: For job_8522, the current measured latency equals 8500 ms.\nAnswer:",
+      "expected": "success",
+      "kind": "state",
+      "prediction": "failure",
+      "output_text": "failure\n",
+      "output_ids": [
+        27997,
+        248046,
+        198,
+        248044
+      ],
+      "hit_token_limit": false,
+      "input_tokens": 108,
+      "first_label_logprob": {
+        "success": -1.2493185997009277,
+        "failure": -0.4266218841075897,
+        "unknown": -4.8528056144714355
+      },
+      "first_label_conditional": {
+        "success": 0.3026762902736664,
+        "failure": 0.6890822052955627,
+        "unknown": 0.00824145507067442
+      },
+      "first_top_tokens": [
+        {
+          "id": 27997,
+          "text": "failure",
+          "logprob": -0.4266218841075897
+        },
+        {
+          "id": 5453,
+          "text": "success",
+          "logprob": -1.2493185997009277
+        },
+        {
+          "id": 17854,
+          "text": "fail",
+          "logprob": -4.288157939910889
+        },
+        {
+          "id": 16987,
+          "text": "Failure",
+          "logprob": -4.51898717880249
+        },
+        {
+          "id": 15615,
+          "text": "unknown",
+          "logprob": -4.8528056144714355
+        },
+        {
+          "id": 7652,
+          "text": " failure",
+          "logprob": -5.068099498748779
+        },
+        {
+          "id": 6962,
+          "text": "Success",
+          "logprob": -5.335629940032959
+        },
+        {
+          "id": 15618,
+          "text": "failed",
+          "logprob": -6.284823894500732
+        }
+      ],
+      "batch_seconds": 10.073263600002974
+    },
+    {
+      "id": "test_throughput_11_failure",
+      "suite": "sre_throughput",
+      "family": "throughput",
+      "prompt": "Determine the current outcome of the target from supplied evidence and the criterion. Use unknown when evidence is absent, contradictory, about another target or only historical. Answer exactly one word: success, failure, or unknown.\nTarget: job_5649\nSuccess criterion: A successful run requires throughput reaching or exceeding 3616 items/s.\nText: For job_5649, the current measured throughput equals 3611 items/s.\nAnswer:",
+      "expected": "failure",
+      "kind": "state",
+      "prediction": "success",
+      "output_text": "success\n",
+      "output_ids": [
+        5453,
+        248046,
+        198,
+        248044
+      ],
+      "hit_token_limit": false,
+      "input_tokens": 111,
+      "first_label_logprob": {
+        "success": -0.45643600821495056,
+        "failure": -1.1672972440719604,
+        "unknown": -5.084409713745117
+      },
+      "first_label_conditional": {
+        "success": 0.666224479675293,
+        "failure": 0.3272634446620941,
+        "unknown": 0.006512042600661516
+      },
+      "first_top_tokens": [
+        {
+          "id": 5453,
+          "text": "success",
+          "logprob": -0.45643600821495056
+        },
+        {
+          "id": 27997,
+          "text": "failure",
+          "logprob": -1.1672972440719604
+        },
+        {
+          "id": 6962,
+          "text": "Success",
+          "logprob": -4.275951385498047
+        },
+        {
+          "id": 17854,
+          "text": "fail",
+          "logprob": -4.896871566772461
+        },
+        {
+          "id": 15615,
+          "text": "unknown",
+          "logprob": -5.084409713745117
+        },
+        {
+          "id": 16987,
+          "text": "Failure",
+          "logprob": -5.148654937744141
+        },
+        {
+          "id": 7652,
+          "text": " failure",
+          "logprob": -5.480119705200195
+        },
+        {
+          "id": 2316,
+          "text": " success",
+          "logprob": -5.549871444702148
+        }
+      ],
+      "batch_seconds": 1.635640500113368
+    }
+  ]
+}

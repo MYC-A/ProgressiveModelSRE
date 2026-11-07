@@ -1,0 +1,3 @@
+LOADED 4.36
+INFER label_abc 48 0 budget 8 cache True think False
+SAVED validation_label_abc {'n': 48, 'correct': 28, 'accuracy': 0.5833333333333334, 'success_n': 12, 'false_alarm': 4, 'failure_n': 12, 'missed_failure': 0, 'unknown_n': 24, 'unknown_correct': 8, 'invalid': 0, 'predictions': {'success': 8, 'failure': 32, 'unknown': 8}}

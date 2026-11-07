@@ -1,0 +1,638 @@
+{
+  "research/architecture_benchmark/build_data.py": {
+    "bytes": 7129,
+    "sha256": "4f55ad67cf5a0bb1fc37c18836c1be2ba2abb1ba910b331509608bbe14af207e"
+  },
+  "research/architecture_benchmark/build_report.log": {
+    "bytes": 44,
+    "sha256": "eb94b13ad2315bc44b5f602bf2d62e25d6533335bcfcc7cf01cb2e41489a10d8"
+  },
+  "research/architecture_benchmark/build_report.py": {
+    "bytes": 19182,
+    "sha256": "dd98ce058e03e3fbb511a5027d98ef93c4dda844ef80457b4e518754113f2323"
+  },
+  "research/architecture_benchmark/common.py": {
+    "bytes": 2298,
+    "sha256": "b7217bf530c85f886a0385965d76a531d36926daff270a8090ee1d27a21dd6c3"
+  },
+  "research/architecture_benchmark/comparison.log": {
+    "bytes": 1163,
+    "sha256": "07036e8c766c6b7a8fa0f2db6a021c5bb5af823c02015ff8742e4b63c0dc10da"
+  },
+  "research/architecture_benchmark/comparison_report_ru.md": {
+    "bytes": 15442,
+    "sha256": "c5d830fb938493dcf71cc94dc757bdbe89662308cd47014e7c2a8b45e126202f"
+  },
+  "research/architecture_benchmark/diagnostic.json": {
+    "bytes": 31171,
+    "sha256": "081ce3caf75c0348fe15b410b93508b6a9f9bcb14ba8edd98b36f9bb2fb72c99"
+  },
+  "research/architecture_benchmark/download.log": {
+    "bytes": 6093,
+    "sha256": "430857c617add91da7a670313f8fc26c4bf7d4c780b46b32ab56c40613b32af0"
+  },
+  "research/architecture_benchmark/download_candidates.py": {
+    "bytes": 1994,
+    "sha256": "de8fa372f18a63e22f7eff9b7188e3f6cc35f183e321d700cdc0a2d3112bd860"
+  },
+  "research/architecture_benchmark/flan.log": {
+    "bytes": 3453,
+    "sha256": "07b80f31307c1862af057725e8005dce812041d9de507c20cb1fb5174d893c4f"
+  },
+  "research/architecture_benchmark/guarded.log": {
+    "bytes": 1564,
+    "sha256": "9c4b50f07175916fcc27d8ac17268978e968300d6ac4ca0b7ac6ca00b93a5917"
+  },
+  "research/architecture_benchmark/guarded.py": {
+    "bytes": 2218,
+    "sha256": "4110aeda525ed5a1b400845e5a49c30741a70f2adfecfb00cd95420bab616bbc"
+  },
+  "research/architecture_benchmark/hardware.json": {
+    "bytes": 290,
+    "sha256": "954d65ae68d78f71ef613f2e96c9240eb73213ba25f8b7d90bd0ed5896ca4364"
+  },
+  "research/architecture_benchmark/lamini.log": {
+    "bytes": 1370,
+    "sha256": "204173cdbf98e590bf7971034ad5739b3293bae1e1e5d9b8e888206cef6c41bc"
+  },
+  "research/architecture_benchmark/models.local.json": {
+    "bytes": 692,
+    "sha256": "d9a3ddfd1abb2799e3f1e3aa86714d1704fb1442b2ec60a5cfc7b6ade6f7d0ce"
+  },
+  "research/architecture_benchmark/ModernBERT-base.metadata.json": {
+    "bytes": 9531,
+    "sha256": "82ef3cbbe6e816d234db6aaa96b827afbac0a1dd51976d067f571dc1a110b385"
+  },
+  "research/architecture_benchmark/modernbert.log": {
+    "bytes": 2716,
+    "sha256": "5d74226a0106d6713dbff1158bcb9ea79f82006a26ebaa5111b380570c6fa513"
+  },
+  "research/architecture_benchmark/networks.py": {
+    "bytes": 4168,
+    "sha256": "3fe4a81dfe24c9e63d3743bfc4f717d1519aad1902ac0f34adc4bd30378954db"
+  },
+  "research/architecture_benchmark/numeric.py": {
+    "bytes": 3675,
+    "sha256": "a3af34397d261488c1ed509b384df8779501423764d0775d3fce2d7585da7b83"
+  },
+  "research/architecture_benchmark/package_results.py": {
+    "bytes": 1301,
+    "sha256": "207ad3bd22ccd4b2501902f2c1fd97798817cdded9013fa1e96032a7606a2df8"
+  },
+  "research/architecture_benchmark/plot_results.log": {
+    "bytes": 102,
+    "sha256": "e2f05c221029f226291b9d3860cc9f47ae67442c5e7c18a4121ee998189f9418"
+  },
+  "research/architecture_benchmark/plot_results.py": {
+    "bytes": 2137,
+    "sha256": "f84ea26eb69296444e11f53eed2d9065a03985f9d187d06424d512db6801c0fa"
+  },
+  "research/architecture_benchmark/prepare_bgl.py": {
+    "bytes": 1228,
+    "sha256": "88f9778b1161fd8117c0cf8a3ce829b0f25bf8d397ec61e7da144d3ab4103101"
+  },
+  "research/architecture_benchmark/pretrained.py": {
+    "bytes": 12861,
+    "sha256": "23251a1ae74f707499dc326d85464c08a3cc629ef72cf001e54fe5c05fd18787"
+  },
+  "research/architecture_benchmark/protocol.json": {
+    "bytes": 1363,
+    "sha256": "3d0a3583d71c8f46d0631d5874c696bac87f0900d87bc1d02ce26386e56de59e"
+  },
+  "research/architecture_benchmark/Qwen3-0.6B.metadata.json": {
+    "bytes": 11521,
+    "sha256": "7f2ce789e7df1b555cf21183692274b9f18e4bb3f5953519663721af0baaa8ee"
+  },
+  "research/architecture_benchmark/Qwen3.5-0.8B.metadata.json": {
+    "bytes": 23595,
+    "sha256": "9d13f6f884f4f731f3e35e30b2412499dcc7572f48b2f6e95e16c98ce7ab476d"
+  },
+  "research/architecture_benchmark/qwen35_08.log": {
+    "bytes": 3150,
+    "sha256": "7ecd65d1088bf8ad404b86b1d6ba784fa824a91f1360e1dc7a24cd9b2afe1aa0"
+  },
+  "research/architecture_benchmark/qwen3_06.log": {
+    "bytes": 1888,
+    "sha256": "e96a009eafdb0c2bd37371689e176910a01a662da037451655ba38d99ac50f6b"
+  },
+  "research/architecture_benchmark/README.md": {
+    "bytes": 3334,
+    "sha256": "838b07c553f485f1a00d10df5c5fcc8603e2a6ac7f19c660386686a117540143"
+  },
+  "research/architecture_benchmark/run_comparison.py": {
+    "bytes": 1578,
+    "sha256": "ec1822fcefaf2076a1939f70a45d854fddf23ba3c256ffd68cb7b1ad6f62da0f"
+  },
+  "research/architecture_benchmark/run_status.json": {
+    "bytes": 473,
+    "sha256": "ee62854c344966a004d2f92ac8ab95dfc2dbe9a70a547d48f46ebd387dd0541c"
+  },
+  "research/architecture_benchmark/ssd_verification.json": {
+    "bytes": 212,
+    "sha256": "d5d648f481ec9159100bd6b095585a9da5ea72d820983f602433d5c3060cc2e5"
+  },
+  "research/architecture_benchmark/stream_data.py": {
+    "bytes": 4244,
+    "sha256": "02810e0274f21ac1cdaf8328322f1b1bd5ca665d68bc7f2bb75c968a840b9d81"
+  },
+  "research/architecture_benchmark/stream_operating_points.json": {
+    "bytes": 19741,
+    "sha256": "4ac75a36e9b531984f508223c56e640bc1b9e5c173e357aa77a3fb746fd97645"
+  },
+  "research/architecture_benchmark/stream_operating_points.log": {
+    "bytes": 30,
+    "sha256": "42dacf12e5c593e61069fc376cb9e2a7602b6fc9bd471d02968e463c08e811e3"
+  },
+  "research/architecture_benchmark/stream_operating_points.py": {
+    "bytes": 1895,
+    "sha256": "33bf113ff7a0655745fb5b5a04383deaeb732bfb0dffa3611ac882fd7acadbab"
+  },
+  "research/architecture_benchmark/summary.json": {
+    "bytes": 5461,
+    "sha256": "0f6e1bdc4c69bf8ad7c3d1e1c3c35827d9f059c9aacd2ddb99926da3ca687d83"
+  },
+  "research/architecture_benchmark/test.json": {
+    "bytes": 281448,
+    "sha256": "9f2b545cfcd6b4a6c435e21daaec041519b2d8f561fc455dd5c97f7dcc2cd8bf"
+  },
+  "research/architecture_benchmark/train-stream.log": {
+    "bytes": 10958,
+    "sha256": "1ee87bca1232e227e36452f01db494eb191a6ed9455656aabb38bed1ac819c6c"
+  },
+  "research/architecture_benchmark/train-text.log": {
+    "bytes": 14243,
+    "sha256": "27b64c0be600c59268e6ebb9403ed958abee29ea21f579c9d9f08f94568719fe"
+  },
+  "research/architecture_benchmark/train.json": {
+    "bytes": 671066,
+    "sha256": "92374abc29f173b0ddb628205ba58acb1145f29ceb2fb6aeecf6bd7c8de36b89"
+  },
+  "research/architecture_benchmark/train_stream.py": {
+    "bytes": 4186,
+    "sha256": "4f85fe08f19a6e004d7ad536aecc1ef123193044ac86dfa84e9b3ae3b7c1c1e6"
+  },
+  "research/architecture_benchmark/train_text.py": {
+    "bytes": 3124,
+    "sha256": "20864e11fc084ec24d06d3a36d0286e86b5d020dbcfccaed6d68c3cca68bd85b"
+  },
+  "research/architecture_benchmark/validation.json": {
+    "bytes": 139599,
+    "sha256": "7d1972dac1f008d518d717968d65ae3338436aa75dcb477c936abbe2bf37a9e5"
+  },
+  "research/architecture_benchmark/verification.json": {
+    "bytes": 8979,
+    "sha256": "a37ab38e99074fa9a3f91e3968a69e0441b3e7446b9f29bc727ee8710a5ef03d"
+  },
+  "research/architecture_benchmark/verify_evidence.py": {
+    "bytes": 3970,
+    "sha256": "dbe295518e614c4324ce6c1c1381c9c7dd34d119edfe1d0659b06ee289569e6e"
+  },
+  "research/architecture_benchmark/verify_ssd.py": {
+    "bytes": 1807,
+    "sha256": "dda911b39c0de1b7ed13baff88d1279619f3752f2734dc706a65cf79a8019654"
+  },
+  "research/architecture_benchmark/checkpoints/modernbert_features_test.pt": {
+    "bytes": 1328864,
+    "sha256": "1b8bfa635b8d1458db2b043acba60710fba251d00bbb661a4a6f00b45e80d2a3"
+  },
+  "research/architecture_benchmark/checkpoints/modernbert_features_train.pt": {
+    "bytes": 3319527,
+    "sha256": "8f71539b9b9c8511ee703023f397f67f0ea8649083fed46a65be452ec3bf8214"
+  },
+  "research/architecture_benchmark/checkpoints/modernbert_features_validation.pt": {
+    "bytes": 665354,
+    "sha256": "b4f939ab4088821b1bc7bbb5293b5a7586ef88d6b73384ab536b96196ec72f3b"
+  },
+  "research/architecture_benchmark/checkpoints/modernbert_head_0.pt": {
+    "bytes": 299009,
+    "sha256": "0b29b7a18ba41dfe604bfc5a888f18b90d78e18553e92f0cebdba234d95e9213"
+  },
+  "research/architecture_benchmark/checkpoints/modernbert_head_1.pt": {
+    "bytes": 299009,
+    "sha256": "683ac12ae4c3849904d59cb3f4067602162df45d6ec640e3e99e92dc3f48f1ff"
+  },
+  "research/architecture_benchmark/checkpoints/modernbert_head_2.pt": {
+    "bytes": 299009,
+    "sha256": "08a583898e6feddc273b35fa994786f857d6d520a66d30b622aa0b8dd3690049"
+  },
+  "research/architecture_benchmark/checkpoints/modernbert_numeric_0.pt": {
+    "bytes": 302111,
+    "sha256": "8e350b75ee5357c3c51840ab9e5ebec9a6471ae6690bfcb2dbc5cd702674dd7c"
+  },
+  "research/architecture_benchmark/checkpoints/modernbert_numeric_1.pt": {
+    "bytes": 302111,
+    "sha256": "4d3cabd307616b5f42a1023028c6a5325c1d67d4525194a427cab6bd22651a4b"
+  },
+  "research/architecture_benchmark/checkpoints/modernbert_numeric_2.pt": {
+    "bytes": 302111,
+    "sha256": "4b2ee634278184a68ca29627237c266838527ec905032584779605ddaa5fc708"
+  },
+  "research/architecture_benchmark/checkpoints/stream_gnn_0.pt": {
+    "bytes": 57317,
+    "sha256": "32d574702f9f92e3267ef5ee3336fccf6efdad30d6046c5be55249418d30b1ed"
+  },
+  "research/architecture_benchmark/checkpoints/stream_gnn_1.pt": {
+    "bytes": 57317,
+    "sha256": "879ee19bf4d435052416c3d3805a50b6aca2907c4020c0c444abe0c583ed0d74"
+  },
+  "research/architecture_benchmark/checkpoints/stream_gnn_2.pt": {
+    "bytes": 57317,
+    "sha256": "7b197f9d77b792dfb6853ef40403386f6ab364bd915de6900b414f1763e28978"
+  },
+  "research/architecture_benchmark/checkpoints/stream_gru_0.pt": {
+    "bytes": 54805,
+    "sha256": "c6c949b72a4ae5b28f3bf89034e26d79cd6395c96c162a25579c1da89bf6993a"
+  },
+  "research/architecture_benchmark/checkpoints/stream_gru_1.pt": {
+    "bytes": 54805,
+    "sha256": "885976cf66592059c03fa5c2e82512064df4fae799e54754e5ad422718c27135"
+  },
+  "research/architecture_benchmark/checkpoints/stream_gru_2.pt": {
+    "bytes": 54805,
+    "sha256": "83a07cd446a6551ed4308af5284058334c7ce3aa1eda1f4f2ad9bc7748d76868"
+  },
+  "research/architecture_benchmark/checkpoints/stream_lstm_0.pt": {
+    "bytes": 63269,
+    "sha256": "9f8fc9f2799daa6df4a625e83a3333721147ed06a4c9703c873797ad164d091f"
+  },
+  "research/architecture_benchmark/checkpoints/stream_lstm_1.pt": {
+    "bytes": 63269,
+    "sha256": "995df2b8c87bda574290e7903c4cc33a77889b44b4010b4870f708c7b4bf4785"
+  },
+  "research/architecture_benchmark/checkpoints/stream_lstm_2.pt": {
+    "bytes": 63269,
+    "sha256": "f0e4ab3d535d4479108b572bf978e0581a7f48e98178230410d1207a01eef999"
+  },
+  "research/architecture_benchmark/checkpoints/stream_mean_0.pt": {
+    "bytes": 28381,
+    "sha256": "11c4f85f6fb5625d7c3f9adf20441547e479b86c90c56dbb678ee1c9e3f07a51"
+  },
+  "research/architecture_benchmark/checkpoints/stream_mean_1.pt": {
+    "bytes": 28381,
+    "sha256": "3fa00a09f813f17f7a3e0c6445480aef5a4537093e5420f9c4687249f646ec4b"
+  },
+  "research/architecture_benchmark/checkpoints/stream_mean_2.pt": {
+    "bytes": 28381,
+    "sha256": "85997553d29bbf33c961860a4559db2ea894450e5e7939fbcdeb450c01982304"
+  },
+  "research/architecture_benchmark/checkpoints/stream_ssd_0.pt": {
+    "bytes": 78773,
+    "sha256": "64bd3d160c453088364cad1a534d452f579dde4b832de8cf75d70b0c3b9eab58"
+  },
+  "research/architecture_benchmark/checkpoints/stream_ssd_1.pt": {
+    "bytes": 78773,
+    "sha256": "a7ed2ab4b1d022336e514dac242d3e3dcfb11a1f67d218616a89ae43c1701e9d"
+  },
+  "research/architecture_benchmark/checkpoints/stream_ssd_2.pt": {
+    "bytes": 78773,
+    "sha256": "f4d6d4167a39af22ccdec18ed9a0ddcf327ab5391fc07c9ca7b66e82300a79c2"
+  },
+  "research/architecture_benchmark/checkpoints/stream_tcn_0.pt": {
+    "bytes": 119337,
+    "sha256": "68f47fb33122fbec0b011573d4a3e1b53e748a47f8ec1a7a2e7d7407555079e3"
+  },
+  "research/architecture_benchmark/checkpoints/stream_tcn_1.pt": {
+    "bytes": 119337,
+    "sha256": "798e76b9e76860878b817e2e2c39ecd6fe8196fe82c7979237c792adfbc4aba3"
+  },
+  "research/architecture_benchmark/checkpoints/stream_tcn_2.pt": {
+    "bytes": 119337,
+    "sha256": "d6fd6d8ce027f2ed2311cb1e5e9e7c3c4228578a1477891db90e2c676e2969a3"
+  },
+  "research/architecture_benchmark/checkpoints/text_gru_0.pt": {
+    "bytes": 866038,
+    "sha256": "0953b70b03f170ad377bd70154e25ef536584a5cd3eb89189e7189477e3abcc2"
+  },
+  "research/architecture_benchmark/checkpoints/text_gru_1.pt": {
+    "bytes": 866038,
+    "sha256": "b233f802cff5f4f350541cd4ede34fb4e5dcfc387d2a801f56353aca44c4a210"
+  },
+  "research/architecture_benchmark/checkpoints/text_gru_2.pt": {
+    "bytes": 866038,
+    "sha256": "fba62d5614e92b45ef819283211adfa21663dad660bf29dfbf4f7a6ea38af1d0"
+  },
+  "research/architecture_benchmark/checkpoints/text_lstm_0.pt": {
+    "bytes": 884869,
+    "sha256": "bd913e09a7a3d1d719a14249fc3ab02a1b1b5875d9977f4f774910afd9516dd6"
+  },
+  "research/architecture_benchmark/checkpoints/text_lstm_1.pt": {
+    "bytes": 884869,
+    "sha256": "bdc5af5e2e904093d2cbc2eac7b1b2bdf1c36eefe46d6ea05d4bb4389cbb009e"
+  },
+  "research/architecture_benchmark/checkpoints/text_lstm_2.pt": {
+    "bytes": 884869,
+    "sha256": "cad2292c83fa632276a56f96f77af8bc4ebe2a3368bbeed2a521198450325f10"
+  },
+  "research/architecture_benchmark/checkpoints/text_mean_0.pt": {
+    "bytes": 808517,
+    "sha256": "f2c41f5b81c7e641faea5f8704027dc577ccece0f71e5240d5523d42ffbed267"
+  },
+  "research/architecture_benchmark/checkpoints/text_mean_1.pt": {
+    "bytes": 808517,
+    "sha256": "83e849e7b56fe94ab8b5ff7797b3e116304bff1565b021a7a04cd32a60c59916"
+  },
+  "research/architecture_benchmark/checkpoints/text_mean_2.pt": {
+    "bytes": 808517,
+    "sha256": "984b0f98f35052c510c4c529a6a41ddc06cf858fe708ace16459a062130e7205"
+  },
+  "research/architecture_benchmark/checkpoints/text_ssd_0.pt": {
+    "bytes": 899445,
+    "sha256": "51e82e8b8094a85d73742fc7c4ed9177c22b8e94aef6448383bceabcf16c1008"
+  },
+  "research/architecture_benchmark/checkpoints/text_ssd_1.pt": {
+    "bytes": 899445,
+    "sha256": "5b258e688e1f28fc5d1968f34403a7fe15e439841c915b264204060adc996da8"
+  },
+  "research/architecture_benchmark/checkpoints/text_ssd_2.pt": {
+    "bytes": 899445,
+    "sha256": "ac541d3dcf5b16b2bcfa2dbd7cbe450b012fba401d1d08d44bd3114ff5e7dcfd"
+  },
+  "research/architecture_benchmark/checkpoints/text_tcn_0.pt": {
+    "bytes": 1007413,
+    "sha256": "fb56d7a74fa9d3c738044f5485a5bfcf8de0e18e45a7519b10e3bbc9a327cabe"
+  },
+  "research/architecture_benchmark/checkpoints/text_tcn_1.pt": {
+    "bytes": 1007413,
+    "sha256": "6dddacd9feb8c1f5e185e1a399c6f71414a67c6062e730dc047df3831a647965"
+  },
+  "research/architecture_benchmark/checkpoints/text_tcn_2.pt": {
+    "bytes": 1007413,
+    "sha256": "7b6040feb26b92066642e912dc85f42985571a27dc0bc18842a3580a4c400a40"
+  },
+  "research/architecture_benchmark/figures/bgl.png": {
+    "bytes": 52301,
+    "sha256": "d8400988f0684139e965f1d8b98b348024052e64a4677a2ce2f060ba91c3b3e2"
+  },
+  "research/architecture_benchmark/figures/bgl.svg": {
+    "bytes": 64949,
+    "sha256": "f6c9be0fd62026600e3e82f9f428541b1bc362b29b1890b474c9a04ce3651f6a"
+  },
+  "research/architecture_benchmark/figures/sre.png": {
+    "bytes": 101645,
+    "sha256": "5ee7b9c48816242724697b304863d5ff7c1b7291fdc530d13d3781977b723f09"
+  },
+  "research/architecture_benchmark/figures/sre.svg": {
+    "bytes": 119378,
+    "sha256": "e0692b427a2bf075acb9a85656d4530a8c162d5d97d41a132fb98b51c023ecc5"
+  },
+  "research/architecture_benchmark/results/flan_extract_execute.json": {
+    "bytes": 1071204,
+    "sha256": "c1ed2af2a2e5c90c0693b79578b157ab559939677f14536029ab809eb179cb67"
+  },
+  "research/architecture_benchmark/results/flan_large_diagnostic.json": {
+    "bytes": 95621,
+    "sha256": "23b1f9925b00176df1fad97a391e82e91bdbfdd0ff599730d25764effd9d2a9a"
+  },
+  "research/architecture_benchmark/results/flan_large_test.json": {
+    "bytes": 994282,
+    "sha256": "addc8db057c8360aa6b77f86b2665bc7f94e3c68b60fe4c4f887bc73cf9b7e9d"
+  },
+  "research/architecture_benchmark/results/lamini_flan_large_diagnostic.json": {
+    "bytes": 97116,
+    "sha256": "b16bfa842d543912a8f4be635f490f0ac173b6e6b49d427e406ac389cb329b1d"
+  },
+  "research/architecture_benchmark/results/lamini_flan_large_test.json": {
+    "bytes": 1004005,
+    "sha256": "824cd784f226b2d8a7b417276991a6e9745e310486f9e38fea67fb6603cf1c77"
+  },
+  "research/architecture_benchmark/results/modernbert_guarded_0.json": {
+    "bytes": 380378,
+    "sha256": "24a9644e188938310d93e3dc2595fcf9f2a369ded2261c3968112bfa86b5b3bc"
+  },
+  "research/architecture_benchmark/results/modernbert_guarded_1.json": {
+    "bytes": 380309,
+    "sha256": "cddc80cc59578ec79eca1b49ff952dc3a7b7dbee84c54daec9b840de586c4be1"
+  },
+  "research/architecture_benchmark/results/modernbert_guarded_2.json": {
+    "bytes": 380339,
+    "sha256": "76ae650f51585ac667d2b2e6d4e33c4686bb092deac1d5b8a57b7fa9de9af44f"
+  },
+  "research/architecture_benchmark/results/modernbert_head_0.json": {
+    "bytes": 308362,
+    "sha256": "8d37ac664e4cd2934ee82a1320487a39cb74caae83befe9154fcabcf8a3283ce"
+  },
+  "research/architecture_benchmark/results/modernbert_head_1.json": {
+    "bytes": 308135,
+    "sha256": "522f3b36f73d6efa7fb6b3ec6b63a3f6f26ca3a9bb9af44cbd9c4d39f52e1fa8"
+  },
+  "research/architecture_benchmark/results/modernbert_head_2.json": {
+    "bytes": 308409,
+    "sha256": "41e43610c14d3b1d772b643ac605bef87998d60f8aa33374f144204b90c51867"
+  },
+  "research/architecture_benchmark/results/modernbert_numeric_0.json": {
+    "bytes": 308454,
+    "sha256": "a02debd1476c75548b7ccda514c3a40688dc1d39d8b53ba6e2a2151727b051ac"
+  },
+  "research/architecture_benchmark/results/modernbert_numeric_1.json": {
+    "bytes": 308756,
+    "sha256": "d2575d5b1c722d63a2d9a1e4f33b441991fc5d9f22eb7894c6caffe4b8fde0ee"
+  },
+  "research/architecture_benchmark/results/modernbert_numeric_2.json": {
+    "bytes": 309108,
+    "sha256": "46ed5909cb19ce2cac8d850655c57df00ba4f2ca10cc4ed9a388cdcd0379df61"
+  },
+  "research/architecture_benchmark/results/numeric_executor.json": {
+    "bytes": 395365,
+    "sha256": "837728776f18cef8ca04781f4fadc50c3f20869a6ac07856614e8f8250cbfe5b"
+  },
+  "research/architecture_benchmark/results/qwen35_08_diagnostic.json": {
+    "bytes": 135406,
+    "sha256": "9231b8f721c0453fda1b30865e7479fa769324df3ea050b00a194163f19131eb"
+  },
+  "research/architecture_benchmark/results/qwen35_08_test.json": {
+    "bytes": 1108237,
+    "sha256": "15eddceffd507ebf41b489015e18477a4be084fc16258e402f029fd08906a7d5"
+  },
+  "research/architecture_benchmark/results/qwen35_guarded.json": {
+    "bytes": 1226661,
+    "sha256": "b9d48579ffa63b68b7d10a5a1529457e7eceebbef68349d344a73ee9a7b49062"
+  },
+  "research/architecture_benchmark/results/qwen3_06_diagnostic.json": {
+    "bytes": 135162,
+    "sha256": "9c7242056dd77eeb16b63a771ec70f14ce7d080a3aaa50cd199bcb5129a4ce4b"
+  },
+  "research/architecture_benchmark/results/qwen3_06_test.json": {
+    "bytes": 1077326,
+    "sha256": "32ded87b90e06d5323d023586aadb28f9c6b3e1bc6cd47c49a484cdd03c0e815"
+  },
+  "research/architecture_benchmark/results/stream_gnn_0.json": {
+    "bytes": 264402,
+    "sha256": "694f9b214523c425b0d680bba9b228d950c89324e70d4debc97efde90d22dd9e"
+  },
+  "research/architecture_benchmark/results/stream_gnn_1.json": {
+    "bytes": 263877,
+    "sha256": "5f73ce1e8b0abc428488126088913109d4e67e6e62a78612026bd22663e0583d"
+  },
+  "research/architecture_benchmark/results/stream_gnn_2.json": {
+    "bytes": 263767,
+    "sha256": "a35e8dcd3cad5a755125902af9ab20dcc9738223ce4c2eb673102d3b1cac2798"
+  },
+  "research/architecture_benchmark/results/stream_gru_0.json": {
+    "bytes": 264011,
+    "sha256": "1bdfe95bef81072bbe024de698262102097083f0022b1178b87c64fda054e1be"
+  },
+  "research/architecture_benchmark/results/stream_gru_1.json": {
+    "bytes": 264031,
+    "sha256": "060e4fa258ea4e7eb693dbebfc8b43f6a09e8f5c5bd89ba5886b06e618751c25"
+  },
+  "research/architecture_benchmark/results/stream_gru_2.json": {
+    "bytes": 263825,
+    "sha256": "f234081ebaf8532d7015e65e37f62b818ca09411fedd8336cc29eeb22fa1e485"
+  },
+  "research/architecture_benchmark/results/stream_lstm_0.json": {
+    "bytes": 263866,
+    "sha256": "438973c406b516e27409a34df874a0b5af7d1048872a13cf45bafa365adffbc3"
+  },
+  "research/architecture_benchmark/results/stream_lstm_1.json": {
+    "bytes": 264066,
+    "sha256": "85e696cdc0ea51800321144c3ec2a218ad6c582335207a81f6f83611416e641c"
+  },
+  "research/architecture_benchmark/results/stream_lstm_2.json": {
+    "bytes": 264250,
+    "sha256": "0a4c0ebc5544261ed0fc750086c1b4d1a6a189706ac453ec73e75a83d044a742"
+  },
+  "research/architecture_benchmark/results/stream_mean_0.json": {
+    "bytes": 263721,
+    "sha256": "0247d4c3ebe79cc13565063f4609dea4a988c9cad3b12dca2a18390e399cf85d"
+  },
+  "research/architecture_benchmark/results/stream_mean_1.json": {
+    "bytes": 263946,
+    "sha256": "13c4e1ff9da233530538ca961e8b306c1f778b6241e921ca688876eddc305773"
+  },
+  "research/architecture_benchmark/results/stream_mean_2.json": {
+    "bytes": 263987,
+    "sha256": "705c16c84e896eb30613a0eb5780cf9327023278547f1a2f78d9b55e03eaea98"
+  },
+  "research/architecture_benchmark/results/stream_ssd_0.json": {
+    "bytes": 263931,
+    "sha256": "db84b518616c9a6159476488824786f24de7def847b2ff7c0a1136ce7d87dca7"
+  },
+  "research/architecture_benchmark/results/stream_ssd_1.json": {
+    "bytes": 265257,
+    "sha256": "957ee42bcbe46ffa8070e8b3d5ca53ea0cedc8bc7089daca0b7277ce610615b4"
+  },
+  "research/architecture_benchmark/results/stream_ssd_2.json": {
+    "bytes": 263317,
+    "sha256": "abcc705ebafb4e46db70c72ce0c58abc0ce0701b068b31cae2779d3ded9fb19d"
+  },
+  "research/architecture_benchmark/results/stream_tcn_0.json": {
+    "bytes": 264424,
+    "sha256": "73d2549b1b22449feccdb43302d68ed0837917b68bd50601041dec09b30da9ab"
+  },
+  "research/architecture_benchmark/results/stream_tcn_1.json": {
+    "bytes": 263194,
+    "sha256": "2a0d5b731f1bd29654a5ce809f9b650e318e778b5dd16c3ec3ec25979bd57e8c"
+  },
+  "research/architecture_benchmark/results/stream_tcn_2.json": {
+    "bytes": 264259,
+    "sha256": "16fedcd2988583dfe021e22e103c856053070fa8f0efd5fd635495acbd381ea5"
+  },
+  "research/architecture_benchmark/results/text_gru_0.json": {
+    "bytes": 308228,
+    "sha256": "84b02b55f647a628006ebfef259f8f9ed1f8997e8d30c27930ebc35dcb9ce95c"
+  },
+  "research/architecture_benchmark/results/text_gru_1.json": {
+    "bytes": 307820,
+    "sha256": "52734899e11525b6baec1980d7ffe00c19a4909d70d8d05dcede847a3636d549"
+  },
+  "research/architecture_benchmark/results/text_gru_2.json": {
+    "bytes": 308129,
+    "sha256": "fe57ad7a59487c6952b1ff3a7203ad1c8f79d8f5acb8bae08d691cb6a9eea6f7"
+  },
+  "research/architecture_benchmark/results/text_lstm_0.json": {
+    "bytes": 307879,
+    "sha256": "781251980ef3240432e9a0e79a6725c3da237fc01cefd464610b91a3dd385fc3"
+  },
+  "research/architecture_benchmark/results/text_lstm_1.json": {
+    "bytes": 308363,
+    "sha256": "3037a82841ec7b62d596f7cd21dd20f7912a6b46c93d58a6df570a6824bb06bb"
+  },
+  "research/architecture_benchmark/results/text_lstm_2.json": {
+    "bytes": 307790,
+    "sha256": "0ca88b0a5216f8d08eb369b6f4e1b01b618c83f2020eece11fa218375b74a549"
+  },
+  "research/architecture_benchmark/results/text_mean_0.json": {
+    "bytes": 308345,
+    "sha256": "fa418bac356fe2a8b5ff0ed71741ae3746cf91e9eadfeec3c41031b17be535e0"
+  },
+  "research/architecture_benchmark/results/text_mean_1.json": {
+    "bytes": 308179,
+    "sha256": "9979dd542f3fadc1ef6f5bb9f47f277971392a930818954ca76b4562e6ea25fe"
+  },
+  "research/architecture_benchmark/results/text_mean_2.json": {
+    "bytes": 308342,
+    "sha256": "67b0449d0b20e6a339beae2b305572642a61879470cd88df614b9a41e76ed284"
+  },
+  "research/architecture_benchmark/results/text_ssd_0.json": {
+    "bytes": 308072,
+    "sha256": "77a73d169c32aed3d2df758b8666ba4bb334f55bf37e9854707760970a213391"
+  },
+  "research/architecture_benchmark/results/text_ssd_1.json": {
+    "bytes": 307897,
+    "sha256": "b3d2e219dd24aa916c068a59cd90ba89101a3e6264a4a20938a985791305958b"
+  },
+  "research/architecture_benchmark/results/text_ssd_2.json": {
+    "bytes": 307849,
+    "sha256": "475084f60f46bbd1a9a021a0d91ae9ccc97ea516510ce259ed2801134124f63c"
+  },
+  "research/architecture_benchmark/results/text_tcn_0.json": {
+    "bytes": 307833,
+    "sha256": "4b90e188008473af6deca23aec2e7bd46240a39b699de26c3fb48b23ee0c18c8"
+  },
+  "research/architecture_benchmark/results/text_tcn_1.json": {
+    "bytes": 308007,
+    "sha256": "9574048c1fb9ee1de0064f5991b9f8d408f82b7a9633a819e668b5305ffaab20"
+  },
+  "research/architecture_benchmark/results/text_tcn_2.json": {
+    "bytes": 308147,
+    "sha256": "9a97f32aa9b46383ece0caaebae2e21f4928fc0e0a015786d6c62de6eaffa63f"
+  },
+  "research/architecture_benchmark/stream/latency_inputs.json": {
+    "bytes": 138482,
+    "sha256": "2592dbd47071973ae3038c60ee44d55b058963a5cf8c58b336a0c40a59d533d4"
+  },
+  "research/architecture_benchmark/stream/protocol.json": {
+    "bytes": 1112,
+    "sha256": "ccad2de5988ea84d2f992b84df793ed47dbec91949c9824a3fe66878ed0e73c2"
+  },
+  "research/architecture_benchmark/stream/test.json": {
+    "bytes": 175801,
+    "sha256": "f8bbd35801ca1b8bb35a5515223ee2e818dd9f79c82f595213a7e0885b505a47"
+  },
+  "research/architecture_benchmark/stream/test.npz": {
+    "bytes": 328367,
+    "sha256": "c6975751b7e0ada09592b5340e1737517951dcec78749f76d9999d7c23087da4"
+  },
+  "research/architecture_benchmark/stream/train.json": {
+    "bytes": 522733,
+    "sha256": "ca59bab87cb95887039243c03a5ba06371e8e15e595c427f0ab6e4e85d9c5b6c"
+  },
+  "research/architecture_benchmark/stream/train.npz": {
+    "bytes": 564636,
+    "sha256": "d37ce83825b81058bbcfaa2e0c042db59f75425bc9653369e9ab48718e916334"
+  },
+  "research/architecture_benchmark/stream/validation.json": {
+    "bytes": 140510,
+    "sha256": "96f3d43b5ecc7b4c0140e260b7603eafb8004cce0e6ac1f88d8edbd5d36130d0"
+  },
+  "research/architecture_benchmark/stream/validation.npz": {
+    "bytes": 283256,
+    "sha256": "05b9623d7a564763996baadea302ad6f4dde049329e81d3c24bf7710bcfbfbd1"
+  },
+  "research/download_models.py": {
+    "bytes": 6771,
+    "sha256": "97f669c1d15e89f402816e29818ad956cc29e530f972576b975c31efcaa3c6ef"
+  },
+  "research/requirements.lock.txt": {
+    "bytes": 816,
+    "sha256": "553a3e1d8e8d1ac60eddf3c1b5e9ea808dae090616ce7239844940371f425632"
+  },
+  "research/probes.frozen.json": {
+    "bytes": 31147,
+    "sha256": "0c6d512c44fb6e513778b4c048220e69d94d2521f7f5ed5d7f0b8c18d4f226d7"
+  },
+  "research/prior_diagnosis/data/models.json": {
+    "bytes": 1185,
+    "sha256": "f0e6af7229a22c004186f2e489c8753b1cb0435454238feebbde47b13045022c"
+  }
+}

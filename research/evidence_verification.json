@@ -1,0 +1,139 @@
+{
+  "lamini_flan_large/baseline": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  },
+  "lamini_flan_large/ff_skip_20_22": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  },
+  "lamini_flan_large/ff_skip_21": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  },
+  "lamini_flan_large/ff_skip_21_23": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  },
+  "lamini_flan_large/ff_skip_22_24": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  },
+  "lamini_flan_large/ff_skip_23": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  },
+  "lamini_flan_large/head_skip_2_12": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  },
+  "lamini_flan_large/head_skip_2_7": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  },
+  "lamini_flan_large/head_skip_2_7_2_12": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  },
+  "lamini_flan_large/neuron_skip_1_per_layer": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  },
+  "lamini_flan_large/neuron_skip_32_per_layer": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  },
+  "lamini_flan_large/neuron_skip_8_per_layer": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  },
+  "lamini_flan_large/position_skip_21_all_23_numbers": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  },
+  "lamini_flan_large/position_skip_21_all_23_other": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  },
+  "lamini_flan_large/position_skip_21_numbers": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  },
+  "lamini_flan_large/position_skip_21_numbers_23_all": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  },
+  "lamini_flan_large/position_skip_21_other": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  },
+  "lamini_flan_large/restoration_control": {
+    "n": 12,
+    "invalid": 0,
+    "generation_limit": 0,
+    "max_margin_difference": 0.0
+  },
+  "lamini_flan_large/swap_dense_21_23": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  },
+  "lamini_flan_large/swap_dense_all": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  },
+  "lamini_flan_large/swap_norm_all": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  },
+  "flan_large/baseline": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  },
+  "flan_large/ff_skip_21_23": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  },
+  "flan_large/restoration_control": {
+    "n": 12,
+    "invalid": 0,
+    "generation_limit": 0,
+    "max_margin_difference": 0.0
+  },
+  "flan_large/swap_dense_21_23": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  },
+  "flan_large/swap_dense_all": {
+    "n": 122,
+    "invalid": 56,
+    "generation_limit": 41
+  },
+  "flan_large/swap_norm_all": {
+    "n": 122,
+    "invalid": 0,
+    "generation_limit": 0
+  }
+}

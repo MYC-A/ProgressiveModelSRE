@@ -1,0 +1,311 @@
+{
+  "flan_large": {
+    "all_probe_ids_present": true,
+    "original_reproduction": [
+      {
+        "id": "p19_fail",
+        "same_output": true
+      },
+      {
+        "id": "p19_ok",
+        "same_output": true
+      },
+      {
+        "id": "p20_fail",
+        "same_output": true
+      },
+      {
+        "id": "p20_ok",
+        "same_output": true
+      },
+      {
+        "id": "p24_fail",
+        "same_output": true
+      },
+      {
+        "id": "p24_ok",
+        "same_output": true
+      }
+    ],
+    "single_reproduction": [
+      {
+        "id": "p19_fail__original",
+        "output_text": "failure",
+        "same_as_batch": true
+      },
+      {
+        "id": "p20_fail__original",
+        "output_text": "failure",
+        "same_as_batch": true
+      },
+      {
+        "id": "p24_fail__original",
+        "output_text": "failure",
+        "same_as_batch": true
+      }
+    ],
+    "beam4": [
+      {
+        "id": "p19_fail__original",
+        "expected": "FAIL",
+        "output_text": "failure",
+        "prediction": "FAIL"
+      },
+      {
+        "id": "p19_ok__original",
+        "expected": "OK",
+        "output_text": "success",
+        "prediction": "OK"
+      },
+      {
+        "id": "p20_fail__original",
+        "expected": "FAIL",
+        "output_text": "failure",
+        "prediction": "FAIL"
+      },
+      {
+        "id": "p20_ok__original",
+        "expected": "OK",
+        "output_text": "success",
+        "prediction": "OK"
+      },
+      {
+        "id": "p24_fail__original",
+        "expected": "FAIL",
+        "output_text": "failure",
+        "prediction": "FAIL"
+      },
+      {
+        "id": "p24_ok__original",
+        "expected": "OK",
+        "output_text": "success",
+        "prediction": "OK"
+      }
+    ],
+    "runtime": {
+      "elapsed_seconds": 123.53618893200019,
+      "parameters": 783150080,
+      "torch": "2.15.0+cpu",
+      "dtype": "FP32",
+      "threads": 4,
+      "max_input_tokens": 124,
+      "truncated_inputs": 0,
+      "revision": "0613663d0d48ea86ba8cb3d7a44f0f65dc596a2a",
+      "protocol_sha256": "feff8135ee4ff288ca7292ccc0eefd12bc4afe716e7b21d7014a6c439e04b938",
+      "generated_limit_hits": 0,
+      "equality_tokenization": {
+        "0": [
+          "▁",
+          "0",
+          "</s>"
+        ],
+        "1": [
+          "▁1",
+          "</s>"
+        ],
+        "2": [
+          "▁2",
+          "</s>"
+        ],
+        "200": [
+          "▁200",
+          "</s>"
+        ],
+        "503": [
+          "▁50",
+          "3",
+          "</s>"
+        ]
+      }
+    }
+  },
+  "lamini_flan_large": {
+    "all_probe_ids_present": true,
+    "original_reproduction": [
+      {
+        "id": "p19_fail",
+        "same_output": true
+      },
+      {
+        "id": "p19_ok",
+        "same_output": true
+      },
+      {
+        "id": "p20_fail",
+        "same_output": true
+      },
+      {
+        "id": "p20_ok",
+        "same_output": true
+      },
+      {
+        "id": "p24_fail",
+        "same_output": true
+      },
+      {
+        "id": "p24_ok",
+        "same_output": true
+      }
+    ],
+    "single_reproduction": [
+      {
+        "id": "p19_fail__original",
+        "output_text": "Success.",
+        "same_as_batch": true
+      },
+      {
+        "id": "p20_fail__original",
+        "output_text": "Success.",
+        "same_as_batch": true
+      },
+      {
+        "id": "p24_fail__original",
+        "output_text": "Success.",
+        "same_as_batch": true
+      }
+    ],
+    "beam4": [
+      {
+        "id": "p19_fail__original",
+        "expected": "FAIL",
+        "output_text": "Success.",
+        "prediction": "OK"
+      },
+      {
+        "id": "p19_ok__original",
+        "expected": "OK",
+        "output_text": "Success.",
+        "prediction": "OK"
+      },
+      {
+        "id": "p20_fail__original",
+        "expected": "FAIL",
+        "output_text": "Success.",
+        "prediction": "OK"
+      },
+      {
+        "id": "p20_ok__original",
+        "expected": "OK",
+        "output_text": "Success.",
+        "prediction": "OK"
+      },
+      {
+        "id": "p24_fail__original",
+        "expected": "FAIL",
+        "output_text": "Success.",
+        "prediction": "OK"
+      },
+      {
+        "id": "p24_ok__original",
+        "expected": "OK",
+        "output_text": "Success.",
+        "prediction": "OK"
+      }
+    ],
+    "runtime": {
+      "elapsed_seconds": 364.71530740900016,
+      "parameters": 783150080,
+      "torch": "2.15.0+cpu",
+      "dtype": "FP32",
+      "threads": 4,
+      "max_input_tokens": 124,
+      "truncated_inputs": 0,
+      "revision": "7a1ff0207cbe75d6a1fcbcc7077ee0b6808ecf9f",
+      "protocol_sha256": "feff8135ee4ff288ca7292ccc0eefd12bc4afe716e7b21d7014a6c439e04b938",
+      "generated_limit_hits": 3,
+      "equality_tokenization": {
+        "0": [
+          "▁",
+          "0",
+          "</s>"
+        ],
+        "1": [
+          "▁1",
+          "</s>"
+        ],
+        "2": [
+          "▁2",
+          "</s>"
+        ],
+        "200": [
+          "▁200",
+          "</s>"
+        ],
+        "503": [
+          "▁50",
+          "3",
+          "</s>"
+        ]
+      }
+    }
+  },
+  "probes_hash_matches": true,
+  "weights": [
+    {
+      "model": "lamini_flan_large",
+      "file": "pytorch_model.bin",
+      "sha256_matches": true,
+      "bytes": 3132785797
+    },
+    {
+      "model": "flan_large",
+      "file": "model.safetensors",
+      "sha256_matches": true,
+      "bytes": 3132668804
+    }
+  ],
+  "followup": {
+    "input_hash_matches": true,
+    "equality_single_vs_batch": [
+      {
+        "id": "equality_0_2",
+        "same_output": true
+      },
+      {
+        "id": "equality_2_0",
+        "same_output": true
+      },
+      {
+        "id": "equality_0_0",
+        "same_output": true
+      },
+      {
+        "id": "equality_2_2",
+        "same_output": true
+      },
+      {
+        "id": "equality_200_503",
+        "same_output": true
+      },
+      {
+        "id": "equality_503_200",
+        "same_output": true
+      },
+      {
+        "id": "equality_200_200",
+        "same_output": true
+      },
+      {
+        "id": "equality_503_503",
+        "same_output": true
+      },
+      {
+        "id": "equality_7_9",
+        "same_output": true
+      },
+      {
+        "id": "equality_9_7",
+        "same_output": true
+      },
+      {
+        "id": "equality_7_7",
+        "same_output": true
+      },
+      {
+        "id": "equality_9_9",
+        "same_output": true
+      }
+    ],
+    "same_followup_ids": true
+  }
+}

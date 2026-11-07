@@ -1,0 +1,14 @@
+[
+  {
+    "model": "lamini_flan_large",
+    "file": "pytorch_model.bin",
+    "sha256_matches": true,
+    "bytes": 3132785797
+  },
+  {
+    "model": "flan_large",
+    "file": "model.safetensors",
+    "sha256_matches": true,
+    "bytes": 3132668804
+  }
+]

@@ -1,0 +1,97 @@
+mean 0 {'epoch': 1, 'validation_loss': 0.547123372554779} 0.2
+mean 0 {'epoch': 2, 'validation_loss': 0.5721849203109741} 0.3
+mean 0 {'epoch': 3, 'validation_loss': 0.6482676863670349} 0.4
+mean 0 {'epoch': 4, 'validation_loss': 0.7997778058052063} 0.5
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\stream_mean_0.json {'n': 1000, 'correct': 930, 'accuracy': 0.93, 'success_n': 923, 'false_alarm': 13, 'failure_n': 77, 'missed_failure': 57, 'unknown_n': 0, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'success': 967, 'failure': 33}}
+mean 1 {'epoch': 1, 'validation_loss': 0.5720117688179016} 0.1
+mean 1 {'epoch': 2, 'validation_loss': 0.5553968548774719} 0.2
+mean 1 {'epoch': 3, 'validation_loss': 0.595512330532074} 0.3
+mean 1 {'epoch': 4, 'validation_loss': 0.7412781715393066} 0.4
+mean 1 {'epoch': 5, 'validation_loss': 0.8776240348815918} 0.5
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\stream_mean_1.json {'n': 1000, 'correct': 959, 'accuracy': 0.959, 'success_n': 923, 'false_alarm': 17, 'failure_n': 77, 'missed_failure': 24, 'unknown_n': 0, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'success': 930, 'failure': 70}}
+mean 2 {'epoch': 1, 'validation_loss': 0.6033787131309509} 0.1
+mean 2 {'epoch': 2, 'validation_loss': 0.5966717600822449} 0.2
+mean 2 {'epoch': 3, 'validation_loss': 0.653047502040863} 0.3
+mean 2 {'epoch': 4, 'validation_loss': 0.7646040320396423} 0.4
+mean 2 {'epoch': 5, 'validation_loss': 0.9161034226417542} 0.5
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\stream_mean_2.json {'n': 1000, 'correct': 965, 'accuracy': 0.965, 'success_n': 923, 'false_alarm': 11, 'failure_n': 77, 'missed_failure': 24, 'unknown_n': 0, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'success': 936, 'failure': 64}}
+gru 0 {'epoch': 1, 'validation_loss': 0.9002468585968018} 0.6
+gru 0 {'epoch': 2, 'validation_loss': 0.6823996901512146} 1.1
+gru 0 {'epoch': 3, 'validation_loss': 1.0532441139221191} 1.7
+gru 0 {'epoch': 4, 'validation_loss': 1.6232961416244507} 2.3
+gru 0 {'epoch': 5, 'validation_loss': 1.7615370750427246} 2.8
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\stream_gru_0.json {'n': 1000, 'correct': 958, 'accuracy': 0.958, 'success_n': 923, 'false_alarm': 21, 'failure_n': 77, 'missed_failure': 21, 'unknown_n': 0, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'success': 923, 'failure': 77}}
+gru 1 {'epoch': 1, 'validation_loss': 0.6306939125061035} 0.6
+gru 1 {'epoch': 2, 'validation_loss': 1.0785274505615234} 1.1
+gru 1 {'epoch': 3, 'validation_loss': 2.457411766052246} 1.7
+gru 1 {'epoch': 4, 'validation_loss': 2.298638343811035} 2.3
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\stream_gru_1.json {'n': 1000, 'correct': 964, 'accuracy': 0.964, 'success_n': 923, 'false_alarm': 4, 'failure_n': 77, 'missed_failure': 32, 'unknown_n': 0, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'success': 951, 'failure': 49}}
+gru 2 {'epoch': 1, 'validation_loss': 0.650615394115448} 0.6
+gru 2 {'epoch': 2, 'validation_loss': 1.207531213760376} 1.1
+gru 2 {'epoch': 3, 'validation_loss': 2.0352914333343506} 1.7
+gru 2 {'epoch': 4, 'validation_loss': 1.885027527809143} 2.3
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\stream_gru_2.json {'n': 1000, 'correct': 949, 'accuracy': 0.949, 'success_n': 923, 'false_alarm': 17, 'failure_n': 77, 'missed_failure': 34, 'unknown_n': 0, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'success': 940, 'failure': 60}}
+lstm 0 {'epoch': 1, 'validation_loss': 1.0492725372314453} 0.3
+lstm 0 {'epoch': 2, 'validation_loss': 0.8745150566101074} 0.5
+lstm 0 {'epoch': 3, 'validation_loss': 1.0690912008285522} 0.7
+lstm 0 {'epoch': 4, 'validation_loss': 1.1846261024475098} 0.9
+lstm 0 {'epoch': 5, 'validation_loss': 1.4308289289474487} 1.2
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\stream_lstm_0.json {'n': 1000, 'correct': 952, 'accuracy': 0.952, 'success_n': 923, 'false_alarm': 22, 'failure_n': 77, 'missed_failure': 26, 'unknown_n': 0, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'success': 927, 'failure': 73}}
+lstm 1 {'epoch': 1, 'validation_loss': 1.2550609111785889} 0.2
+lstm 1 {'epoch': 2, 'validation_loss': 1.1069931983947754} 0.5
+lstm 1 {'epoch': 3, 'validation_loss': 0.9122157096862793} 0.7
+lstm 1 {'epoch': 4, 'validation_loss': 1.140764832496643} 0.9
+lstm 1 {'epoch': 5, 'validation_loss': 1.2394508123397827} 1.1
+lstm 1 {'epoch': 6, 'validation_loss': 1.309321403503418} 1.4
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\stream_lstm_1.json {'n': 1000, 'correct': 924, 'accuracy': 0.924, 'success_n': 923, 'false_alarm': 43, 'failure_n': 77, 'missed_failure': 33, 'unknown_n': 0, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'success': 913, 'failure': 87}}
+lstm 2 {'epoch': 1, 'validation_loss': 1.0010029077529907} 0.3
+lstm 2 {'epoch': 2, 'validation_loss': 0.9924753308296204} 0.5
+lstm 2 {'epoch': 3, 'validation_loss': 1.0285398960113525} 0.8
+lstm 2 {'epoch': 4, 'validation_loss': 1.2682738304138184} 1.0
+lstm 2 {'epoch': 5, 'validation_loss': 1.363276720046997} 1.3
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\stream_lstm_2.json {'n': 1000, 'correct': 954, 'accuracy': 0.954, 'success_n': 923, 'false_alarm': 13, 'failure_n': 77, 'missed_failure': 33, 'unknown_n': 0, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'success': 943, 'failure': 57}}
+tcn 0 {'epoch': 1, 'validation_loss': 0.655531108379364} 0.9
+tcn 0 {'epoch': 2, 'validation_loss': 1.313774824142456} 1.7
+tcn 0 {'epoch': 3, 'validation_loss': 2.548042058944702} 2.5
+tcn 0 {'epoch': 4, 'validation_loss': 3.113095760345459} 3.3
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\stream_tcn_0.json {'n': 1000, 'correct': 951, 'accuracy': 0.951, 'success_n': 923, 'false_alarm': 25, 'failure_n': 77, 'missed_failure': 24, 'unknown_n': 0, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'success': 922, 'failure': 78}}
+tcn 1 {'epoch': 1, 'validation_loss': 0.9481576681137085} 0.8
+tcn 1 {'epoch': 2, 'validation_loss': 1.4978958368301392} 1.6
+tcn 1 {'epoch': 3, 'validation_loss': 1.5979498624801636} 2.4
+tcn 1 {'epoch': 4, 'validation_loss': 3.3304443359375} 3.2
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\stream_tcn_1.json {'n': 1000, 'correct': 971, 'accuracy': 0.971, 'success_n': 923, 'false_alarm': 2, 'failure_n': 77, 'missed_failure': 27, 'unknown_n': 0, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'success': 948, 'failure': 52}}
+tcn 2 {'epoch': 1, 'validation_loss': 0.7419852614402771} 0.8
+tcn 2 {'epoch': 2, 'validation_loss': 1.1563212871551514} 1.6
+tcn 2 {'epoch': 3, 'validation_loss': 1.4655606746673584} 2.4
+tcn 2 {'epoch': 4, 'validation_loss': 1.8073326349258423} 3.2
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\stream_tcn_2.json {'n': 1000, 'correct': 963, 'accuracy': 0.963, 'success_n': 923, 'false_alarm': 13, 'failure_n': 77, 'missed_failure': 24, 'unknown_n': 0, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'success': 934, 'failure': 66}}
+ssd 0 {'epoch': 1, 'validation_loss': 0.6006395220756531} 0.9
+ssd 0 {'epoch': 2, 'validation_loss': 1.2891252040863037} 1.8
+ssd 0 {'epoch': 3, 'validation_loss': 1.8813409805297852} 2.7
+ssd 0 {'epoch': 4, 'validation_loss': 2.3304920196533203} 3.6
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\stream_ssd_0.json {'n': 1000, 'correct': 968, 'accuracy': 0.968, 'success_n': 923, 'false_alarm': 9, 'failure_n': 77, 'missed_failure': 23, 'unknown_n': 0, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'success': 937, 'failure': 63}}
+ssd 1 {'epoch': 1, 'validation_loss': 1.3901951313018799} 1.0
+ssd 1 {'epoch': 2, 'validation_loss': 1.7857401371002197} 1.9
+ssd 1 {'epoch': 3, 'validation_loss': 1.7344194650650024} 2.8
+ssd 1 {'epoch': 4, 'validation_loss': 1.7555994987487793} 3.7
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\stream_ssd_1.json {'n': 1000, 'correct': 980, 'accuracy': 0.98, 'success_n': 923, 'false_alarm': 2, 'failure_n': 77, 'missed_failure': 18, 'unknown_n': 0, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'success': 939, 'failure': 61}}
+ssd 2 {'epoch': 1, 'validation_loss': 1.2147631645202637} 0.9
+ssd 2 {'epoch': 2, 'validation_loss': 1.490178108215332} 1.8
+ssd 2 {'epoch': 3, 'validation_loss': 2.446296453475952} 2.6
+ssd 2 {'epoch': 4, 'validation_loss': 4.198529243469238} 3.4
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\stream_ssd_2.json {'n': 1000, 'correct': 953, 'accuracy': 0.953, 'success_n': 923, 'false_alarm': 13, 'failure_n': 77, 'missed_failure': 34, 'unknown_n': 0, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'success': 944, 'failure': 56}}
+gnn 0 {'epoch': 1, 'validation_loss': 0.8761811256408691} 0.3
+gnn 0 {'epoch': 2, 'validation_loss': 0.9252245426177979} 0.5
+gnn 0 {'epoch': 3, 'validation_loss': 1.258636236190796} 0.8
+gnn 0 {'epoch': 4, 'validation_loss': 1.6401095390319824} 1.1
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\stream_gnn_0.json {'n': 1000, 'correct': 952, 'accuracy': 0.952, 'success_n': 923, 'false_alarm': 27, 'failure_n': 77, 'missed_failure': 21, 'unknown_n': 0, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'success': 917, 'failure': 83}}
+gnn 1 {'epoch': 1, 'validation_loss': 0.6218235492706299} 0.3
+gnn 1 {'epoch': 2, 'validation_loss': 1.0163244009017944} 0.5
+gnn 1 {'epoch': 3, 'validation_loss': 1.7742434740066528} 0.8
+gnn 1 {'epoch': 4, 'validation_loss': 1.9839627742767334} 1.1
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\stream_gnn_1.json {'n': 1000, 'correct': 962, 'accuracy': 0.962, 'success_n': 923, 'false_alarm': 4, 'failure_n': 77, 'missed_failure': 34, 'unknown_n': 0, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'success': 953, 'failure': 47}}
+gnn 2 {'epoch': 1, 'validation_loss': 0.8353990912437439} 0.3
+gnn 2 {'epoch': 2, 'validation_loss': 1.3781315088272095} 0.6
+gnn 2 {'epoch': 3, 'validation_loss': 1.52962327003479} 0.8
+gnn 2 {'epoch': 4, 'validation_loss': 1.6194517612457275} 1.1
+SAVED C:\Users\Igor\Documents\ProgressiveModelSRE\research\architecture_benchmark\results\stream_gnn_2.json {'n': 1000, 'correct': 961, 'accuracy': 0.961, 'success_n': 923, 'false_alarm': 14, 'failure_n': 77, 'missed_failure': 25, 'unknown_n': 0, 'unknown_correct': 0, 'invalid': 0, 'predictions': {'success': 934, 'failure': 66}}
